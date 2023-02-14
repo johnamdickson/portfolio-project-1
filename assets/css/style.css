@@ -64,4 +64,5 @@ nav {
 
 .active {
     font-weight: 400;
+    text-shadow: 0.5px 0.5px #fff;
 }
