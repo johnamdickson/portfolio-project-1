@@ -1,13 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Rokkitt:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200&family=Prompt:wght@200;400&family=Rokkitt:wght@100&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+header {
+    background-color: #f5a8e4;
+    height: 80px;
+}
 
 body {
+    font-family: 'Maitree', serif;
+    font-weight: 200;
+    color: #313E47;
+}
+
+h1, h2, nav {
+    font-family: 'Prompt', serif;
+    font-weight: 100;
+    color: #313E47;
+}
+
+h3 {
     font-family: 'Rokkitt', serif;
     font-weight: 100;
     color: #313E47;
+}
+
+nav {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+#logo {
+    float: left;
+    height: 50px;
+    margin: 10px;
+}
+
+#menu {
+    font-size: 120%;
+    line-height: 75px;   
+}
+
+#menu li {
+    /* position: absolute; */
+    float: right;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #313e47;
+    opacity: 0.6;
+}
+
+.active {
+    font-weight: 400;
 }
