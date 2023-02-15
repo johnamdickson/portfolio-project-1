@@ -7,7 +7,7 @@
 }
 header {
     background-color: #f5a8e4;
-    height: 12vh;
+    height: 13vh;
     width: 100%;
     color: #313E47;
 }
@@ -20,6 +20,7 @@ body {
 h1 {
     font-family: 'Prompt', serif;
     font-weight: 300;
+    font-size: 250%;
 }
 h2, nav {
     font-family: 'Prompt', serif;
@@ -55,7 +56,7 @@ nav {
 }
 
 #menu {
-    font-size: 120%;
+    font-size: 130%;
     line-height: 75px;   
 }
 
@@ -82,6 +83,36 @@ nav {
     text-shadow: 0.5px 0.5px lightgray;
 }
 
+#hero-outer {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 100%;
+    width: 100%;
+    background: url('../images/IMG_0095.png') no-repeat center center;
+}
+#sign-up-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.9em;
+    background-color: #B8D3D0;
+    bottom: 30px;
+    right: 75px;
+    position: absolute;
+    border: 1px solid #313E47;
+}
+
+#sign-up-text {
+margin: 10px;
+padding-top: 20px;
+}
+
 footer {
     height: 10%;
     position: fixed;
@@ -98,8 +129,8 @@ footer {
 }
 
 .social-networks i {
-    font-size: 140%;
-    margin: 2%;
+    font-size: 180%;
+    margin: 1.5%;
     color: #3a3a3a;
 }
 
