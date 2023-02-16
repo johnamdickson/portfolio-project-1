@@ -7,7 +7,7 @@
 }
 header {
     background-color: #f5a8e4;
-    height: 13vh;
+    height: 10vh;
     width: 100%;
     color: #313E47;
 }
@@ -21,14 +21,11 @@ h1 {
     font-family: 'Prompt', serif;
     font-weight: 300;
     font-size: 250%;
+    letter-spacing: 4px;
 }
 h2, nav {
     font-family: 'Prompt', serif;
     font-weight: 200;
-}
-
-h1 {
-    letter-spacing: 4px;
 }
 
 h3 {
@@ -39,14 +36,14 @@ h3 {
 
 nav {
     position: absolute;
-    top: 17px;
+    top: 10px;
     right: 20px;
 }
 #logo-and-title {
     float: left;
     width: 40%;
     line-height: 35px;
-    margin-top:25px;
+    margin-top:13px;
 }
 
 #logo {
@@ -84,7 +81,7 @@ nav {
 }
 
 #hero-outer {
-    height: 400px;
+    height: 450px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -93,7 +90,7 @@ nav {
 #hero-image {
     height: 100%;
     width: 100%;
-    background: url('../images/IMG_0095.png') no-repeat center center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
 }
 #sign-up-circle {
     width: 150px;
@@ -105,9 +102,13 @@ nav {
     bottom: 30px;
     right: 75px;
     position: absolute;
-    border: 1px solid #313E47;
+    border: 2px solid #313E47;
+    opacity: 0.8;
 }
 
+#sign-up-circle:hover{
+    border: 2px solid #fff;
+}
 #sign-up-text {
 margin: 10px;
 padding-top: 20px;
