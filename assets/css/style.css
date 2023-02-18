@@ -257,8 +257,6 @@ footer {
 @media screen and (max-width:1200px) {
 
     h1 {
-        font-family: 'Prompt', serif;
-        font-weight: 300;
         font-size: 200%;
         letter-spacing: 4px;
     }
@@ -291,5 +289,31 @@ footer {
     #info-container-middle li {
         font-size: 110%;
         margin-right: 7.5%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    header {
+        height: 120px;
+    }
+    h1 {
+        font-size: 175%;
+        letter-spacing: 2px;
+    }
+    #logo-and-title {
+        width: 75%;
+        margin-top: 25px;
+    }
+    nav {
+        margin-left: 25px;
+    }
+    #menu {
+        line-height: 30px;
+    }
+    #menu li {
+        font-size: 1.2em;
+        display: block;
+        margin-left: 20px;
+     
     }
 }
