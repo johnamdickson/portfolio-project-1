@@ -48,13 +48,13 @@ nav {
     float: left;
     width: 50%;
     line-height: 35px;
-    margin-top: 20px;
+    margin-top: 2vmin;
 }
 
 #logo {
     float: left;
     height: 60px;
-    padding: 0 30px 20px 30px;
+    padding: 0 2vmin;
 }
 
 #menu {
@@ -297,23 +297,32 @@ footer {
         height: 120px;
     }
     h1 {
-        font-size: 175%;
-        letter-spacing: 2px;
+        font-size: 4.5vmin;
+        letter-spacing: 1px;
+    }
+
+    h3 {
+        font-size: 2.5vmin;
     }
     #logo-and-title {
-        width: 75%;
+        width: 65%;
         margin-top: 25px;
     }
+    #logo {
+        height:50px;
+        margin-top: 7.5px;
+    }
     nav {
-        margin-left: 25px;
+        position: inherit;
+        float: right;
+        margin-top: 10px;
     }
     #menu {
-        line-height: 30px;
+        line-height: 25px;
     }
     #menu li {
-        font-size: 1.2em;
+        font-size: 1rem;
+        padding: 5px;
         display: block;
-        margin-left: 20px;
-     
     }
 }
