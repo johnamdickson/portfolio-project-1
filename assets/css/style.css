@@ -296,20 +296,23 @@ footer {
         height: 120px;
     }
     h1 {
-        font-size: 4.5vmin;
+        font-size: 100%;
         letter-spacing: 1px;
+        margin-top: 15px;
     }
 
     h3 {
-        font-size: 2.5vmin;
+        font-size: 75%;
     }
     #logo-and-title {
         width: 65%;
         margin-top: 25px;
+        line-height: 25px;
     }
     #logo {
         height:50px;
         margin-top: 7.5px;
+        float: inline-end;
     }
     nav {
         position: inherit;
@@ -320,9 +323,13 @@ footer {
         line-height: 25px;
     }
     #menu li {
-        font-size: 1rem;
+        font-size: 0.85rem;
         padding: 5px;
         display: block;
+    }
+
+    #hero-outer {
+        height: 300px;
     }
 
     #sign-up-circle {
