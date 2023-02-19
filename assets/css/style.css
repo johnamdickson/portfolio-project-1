@@ -6,6 +6,10 @@
     border: none;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 header {
     background-color: #f5a8e4;
     height: 100px;
@@ -105,8 +109,8 @@ nav {
     text-align: center;
     font-size: 0.9em;
     background-color: #B8D3D0;
-    bottom: 30px;
-    right: 75px;
+    bottom: 2vmin;
+    right: 6vmin;
     position: absolute;
     border: 2px solid #313E47;
     opacity: 0.9;
@@ -237,6 +241,7 @@ footer {
     background-color: #f5a8e4;
     color: #313e47;
     text-align: center;
+    overflow: hidden;
 }
 
 .social-networks>li {
@@ -303,8 +308,8 @@ footer {
         height: 100px;
         font-size: 0.6em;
         background-color: #B8D3D0;
-        bottom: 15px;
-        right: 15px;
+        bottom: 1vmin;
+        right: 1vmin;
         position: absolute;
         border: 2px solid #313E47;
         opacity: 0.9;
