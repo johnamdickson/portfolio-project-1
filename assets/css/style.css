@@ -414,3 +414,21 @@ footer {
         color: #3a3a3a;
     }
 }
+
+/* Styling for Get Started page. */
+
+.four-photo-grid {
+    width: 96%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 100px;
+  }
+
+  .three-photo-grid {
+    width: 96%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+  }
