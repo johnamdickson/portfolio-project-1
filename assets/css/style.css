@@ -6,10 +6,6 @@
     border: none;
 }
 
-html,body{
-    overflow-x: hidden;
-}
-
 header {
     background-color: #f5a8e4;
     height: 100px;
@@ -199,7 +195,7 @@ nav {
 
 #info-container-middle ul {
     position: absolute;
-    width: 100%;
+    width: 90%;
     margin: 0 5%;
     top: 50%;
     transform: translateY(-50%);
