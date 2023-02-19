@@ -118,6 +118,7 @@ nav {
     height: 151px;
     border: 3px solid grey;
     opacity: 0.9;
+    cursor: pointer;
 
 }
 
@@ -310,6 +311,10 @@ footer {
         border: 2px solid #313E47;
         opacity: 0.9;
     }
+    #sign-up-circle:hover {
+        width: 100px;
+        height: 100px;
+    }
 
     #sign-up-text {
         padding-top: 10px;
@@ -381,7 +386,7 @@ footer {
         font-size: 75%;
     }
     #logo-and-title {
-        width: 65%;
+        width: 66%;
         margin-top: 13px;
         line-height: 25px;
     }
