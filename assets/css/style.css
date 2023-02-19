@@ -362,12 +362,12 @@ footer {
     }
 
     #info-section-bottom{
-        height: 125vmin;
+        height: 115vmin;
     }
     #info-section-bottom h1 {
-        margin-bottom: 20px;
+        margin-bottom: 3vmin;
         line-height: 50px;
-        font-size: 135%;
+        font-size: 5vmin;
         letter-spacing: 2px;
     }
     footer {
@@ -405,6 +405,12 @@ footer {
         font-size: 0.85rem;
         padding: 5px;
         display: block;
+    }
+    #info-section-bottom{
+        height: 120vmin;
+    }
+    footer {
+        height: 45px;
     }
     .social-networks i {
         font-size: 140%;
