@@ -230,7 +230,7 @@ nav {
 footer {
     position: fixed;
     bottom: 0;
-    height: 60px;
+    height: 7vmin;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -245,7 +245,7 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1.5% 1.5% 0 1.5%;
+    margin: 1.5% 3.5% 0 1.5%;
     color: #3a3a3a;
 }
 
@@ -295,42 +295,9 @@ footer {
 }
 
 @media screen and (max-width: 950px) {
-    h1 {
-        font-size: 100%;
-        letter-spacing: 1px;
-        margin-top: 15px;
-    }
-
-    h3 {
-        font-size: 75%;
-    }
-    #logo-and-title {
-        width: 65%;
-        margin-top: 13px;
-        line-height: 25px;
-    }
-    #logo {
-        height:50px;
-        margin-top: 7.5px;
-    }
-    nav {
-        position: inherit;
-        float: right;
-        margin-top: 8px;
-    }
-    #menu {
-        line-height: 20px;
-    }
-    #menu li {
-        font-size: 0.85rem;
-        padding: 5px;
-        display: block;
-    }
-
     #hero-outer {
         height: 300px;
     }
-
     #sign-up-circle {
         width: 100px;
         height: 100px;
@@ -351,8 +318,8 @@ footer {
     }
     .info-section h1{
         line-height: 50px;
-        margin-bottom: 15px;
-        font-size: 150%;
+        margin-bottom: 3vmin;
+        font-size: 6vmin;
         letter-spacing: 2px;
     }
 
@@ -400,5 +367,43 @@ footer {
     }
     footer {
         height: 50px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    h1 {
+        font-size: 100%;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
+     h3 {
+        font-size: 75%;
+    }
+    #logo-and-title {
+        width: 65%;
+        margin-top: 13px;
+        line-height: 25px;
+    }
+     #logo {
+        height:50px;
+        margin-top: 7.5px;
+    }
+     nav {
+        position: inherit;
+        float: right;
+        margin-top: 8px;
+    }
+  #menu {
+        line-height: 20px;
+    } 
+    #menu li {
+        font-size: 0.85rem;
+        padding: 5px;
+        display: block;
+    }
+    .social-networks i {
+        font-size: 140%;
+        margin: 15px 15px 0 15px;
+        color: #3a3a3a;
     }
 }
