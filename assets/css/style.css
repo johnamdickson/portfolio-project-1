@@ -381,14 +381,19 @@ footer {
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
+    .info-container {
+        height:max(60vmin, 5vmax);
+    }
     .info-container p {
-        font-size: 4.75vmin;
+        font-size:min(4.75vmin, 3vmax);
+    }
+    #info-container-middle{
+        height:75vmin;
     }
     #info-container-middle li {
-        line-height: 12vmin;
-    }
-    #info-container-middle li {
-        font-size: 150%;
+        font-size: max(3.75vmin, 2.5vmax);
+        line-height: max(9vmin, 5vmax);
+        margin-right: 2%;
     }
     #info-section-bottom {
         height: 150vmin;
