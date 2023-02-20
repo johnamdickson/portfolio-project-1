@@ -203,7 +203,7 @@ nav {
 }
 
 #info-container-middle i {
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 #info-container-middle li {
@@ -263,17 +263,21 @@ footer {
         font-size: 150%;
         letter-spacing: 4px;
     }
+
     h3 {
         font-size: 90%;
     }
+
     #menu li {
         font-size: 100%;
         margin-right: 20px;
     }
+
     .info-container {
         width: 55%;
         margin-left: 3%;
     }
+
     .info-container p {
         font-size: 105%;
     }
@@ -301,6 +305,7 @@ footer {
     #hero-outer {
         height: 300px;
     }
+
     #sign-up-circle {
         width: 100px;
         height: 100px;
@@ -312,6 +317,7 @@ footer {
         border: 2px solid #313E47;
         opacity: 0.9;
     }
+
     #sign-up-circle:hover {
         width: 100px;
         height: 100px;
@@ -320,10 +326,12 @@ footer {
     #sign-up-text {
         padding-top: 7px;
     }
+
     .info-section {
         height: 145vmin;
     }
-    .info-section h1{
+
+    .info-section h1 {
         line-height: 50px;
         margin-bottom: 3vmin;
         font-size: 6vmin;
@@ -340,6 +348,7 @@ footer {
     .info-container p {
         font-size: 3.75vmin;
     }
+
     .info-images {
         float: none;
         height: 50vmin;
@@ -359,22 +368,24 @@ footer {
         width: 95%;
         font-size: 3.75vmin;
         height: 80vmin;
-        margin-top: 10px;   
+        margin-top: 10px;
     }
 
     #info-container-middle li {
-        line-height: 6vmin;
+        line-height: 7vmin;
     }
 
-    #info-section-bottom{
+    #info-section-bottom {
         height: 144vmin;
     }
+
     #info-section-bottom h1 {
         margin-bottom: 3vmin;
         line-height: 50px;
         font-size: 5vmin;
         letter-spacing: 2px;
     }
+
     footer {
         height: 50px;
     }
@@ -382,19 +393,23 @@ footer {
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
     .info-container {
-        height:max(60vmin, 5vmax);
+        height: max(60vmin, 5vmax);
     }
+
     .info-container p {
-        font-size:min(4.75vmin, 3vmax);
+        font-size: min(4.75vmin, 3vmax);
     }
-    #info-container-middle{
-        height:75vmin;
+
+    #info-container-middle {
+        height: 75vmin;
     }
+
     #info-container-middle li {
         font-size: max(3.75vmin, 2.5vmax);
         line-height: max(9vmin, 5vmax);
         margin-right: 2%;
     }
+
     #info-section-bottom {
         height: 150vmin;
     }
@@ -406,37 +421,46 @@ footer {
         letter-spacing: 1px;
         margin-top: 15px;
     }
-     h3 {
+
+    h3 {
         font-size: 80%;
     }
+
     #logo-and-title {
         width: 66%;
         margin-top: 13px;
         line-height: 25px;
     }
-     #logo {
-        height:50px;
+
+    #logo {
+        height: 50px;
         margin-top: 7.5px;
     }
-     nav {
+
+    nav {
         position: inherit;
         float: right;
         margin-top: 8px;
     }
-  #menu {
+
+    #menu {
         line-height: 20px;
-    } 
+    }
+
     #menu li {
         font-size: 0.85rem;
         padding: 5px;
         display: block;
     }
-    #info-section-bottom{
+
+    #info-section-bottom {
         height: 152vmin;
     }
+
     footer {
         height: 45px;
     }
+
     .social-networks i {
         font-size: 140%;
         margin: 15px 15px 0 15px;
@@ -446,22 +470,65 @@ footer {
 
 /* Styling for Get Started page. */
 
+section {
+    height: 650px;
+}
+
+section h1 {
+    line-height: 75px;
+    font-size: 200%;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
 .four-photo-grid {
     width: 96%;
-    padding: 2%;
+    padding: 1%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 100px;
-  }
+    grid-template-rows: 300px 200px;
+    column-gap: 35px;
+    row-gap: 40px;
+}
 
-  .three-photo-grid {
+.three-photo-grid {
     width: 96%;
-    padding: 2%;
+    padding: 1%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 100px;
-  }
+    grid-template-rows: 300px 200px;
+    column-gap: 35px;
+    row-gap: 40px;
+}
 
-  section {
+.instruction-images-container {
+    margin: 0 auto;
+}
+.instruction-images {
+    aspect-ratio: 1 / 1;
     height: 300px;
-  }
+    object-fit: cover;
+
+    border-radius: 50%;
+    border: 10px solid #B8D3D0
+}
+
+.instructions-container {
+    width: 96%;
+    height: 96%;
+    background-color: #B8D3D0;
+    border-radius: 20px;
+    opacity: 0.7;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.instructions-container p {
+    position: absolute;
+    margin: 0 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 120%;
+    text-align: justify;
+}
