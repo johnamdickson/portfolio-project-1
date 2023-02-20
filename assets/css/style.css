@@ -203,12 +203,13 @@ nav {
 }
 
 #info-container-middle i {
-    margin-right: 20px;
+    margin: 0 20px;
 }
 
 #info-container-middle li {
     text-align: left;
-    /* margin-left: 45px; */
+    padding-left: 20px;
+    text-indent: -20px;
     margin: 0 auto;
     font-size: 120%;
     list-style-type: none;
@@ -303,7 +304,7 @@ footer {
     #sign-up-circle {
         width: 100px;
         height: 100px;
-        font-size: 0.6em;
+        font-size: 0.55em;
         background-color: #B8D3D0;
         bottom: 1vmin;
         right: 1vmin;
@@ -376,6 +377,21 @@ footer {
     }
     footer {
         height: 50px;
+    }
+}
+
+@media screen and (max-width: 950px) and (orientation: landscape) {
+    .info-container p {
+        font-size: 4.75vmin;
+    }
+    #info-container-middle li {
+        line-height: 12vmin;
+    }
+    #info-container-middle li {
+        font-size: 150%;
+    }
+    #info-section-bottom {
+        height: 150vmin;
     }
 }
 
