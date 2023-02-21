@@ -147,7 +147,6 @@ nav {
     height: 77%;
     background-color: #B8D3D0;
     border-radius: 20px;
-    opacity: 0.7;
     float: left;
     margin-left: 7.5%;
     position: relative;
@@ -189,7 +188,6 @@ nav {
     height: 77%;
     background-color: #B8D3D0;
     border-radius: 20px;
-    opacity: 0.7;
     float: right;
     margin-right: 7.5%;
     position: relative;
@@ -478,20 +476,29 @@ footer {
     background-attachment: fixed;
 }
 
+.intro-section span {
+    font-weight: bold;
+}
+
 section {
     height: 650px;
 }
-#white h1 {
+#white-h1 {
     line-height: 90px;
     font-size: 200%;
     letter-spacing: 4px;
     text-align: center;
     color: white;
     font-weight: 500;
-    -webkit-text-stroke: 1px #120E11
+    -webkit-text-stroke: 1.5px #120E11
 }
 #black-h1 {
     color:#120E11;
+    line-height: 90px;
+    font-size: 200%;
+    letter-spacing: 4px;
+    text-align: center;
+
 }
 .bottom-section {
     background-image: url('../images/crochet-hooks-b-w.jpg');
