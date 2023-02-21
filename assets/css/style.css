@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Maitree:wght@200;500&family=Prompt:wght@200;300;400;500&family=Rokkitt:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Maitree:wght@200;500&family=Prompt:wght@200;300;400;500;600&family=Rokkitt:wght@100&display=swap');
 
 * {
     margin: 0;
@@ -17,6 +17,7 @@ body {
     font-family: 'Maitree', serif;
     font-weight: 200;
     color: #120E11;
+    background-color: white;
 }
 
 h1 {
@@ -471,37 +472,42 @@ footer {
 
 .intro-section {
     height: 550px;
-    background-image: url('../images/crochet-hooks-b-w.jpg');
+    background-image: url('../images/balls-of-yarn.jpg');
     background-size: cover;
     background-attachment: fixed;
-}
+    position: relative;    
 
+}
+.blur {
+    backdrop-filter: blur(5px);
+    height: 100%;
+}
 .intro-section span {
     font-weight: bold;
 }
 
-section {
+.tuition-sections {
     height: 650px;
 }
-#white-h1 {
+
+.tuition-sections h1 {
+    text-align: center;
+    line-height: 90px;
+    font-size: 200%;
+    letter-spacing: 4px;
+}
+
+#bordered-h1 {
     line-height: 90px;
     font-size: 200%;
     letter-spacing: 4px;
     text-align: center;
     color: white;
-    font-weight: 500;
-    -webkit-text-stroke: 1.5px #120E11
+    text-shadow: 1px 1px black;
 }
-#black-h1 {
-    color:#120E11;
-    line-height: 90px;
-    font-size: 200%;
-    letter-spacing: 4px;
-    text-align: center;
 
-}
 .bottom-section {
-    background-image: url('../images/crochet-hooks-b-w.jpg');
+    background-image: url('../images/balls-of-yarn.jpg');
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 50px;
@@ -514,6 +520,7 @@ section {
     grid-template-rows: 250px 160px;
     column-gap: 35px;
     row-gap: 40px;
+    backdrop-filter: blur(10px);
 }
 
 .three-photo-grid {
