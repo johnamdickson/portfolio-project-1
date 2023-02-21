@@ -306,6 +306,32 @@ footer {
     margin-bottom: 50px;
 }
 
+/* Assign names to grid areas */
+#a1 {
+    grid-area: a1;
+}
+#b1 {
+    grid-area: b1;
+}
+#a2 {
+    grid-area: a2;
+}
+#b2 {
+    grid-area: b2;
+}
+#a3 {
+    grid-area: a3;
+}
+#b3 {
+    grid-area: b3;
+}
+#a4 {
+    grid-area: a4;
+}
+#b4 {
+    grid-area: b4;
+}
+
 .four-photo-grid {
     margin: 0 1%;
     display: grid;
@@ -314,7 +340,12 @@ footer {
     column-gap: 35px;
     row-gap: 40px;
     backdrop-filter: blur(10px);
+    grid-template-areas:
+    "a1 a2 a3 a4"
+    "b1 b2 b3 b4";
 }
+
+
 
 .three-photo-grid {
     margin: 0 1%;
@@ -378,7 +409,7 @@ footer {
 /* Styling for media screens */
 
 @media screen and (max-width:1200px) {
-
+  /* Styling for home page max screen width 1200px */
     h1 {
         font-size: 150%;
         letter-spacing: 4px;
@@ -420,12 +451,35 @@ footer {
         margin-right: 7.5%;
     }
 
-    .four-photo-grid {
+      /* Styling for get started page max screen width 1200px */
+      .intro-section {
+        height: 1450px;
+    }
+      .four-photo-grid {
+        margin: 0 10vmin;
+        grid-template-areas:
+        "a1 b1"
+        "a2 b2"
+        "a3 b3"
+        "a4 b4";
         grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px 300px;
+        grid-auto-rows: 300px;
+    }
+
+    .instructions-container {
+        height: 66%;
+        margin: auto;
+    }
+
+    .instructions-container p {
+        font-size: 2vmin;
     }
 }
 
 @media screen and (max-width: 950px) {
+      /* Styling for get home page max screen width 950px */
+    
     #hero-outer {
         height: 300px;
     }
@@ -512,10 +566,12 @@ footer {
         font-size: 5vmin;
         letter-spacing: 2px;
     }
-
     footer {
         height: 50px;
     }
+
+    /* Styling for get started page max screen width 950px */
+
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
