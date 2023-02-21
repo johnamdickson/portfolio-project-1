@@ -96,6 +96,7 @@ nav {
     height: 100%;
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 #sign-up-circle {
@@ -480,7 +481,7 @@ footer {
 section {
     height: 650px;
 }
-section h1 {
+#white h1 {
     line-height: 90px;
     font-size: 200%;
     letter-spacing: 4px;
