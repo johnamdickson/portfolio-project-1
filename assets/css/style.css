@@ -307,29 +307,68 @@ footer {
 }
 
 /* Assign names to grid areas */
-#a1 {
+#wyn-a1 {
     grid-area: a1;
 }
-#b1 {
+#wyn-b1 {
     grid-area: b1;
 }
-#a2 {
+#wyn-a2 {
     grid-area: a2;
 }
-#b2 {
+#wyn-b2 {
     grid-area: b2;
 }
-#a3 {
+#wyn-a3 {
     grid-area: a3;
 }
-#b3 {
+#wyn-b3 {
     grid-area: b3;
 }
-#a4 {
+#wyn-a4 {
     grid-area: a4;
 }
-#b4 {
+#wyn-b4 {
     grid-area: b4;
+}
+
+#hh-a1 {
+    grid-area: a1;
+}
+#hh-b1 {
+    grid-area: b1;
+}
+#hh-a2 {
+    grid-area: a2;
+}
+#hh-b2 {
+    grid-area: b2;
+}
+#hh-a3 {
+    grid-area: a3;
+}
+#hh-b3 {
+    grid-area: b3;
+}
+
+
+#fs-a1 {
+    grid-area: a1;
+}
+#fs-b1 {
+    grid-area: b1;
+}
+#fs-a2 {
+    grid-area: a2;
+}
+#fs-b2 {
+    grid-area: b2;
+}
+#fs-a3 {
+    grid-area: a3;
+}
+#fs-b3 {
+    grid-area: b3;
 }
 
 .four-photo-grid {
@@ -354,6 +393,9 @@ footer {
     grid-template-rows: 290px 200px;
     column-gap: 35px;
     row-gap: 40px;
+     grid-template-areas:
+        "a1 a2 a3"
+        "b1 b2 b3";
 }
 
 .instruction-images-container {
@@ -456,7 +498,7 @@ footer {
         height: 1450px;
     }
       .four-photo-grid {
-        margin: 0 10vmin;
+        margin: 0 5vmin;
         grid-template-areas:
         "a1 b1"
         "a2 b2"
@@ -467,13 +509,49 @@ footer {
         grid-auto-rows: 300px;
     }
 
+    .three-photo-grid {
+        margin: 0 5vmin;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px 300px 300px;
+         grid-template-areas:
+            "a1 b1"
+            "a2 b2"
+            "a3 b3";
+    }
+
+    #bottom-section-grid {
+        margin: 0 5vmin;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px 300px 300px;
+         grid-template-areas:
+            "a1 b1"
+            "a2 b2"
+            "a3 b3";
+    }
+
     .instructions-container {
         height: 66%;
         margin: auto;
     }
 
     .instructions-container p {
-        font-size: 2vmin;
+        font-size: max(120%, 2vmin);
+    }
+    .instruction-images-container {
+        padding-right:45px;
+    }
+    
+    .tuition-sections {
+        height: 1100px;
+    }
+
+    .step-numbers {
+        height:65px;
+        width: 65px;
+    }
+
+    .step-numbers-text {
+        font-size: 12px;
     }
 }
 
