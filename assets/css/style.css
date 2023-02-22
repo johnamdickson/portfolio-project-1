@@ -713,6 +713,31 @@ footer {
     #info-section-bottom {
         height: 130vmin;
     }
+
+/* Styling for Get Started page max screen 950px and landscape */
+    .four-photo-grid {
+        margin: 0 5px;
+       }
+       .three-photo-grid {
+        margin: 0 5px;
+       }
+       #bottom-section-grid {
+            margin: 0 5px;
+       }
+        .instructions-container {
+            margin-left: -5%;
+            width: 100%;
+        }    
+    
+        .instruction-images-container {
+            padding-right: 0;
+            margin: 0 auto;
+        }
+    
+        .instruction-images {
+            height: 90%;
+        }
+
 }
 
 @media screen and (max-width: 750px) {
@@ -766,6 +791,7 @@ footer {
         margin: 15px 15px 0 15px;
         color: #3a3a3a;
     }
+
 
 /* Styling for get started page max screen width 750px */
 
