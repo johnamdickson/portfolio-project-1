@@ -333,36 +333,42 @@ footer {
 
 #hh-a1 {
     grid-area: a1;
+    padding-right: 25px;
 }
 #hh-b1 {
     grid-area: b1;
 }
 #hh-a2 {
     grid-area: a2;
+    padding-right: 25px;
 }
 #hh-b2 {
     grid-area: b2;
 }
 #hh-a3 {
     grid-area: a3;
+    padding-right: 25px;
 }
 #hh-b3 {
     grid-area: b3;
 }
 #fs-a1 {
     grid-area: a1;
+    padding-right: 25px;
 }
 #fs-b1 {
     grid-area: b1;
 }
 #fs-a2 {
     grid-area: a2;
+    padding-right: 25px;
 }
 #fs-b2 {
     grid-area: b2;
 }
 #fs-a3 {
     grid-area: a3;
+    padding-right: 25px;
 }
 #fs-b3 {
     grid-area: b3;
@@ -398,7 +404,7 @@ footer {
 }
 .instruction-images {
     aspect-ratio: 1 / 1;
-    height: 95%;
+    width: 250px;
     object-fit: cover;
     border-radius: 50%;
     border: 6px solid #B8D3D0;
@@ -507,6 +513,10 @@ footer {
     }
 
       /* Styling for get started page max screen width 1200px */
+    #hh-a1, #hh-a2, #hh-a3, #fs-a1, #fs-a2, #fs-a3 {
+        padding-right: 8.5px;
+    }
+    
       .intro-section {
         height: 1450px;
     }
@@ -564,7 +574,7 @@ footer {
     }
 
     .step-numbers-text {
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 
@@ -682,11 +692,16 @@ footer {
     }
 
     .instruction-images {
-        height: 90%;
+        width: 250px;
     }
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
+    #wyn-a1, #wyn-a2, #wyn-a3, #wyn-a4{
+        padding-right: 20px;
+        padding-top:10px;
+    }
+    
     .info-section {
         height: 140vmin;
     }
@@ -735,7 +750,7 @@ footer {
         }
     
         .instruction-images {
-            height: 90%;
+            width: 250px;
         }
 
 }
@@ -831,7 +846,6 @@ footer {
             grid-template-rows: 200px 110px;
             grid-auto-rows: 200px 110px;
             row-gap: 10px;
-            width:90%;
         }
         .three-photo-grid {
             margin: 0 5vmin;
@@ -846,7 +860,6 @@ footer {
             grid-template-rows: 200px 110px;
             grid-auto-rows: 200px 110px;
             row-gap: 10px;
-            width:90%;
         }
 
         #bottom-section-grid {
@@ -877,11 +890,8 @@ footer {
         .bottom-section {
             margin-bottom: 30px;
         }
-
-        .mobile-col-centered {
-            margin-left: auto;
-            margin-right: auto;
-            float: none;
+        .instruction-images {
+            width: 190px;
         }
 }
 
