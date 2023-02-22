@@ -272,6 +272,7 @@ footer {
 
 .intro-section {
     height: 550px;
+    width: 100%;
     background-image: url('../images/balls-of-yarn.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -288,6 +289,7 @@ footer {
 
 .tuition-sections {
     height: 650px;
+    width: 100%;
 }
 
 .tuition-sections h1 {
@@ -296,9 +298,6 @@ footer {
     font-size: 200%;
     letter-spacing: 4px;
 }
-
-
-
 .bottom-section {
     background-image: url('../images/balls-of-yarn.jpg');
     background-size: cover;
@@ -350,8 +349,6 @@ footer {
 #hh-b3 {
     grid-area: b3;
 }
-
-
 #fs-a1 {
     grid-area: a1;
 }
@@ -774,7 +771,7 @@ footer {
 
 .intro-section {
     height:1400px;
-    width: 100%;
+   
 }    
 .intro-section h1 {
         margin-top: 0px;
