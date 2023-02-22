@@ -441,9 +441,10 @@ footer {
 }
 
 .step-numbers-text {
-    margin: 13px;
+    margin: 14px;
     padding-top: 10px;
     font-weight: bold;
+    font-size: 90%;
 }
 
 
@@ -767,6 +768,7 @@ footer {
     margin-left: 0;
     margin: 0 auto;
     height:90%;
+    width:95%;
    }
 
     .instructions-container p {
