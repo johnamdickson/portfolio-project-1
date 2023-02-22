@@ -371,11 +371,10 @@ footer {
 .four-photo-grid {
     margin: 0 1%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 23%);
     grid-template-rows: 250px 160px;
     column-gap: 35px;
     row-gap: 40px;
-    backdrop-filter: blur(10px);
     grid-template-areas:
     "a1 a2 a3 a4"
     "b1 b2 b3 b4";
