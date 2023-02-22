@@ -877,6 +877,12 @@ footer {
         .bottom-section {
             margin-bottom: 30px;
         }
+
+        .mobile-col-centered {
+            margin-left: auto;
+            margin-right: auto;
+            float: none;
+        }
 }
 
 @media screen and (max-width: 750px) and (orientation: portrait) {
