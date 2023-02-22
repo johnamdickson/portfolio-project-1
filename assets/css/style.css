@@ -570,7 +570,9 @@ footer {
 
 @media screen and (max-width: 950px) and (orientation: portrait) {
       /* Styling for get home page max screen width 950px */
-    
+      body {
+        width:100vw;
+     }
     #hero-outer {
         height: 300px;
     }
@@ -687,6 +689,9 @@ footer {
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
+    body {
+       width:100vw;
+    }
     .info-section {
         height: 140vmin;
     }
@@ -741,6 +746,10 @@ footer {
 }
 
 @media screen and (max-width: 750px) and (orientation: portrait){
+    body {
+        width:100vw;
+     }
+    
     h1 {
         font-size: 100%;
         letter-spacing: 1px;
@@ -886,7 +895,11 @@ footer {
         }
 }
 
-@media screen and (max-width: 750px) and (orientation: landscape) {
+@media screen and (max-width: 750px) and (orientation: portrait) {
+    body {
+        width:100vw;
+     }
+    
     .intro-section {
         height:1400px;
        
