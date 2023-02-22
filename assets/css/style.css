@@ -568,7 +568,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) and (orientation: portrait) {
       /* Styling for get home page max screen width 950px */
     
     #hero-outer {
@@ -740,7 +740,7 @@ footer {
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) and (orientation: portrait){
     h1 {
         font-size: 100%;
         letter-spacing: 1px;
@@ -886,7 +886,7 @@ footer {
         }
 }
 
-@media screen and (max-width: 750px) and (orientation: portrait) {
+@media screen and (max-width: 750px) and (orientation: landscape) {
     .intro-section {
         height:1400px;
        
