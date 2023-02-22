@@ -379,6 +379,7 @@ footer {
     grid-template-areas:
     "a1 a2 a3 a4"
     "b1 b2 b3 b4";
+    max-width: 100%;
 }
 
 .three-photo-grid {
@@ -832,7 +833,6 @@ footer {
             grid-auto-rows: 200px 110px;
             row-gap: 10px;
             width:90%;
-            max-width: 100%;
         }
         .three-photo-grid {
             margin: 0 5vmin;
