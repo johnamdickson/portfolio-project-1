@@ -268,6 +268,9 @@ footer {
 .social-networks i:hover {
     color: rgba(0, 0, 0, 0.3);
 }
+
+
+
 /* Styling for Get Started page. */
 
 .intro-section {
@@ -379,7 +382,6 @@ footer {
     grid-template-areas:
     "a1 a2 a3 a4"
     "b1 b2 b3 b4";
-    height:auto;
 }
 
 .three-photo-grid {
@@ -513,14 +515,13 @@ footer {
     }
       .four-photo-grid {
         margin: 0 5vmin;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px 300px 300px 300px;
         grid-template-areas:
         "a1 b1"
         "a2 b2"
         "a3 b3"
         "a4 b4";
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 300px 300px;
-        grid-auto-rows: 300px;
     }
 
     .three-photo-grid {
@@ -667,14 +668,13 @@ footer {
     /* Styling for get started page max screen width 950px */
     .four-photo-grid {
         margin: 0 5px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px 300px 300px 300px;
         grid-template-areas:
         "a1 b1"
         "a2 b2"
         "a3 b3"
         "a4 b4";
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 300px 300px;
-        grid-auto-rows: 300px;
     }
    .three-photo-grid {
     margin: 0 5px;
@@ -731,14 +731,13 @@ footer {
 /* Styling for Get Started page max screen 950px and landscape */
 .four-photo-grid {
     margin: 0 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px 300px 300px 300px;
     grid-template-areas:
     "a1 b1"
     "a2 b2"
     "a3 b3"
     "a4 b4";
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 300px 300px 300px 300px;
-    /* grid-auto-rows: 300px; */
 }
        .three-photo-grid {
         margin: 0 5px;
@@ -844,6 +843,8 @@ footer {
  
     .four-photo-grid {
             margin: 0 5vmin;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 200px 110px 200px 110px 200px 110px 200px 110px;
             grid-template-areas:
             "a1"
             "b1"
@@ -853,9 +854,6 @@ footer {
             "b3"
             "a4"
             "b4";
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: 200px 110px 200px 110px 200px 110px 200px 110px;
-            /* grid-auto-rows: 200px 110px; */
             row-gap: 10px;
         }
         .three-photo-grid {
@@ -938,6 +936,8 @@ footer {
      
         .four-photo-grid {
                 margin: 0 5vmin;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: 200px 110px 200px 110px 200px 110px 200px 110px;
                 grid-template-areas:
                 "a1"
                 "b1"
@@ -947,8 +947,6 @@ footer {
                 "b3"
                 "a4"
                 "b4";
-                grid-template-columns: repeat(1, 1fr);
-                grid-template-rows: 200px 110px 200px 110px 200px 110px 200px 110px;
                 /* grid-auto-rows: 200px 110px; */
                 row-gap: 10px;
             }
