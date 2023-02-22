@@ -752,7 +752,9 @@ footer {
         margin: 15px 15px 0 15px;
         color: #3a3a3a;
     }
+
 /* Styling for get started page max screen width 750px */
+
 .intro-section {
     height:1400px;
 }    
@@ -788,5 +790,47 @@ footer {
             grid-auto-rows: 200px 110px;
             row-gap: 10px;
         }
-    
+        .three-photo-grid {
+            margin: 0 5vmin;
+            grid-template-areas:
+            "a1"
+            "b1"
+            "a2"
+            "b2"
+            "a3"
+            "b3";
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 200px 110px;
+            grid-auto-rows: 200px 110px;
+            row-gap: 10px;
+        }
+
+        #bottom-section-grid {
+            margin: 0 5vmin;
+            grid-template-areas:
+            "a1"
+            "b1"
+            "a2"
+            "b2"
+            "a3"
+            "b3";
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 200px 110px;
+            grid-auto-rows: 200px 110px;
+            row-gap: 10px;
+        }
+        .tuition-sections{
+            height:1050px;
+        }
+        .tuition-sections h1 {
+            margin-top: 0px;
+            line-height: 50px;
+            font-size: 150%;
+        }
+        #hh-a1, #hh-a2, #hh-a3, #fs-a1, #fs-a2, #fs-a3 {
+           padding-right:8.5%
+        }     
+        .bottom-section {
+            margin-bottom: 30px;
+        }
 }
