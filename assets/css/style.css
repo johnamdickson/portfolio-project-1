@@ -809,6 +809,7 @@ footer {
     margin: 0 auto;
     height:90%;
     width:95%;
+    max-width: 100%;
    }
 
     .instructions-container p {
