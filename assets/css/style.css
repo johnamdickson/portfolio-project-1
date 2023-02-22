@@ -668,13 +668,13 @@ footer {
     /* Styling for get started page max screen width 950px */
     .four-photo-grid {
         margin: 0 5px;
-        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 300px 300px 300px 300px;
         grid-template-areas:
         "a1 b1"
         "a2 b2"
         "a3 b3"
-        "a4 b4";
+        "a4 b4"; */
     }
    .three-photo-grid {
     margin: 0 5px;
@@ -731,13 +731,6 @@ footer {
 /* Styling for Get Started page max screen 950px and landscape */
 .four-photo-grid {
     margin: 0 5px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 300px 300px 300px 300px;
-    grid-template-areas:
-    "a1 b1"
-    "a2 b2"
-    "a3 b3"
-    "a4 b4";
 }
        .three-photo-grid {
         margin: 0 5px;
@@ -869,7 +862,6 @@ footer {
             grid-template-rows: 200px 110px 200px 110px 200px 110px;
             /* grid-auto-rows: 200px 110px; */
             row-gap: 10px;
-            width:90%;
         }
 
         #bottom-section-grid {
@@ -947,7 +939,6 @@ footer {
                 "b3"
                 "a4"
                 "b4";
-                /* grid-auto-rows: 200px 110px; */
                 row-gap: 10px;
             }
             .three-photo-grid {
