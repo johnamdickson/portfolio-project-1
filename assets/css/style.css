@@ -442,8 +442,7 @@ footer {
 }
 
 .step-numbers-text {
-    margin: 14px;
-    padding-top: 10px;
+    padding: 23px 0 0 14px;
     font-weight: bold;
     font-size: 90%;
 }
@@ -515,6 +514,7 @@ footer {
       /* Styling for get started page max screen width 1200px */
     #hh-a1, #hh-a2, #hh-a3, #fs-a1, #fs-a2, #fs-a3 {
         padding-right: 8.5px;
+        padding-top: 5px;
     }
     
       .intro-section {
@@ -944,8 +944,8 @@ footer {
                 "a3"
                 "b3";
                 grid-template-columns: repeat(1, 1fr);
-                grid-template-rows: 200px 110px;
-                grid-auto-rows: 200px 110px;
+                grid-template-rows: 300px 110px;
+                grid-auto-rows: 300px 110px;
                 row-gap: 10px;
                 width:90%;
             }
@@ -960,12 +960,12 @@ footer {
                 "a3"
                 "b3";
                 grid-template-columns: repeat(1, 1fr);
-                grid-template-rows: 200px 110px;
-                grid-auto-rows: 200px 110px;
+                grid-template-rows: 300px 110px;
+                grid-auto-rows: 300px 110px;
                 row-gap: 10px;
             }
             .tuition-sections{
-                height:1050px;
+                height:1350px;
             }
             .tuition-sections h1 {
                 margin-top: 0px;
@@ -977,5 +977,9 @@ footer {
             }     
             .bottom-section {
                 margin-bottom: 30px;
+            }
+
+            .demo-images {
+                width: 260px;
             }
 }
