@@ -692,7 +692,7 @@ footer {
     }
 
     .instruction-images {
-        height: 90%;
+        height: 45vmin;
     }
 }
 
@@ -748,7 +748,7 @@ footer {
         }
     
         .instruction-images {
-            height: 90%;
+            height: 50vmin;
         }
 
 }
@@ -831,7 +831,9 @@ footer {
     .instructions-container p {
         font-size: min(100%,3.35vmin);
     }
-
+    .instruction-images {
+        height: 35vmin;
+    }
  
     .four-photo-grid {
             margin: 0 5vmin;
@@ -890,12 +892,6 @@ footer {
         }     
         .bottom-section {
             margin-bottom: 30px;
-        }
-
-        .mobile-col-centered {
-            margin-left: auto;
-            margin-right: auto;
-            float: none;
         }
 }
 
