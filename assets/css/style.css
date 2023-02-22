@@ -686,7 +686,7 @@ footer {
     }
 }
 
-/* @media screen and (max-width: 950px) and (orientation: landscape) {
+@media screen and (max-width: 950px) and (orientation: landscape) {
     .info-section {
         height: 140vmin;
     }
@@ -738,7 +738,7 @@ footer {
             height: 90%;
         }
 
-} */
+}
 
 @media screen and (max-width: 750px) {
     h1 {
@@ -886,7 +886,7 @@ footer {
         }
 }
 
-/* @media screen and (max-width: 750px) and (orientation: portrait) {
+@media screen and (max-width: 750px) and (orientation: portrait) {
     .intro-section {
         height:1400px;
        
@@ -969,4 +969,4 @@ footer {
             .bottom-section {
                 margin-bottom: 30px;
             }
-} */
+}
