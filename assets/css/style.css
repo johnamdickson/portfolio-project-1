@@ -372,22 +372,21 @@ footer {
 }
 
 .four-photo-grid {
-    margin: 0 1%;
+    margin: 0 2%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 23%);
     grid-template-rows: 250px 160px;
     column-gap: 35px;
     row-gap: 40px;
-    backdrop-filter: blur(10px);
     grid-template-areas:
     "a1 a2 a3 a4"
     "b1 b2 b3 b4";
 }
 
 .three-photo-grid {
-    margin: 0 1%;
+    margin: 0 2%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 32%);
     grid-template-rows: 290px 200px;
     column-gap: 35px;
     row-gap: 40px;
@@ -401,7 +400,7 @@ footer {
 }
 .instruction-images {
     aspect-ratio: 1 / 1;
-    height: 95%;
+    height: 50vmin;
     object-fit: cover;
     border-radius: 50%;
     border: 6px solid #B8D3D0;
