@@ -384,8 +384,6 @@ footer {
     "b1 b2 b3 b4";
 }
 
-
-
 .three-photo-grid {
     margin: 0 1%;
     display: grid;
@@ -445,6 +443,24 @@ footer {
     padding-top: 10px;
     font-weight: bold;
     font-size: 90%;
+}
+
+/* Sign Up page styling*/
+
+#sign-up-background {
+    background: url('../images/balls-of-yarn.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#sign-up-header {
+    position: fixed;
+}
+
+#sign-up-header nav{
+    margin-top: -2px;
+    right: 0;
 }
 
 
