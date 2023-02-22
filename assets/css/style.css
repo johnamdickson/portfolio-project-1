@@ -805,6 +805,7 @@ footer {
             grid-template-rows: 200px 110px;
             grid-auto-rows: 200px 110px;
             row-gap: 10px;
+            width:90%;
         }
         .three-photo-grid {
             margin: 0 5vmin;
@@ -819,6 +820,7 @@ footer {
             grid-template-rows: 200px 110px;
             grid-auto-rows: 200px 110px;
             row-gap: 10px;
+            width:90%;
         }
 
         #bottom-section-grid {
@@ -837,7 +839,6 @@ footer {
         }
         .tuition-sections{
             height:1050px;
-            width: 100%;
         }
         .tuition-sections h1 {
             margin-top: 0px;
