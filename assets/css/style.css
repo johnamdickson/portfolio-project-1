@@ -774,6 +774,7 @@ footer {
 
 .intro-section {
     height:1400px;
+    width: 100%;
 }    
 .intro-section h1 {
         margin-top: 0px;
@@ -839,6 +840,7 @@ footer {
         }
         .tuition-sections{
             height:1050px;
+            width: 100%;
         }
         .tuition-sections h1 {
             margin-top: 0px;
