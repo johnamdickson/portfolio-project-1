@@ -505,11 +505,8 @@ footer {
 }
 
 .sign-up-button {
-    position: absolute;
-    left: 33%;
-    bottom: 7%;
     width: 33%;
-    margin-top: 20px;
+    margin: 20px 33% 5% 33%;
     border-radius: 5px;
     padding: 15px 32px 15px 32px;
     text-align: center;
@@ -519,6 +516,7 @@ footer {
 }
 
 .sign-up-button:hover {
+    padding: 2%;
     background-color: #120E11;
     color: #f5a8e4;
     font-size: 150%;
@@ -635,6 +633,13 @@ footer {
 
     .step-numbers-text {
         font-size: 11px;
+    }
+
+    /* Styling for Sign Up page max screen width 1200px */
+
+    .signup-form {
+        left: 15%;
+        width: 70vw;
     }
 }
 
@@ -945,6 +950,24 @@ footer {
             top: -1%;
             left: -30%;
           }
+
+          /* Styling for Sign Up page max width 750px */
+          .signup-form {
+            left: 5%;
+            width: 90vw;
+        }
+
+        .sign-up-button {
+            width: 50%;
+            margin: 20px 25% 5% 25%;
+            font-size: 120%;
+        }
+
+        .signup-form h2 {
+            font-size: 130%;
+            margin-bottom: 5%;
+        }
+
 }
 
 
