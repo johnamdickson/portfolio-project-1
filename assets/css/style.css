@@ -17,7 +17,6 @@ body {
     font-family: 'Maitree', serif;
     font-weight: 200;
     color: #120E11;
-    /* background-color: white; */
 }
 
 h1 {
@@ -448,12 +447,26 @@ footer {
 
 /* Sign Up page styling*/
 
-#sign-up-background {
+
+.form-section {
+    clear: left;
     background: url('../images/balls-of-yarn.jpg') no-repeat center center;
     background-size: cover;
-    height: 100vh;
+    height: 900px;
     width: 100%;
 }
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    top:50%;
+    padding: 30px;
+}
+
 
 #sign-up-header {
     position: fixed;
@@ -895,4 +908,5 @@ footer {
             left: -30%;
           }
 }
+
 
