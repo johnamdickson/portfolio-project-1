@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,45 +12,51 @@
     <script src="https://kit.fontawesome.com/f99ce6eeee.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header id="sign-up-header">
-        <div id="logo-and-title">
-            <img src="assets/images/Logo Transparent Background.png" alt="Little Woolly Snuggles logo of cartoon sheep."
-                id="logo">
-            <h1>Learn to Crochet</h1>
-            <h3>with Little Woolly Snuggles</h3>
-        </div>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="get-started.html">Get Started</a></li>
-                <li><a href="sign-up.html" class="active">Sign Up</a></li>
+    <div id="wrapper">
+        <header id="sign-up-header">
+            <div id="logo-and-title">
+                <img src="assets/images/Logo Transparent Background.png"
+                    alt="Little Woolly Snuggles logo of cartoon sheep." id="logo">
+                <h1>Learn to Crochet</h1>
+                <h3>with Little Woolly Snuggles</h3>
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="get-started.html">Get Started</a></li>
+                    <li><a href="sign-up.html" class="active">Sign Up</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="form-section">
+            <form method="post" action="https://formdump.codeinstitute.net/" class="signup-form">
+                <h2>Sign up to our weekly newsletter to receive your 5 free crochet patterns!</h2>
+                <label for="fname">First Name</label>
+                <input class="text-input" type="text" id="fname" name="first_name" required>
+                <label for="lname">Last Name</label>
+                <input class="text-input" type="text" id="lname" name="last_name" required>
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" required>
+                <input class="sign-up-button" type="submit" value="Sign Up!">
+            </form>
+        </section>
+        <footer>
+            <ul class="social-networks">
+                <li>
+                    <a href="https://www.etsy.com/ie/shop/LittleWoollySnuggles" target="_blank" rel="noopener"
+                        aria-label="Visit our Etsy Shop(opens in a new tab)"><i class="fa-brands fa-etsy"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/littlewoollysnuggles/?hl=en" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram Page(opens in a new tab)"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href=" https://twitter.com/little_woolly" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page(opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+                </li>
             </ul>
-        </nav>
-    </header>
-    <section class = "form-section">
-        <form method="post" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>Sign up to receive your 5 free crochet patterns!</h2>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="first_name" required>
-             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="last_name" required>
-           <label for="email">Email Address</label>
-             <input type="email" id="email" name="email_address" required>
-        </form>
-
-    </section>
-    <footer>
-        <ul class = "social-networks">
-            <li>
-                <a href="https://www.etsy.com/ie/shop/LittleWoollySnuggles" target="_blank" rel="noopener" aria-label="Visit our Etsy Shop(opens in a new tab)"><i class="fa-brands fa-etsy"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/littlewoollysnuggles/?hl=en" target="_blank" rel="noopener" aria-label="Visit our Instagram Page(opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href=" https://twitter.com/little_woolly" target="_blank" rel="noopener" aria-label="Visit our Twitter page(opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-        </ul>
-    </footer>
+        </footer>
+    </div>
 </body>
 </html>
