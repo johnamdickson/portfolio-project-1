@@ -561,6 +561,7 @@ footer {
     width: 60vw;
     top: 25%;
     left: 20%;
+    padding-top: 50px;
 }
 
 #thank-you-form p {
@@ -840,7 +841,6 @@ footer {
     #thank-you-form {
         width: 80vw;
         left: 10%;
-        padding-top: 6%;
     }
 }
 
@@ -1085,6 +1085,5 @@ footer {
     #thank-you-form {
         width: 90vw;
         left: 5%;
-        padding-top: 5%;
     }
 }
