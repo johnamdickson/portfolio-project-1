@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
 }
+
 /* Generic Elements Styling */
 header {
     background-color: #f5a8e4;
@@ -13,7 +14,8 @@ header {
     color: #120e11;
 }
 
-body, input {
+body,
+input {
     font-family: 'Maitree', serif;
     font-weight: 200;
     color: #120E11;
@@ -25,18 +27,20 @@ h1 {
     font-size: 200%;
     letter-spacing: 6px;
 }
-.contrast-h1 {
+
+h2,
+nav {
+    font-family: 'Prompt', serif;
+    font-weight: 200;
+}
+
+.contrast-h2 {
     line-height: 90px;
     font-size: 200%;
     letter-spacing: 4px;
     text-align: center;
     color: white;
     text-shadow: 1px 1px black;
-}
-h2,
-nav {
-    font-family: 'Prompt', serif;
-    font-weight: 200;
 }
 
 h3 {
@@ -91,6 +95,7 @@ nav {
     font-weight: 400;
     text-shadow: 0.5px 0.5px lightgray;
 }
+
 /* style home page hero image */
 
 #hero-outer {
@@ -135,6 +140,7 @@ nav {
     margin: 10px;
     padding-top: 20px;
 }
+
 /* Style home page sections */
 
 .info-section {
@@ -144,7 +150,7 @@ nav {
     text-align: center;
 }
 
-.info-section h1 {
+.info-section h2 {
     margin-bottom: 20px;
     line-height: 75px;
     font-size: 200%;
@@ -237,7 +243,7 @@ nav {
     text-align: center;
 }
 
-#info-section-bottom h1 {
+#info-section-bottom h2 {
     margin-bottom: 20px;
     line-height: 75px;
     font-size: 200%;
@@ -269,6 +275,7 @@ footer {
 .social-networks i:hover {
     color: rgba(0, 0, 0, 0.3);
 }
+
 /* Styling for Get Started page. */
 
 .intro-section {
@@ -277,13 +284,15 @@ footer {
     background-image: url('../images/balls-of-yarn.jpg');
     background-size: cover;
     background-attachment: fixed;
-    position: relative;    
+    position: relative;
 
 }
+
 .blur {
     backdrop-filter: blur(4px);
     height: 100%;
 }
+
 .intro-section span {
     font-weight: bold;
 }
@@ -293,12 +302,13 @@ footer {
     width: 100%;
 }
 
-.tuition-sections h1 {
+.tuition-sections h2 {
     text-align: center;
     line-height: 90px;
     font-size: 200%;
     letter-spacing: 4px;
 }
+
 .bottom-section {
     background-image: url('../images/balls-of-yarn.jpg');
     background-size: cover;
@@ -310,24 +320,31 @@ footer {
 #wyn-a1 {
     grid-area: a1;
 }
+
 #wyn-b1 {
     grid-area: b1;
 }
+
 #wyn-a2 {
     grid-area: a2;
 }
+
 #wyn-b2 {
     grid-area: b2;
 }
+
 #wyn-a3 {
     grid-area: a3;
 }
+
 #wyn-b3 {
     grid-area: b3;
 }
+
 #wyn-a4 {
     grid-area: a4;
 }
+
 #wyn-b4 {
     grid-area: b4;
 }
@@ -335,36 +352,47 @@ footer {
 #hh-a1 {
     grid-area: a1;
 }
+
 #hh-b1 {
     grid-area: b1;
 }
+
 #hh-a2 {
     grid-area: a2;
 }
+
 #hh-b2 {
     grid-area: b2;
 }
+
 #hh-a3 {
     grid-area: a3;
 }
+
 #hh-b3 {
     grid-area: b3;
 }
+
 #fs-a1 {
     grid-area: a1;
 }
+
 #fs-b1 {
     grid-area: b1;
 }
+
 #fs-a2 {
     grid-area: a2;
 }
+
 #fs-b2 {
     grid-area: b2;
 }
+
 #fs-a3 {
     grid-area: a3;
 }
+
 #fs-b3 {
     grid-area: b3;
 }
@@ -377,8 +405,8 @@ footer {
     column-gap: 35px;
     row-gap: 40px;
     grid-template-areas:
-    "a1 a2 a3 a4"
-    "b1 b2 b3 b4";
+        "a1 a2 a3 a4"
+        "b1 b2 b3 b4";
     max-width: 100%;
 }
 
@@ -389,7 +417,7 @@ footer {
     grid-template-rows: 290px 200px;
     column-gap: 35px;
     row-gap: 40px;
-     grid-template-areas:
+    grid-template-areas:
         "a1 a2 a3"
         "b1 b2 b3";
 }
@@ -398,6 +426,7 @@ footer {
     margin: 0 auto;
     position: relative;
 }
+
 .instruction-images {
     aspect-ratio: 1 / 1;
     width: 270px;
@@ -408,8 +437,9 @@ footer {
 }
 
 .demo-images {
-    width:290px;
+    width: 290px;
 }
+
 .instructions-container {
     width: 96%;
     height: 96%;
@@ -453,11 +483,11 @@ footer {
     display: flex;
     height: 100vh;
     flex-direction: column;
-  }
+}
 
- #wrapper footer {
-        position: inherit;
-      }
+#wrapper footer {
+    position: inherit;
+}
 
 .form-section {
     position: relative;
@@ -483,6 +513,7 @@ footer {
 .signup-form h2 {
     text-align: center;
     margin-bottom: 2%;
+    font-size: 170%;
 }
 
 .text-input {
@@ -532,11 +563,16 @@ footer {
     left: 20%;
 }
 
+#thank-you-form p {
+    text-align: center;
+    font-size: 120%;
+}
+
 /* Styling for media screens */
 
 @media screen and (max-width:1200px) {
-    
-  /* Styling for home page max screen width 1200px */
+
+    /* Styling for home page max screen width 1200px */
     h1 {
         font-size: 150%;
         letter-spacing: 4px;
@@ -578,22 +614,28 @@ footer {
         margin-right: 7.5%;
     }
 
-      /* Styling for get started page max screen width 1200px */
-    #hh-a1, #hh-a2, #hh-a3, #fs-a1, #fs-a2, #fs-a3 {
+    /* Styling for get started page max screen width 1200px */
+    #hh-a1,
+    #hh-a2,
+    #hh-a3,
+    #fs-a1,
+    #fs-a2,
+    #fs-a3 {
         padding-right: 8.5px;
         padding-top: 5px;
     }
-    
-      .intro-section {
+
+    .intro-section {
         height: 1450px;
     }
-      .four-photo-grid {
+
+    .four-photo-grid {
         margin: 0 5vmin;
         grid-template-areas:
-        "a1 b1"
-        "a2 b2"
-        "a3 b3"
-        "a4 b4";
+            "a1 b1"
+            "a2 b2"
+            "a3 b3"
+            "a4 b4";
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 300px 300px;
         grid-auto-rows: 300px;
@@ -603,7 +645,7 @@ footer {
         margin: 0 5vmin;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 300px 300px 300px;
-         grid-template-areas:
+        grid-template-areas:
             "a1 b1"
             "a2 b2"
             "a3 b3";
@@ -613,7 +655,7 @@ footer {
         margin: 0 5vmin;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 300px 300px 300px;
-         grid-template-areas:
+        grid-template-areas:
             "a1 b1"
             "a2 b2"
             "a3 b3";
@@ -627,16 +669,17 @@ footer {
     .instructions-container p {
         font-size: max(120%, 2vmin);
     }
+
     .instruction-images-container {
-        padding-right:45px;
+        padding-right: 45px;
     }
-    
+
     .tuition-sections {
         height: 1100px;
     }
 
     .step-numbers {
-        height:65px;
+        height: 65px;
         width: 65px;
         top: -1%;
         left: -10%;
@@ -653,7 +696,7 @@ footer {
         width: 70vw;
     }
 
-  /* Styling for Thank You page max width 1200px */
+    /* Styling for Thank You page max width 1200px */
     #thank-you-form {
         width: 70vw;
         left: 15%;
@@ -661,8 +704,8 @@ footer {
 }
 
 @media screen and (max-width: 950px) {
-      /* Styling for get home page max screen width 950px */
-    
+    /* Styling for get home page max screen width 950px */
+
     #hero-outer {
         height: 300px;
     }
@@ -688,7 +731,7 @@ footer {
         height: min(160vmin, 145vmax);
     }
 
-    .info-section h1 {
+    .info-section h2 {
         line-height: 50px;
         margin-bottom: 3vmin;
         font-size: 6vmin;
@@ -713,9 +756,11 @@ footer {
         margin: 0 auto;
         margin-top: 20px;
     }
+
     #info-section-middle {
         height: min(163vmin, 150vmax);
     }
+
     #info-image-middle {
         float: none;
         height: 50vmin;
@@ -739,30 +784,34 @@ footer {
         height: 144vmin;
     }
 
-    #info-section-bottom h1 {
+    #info-section-bottom h2 {
         margin-bottom: 3vmin;
         line-height: 50px;
         font-size: 5vmin;
         letter-spacing: 2px;
     }
+
     footer {
         height: 50px;
     }
 
     /* Styling for get started page max screen width 950px */
-   .four-photo-grid {
-    margin: 0 5px;
-   }
-   .three-photo-grid {
-    margin: 0 5px;
-   }
-   #bottom-section-grid {
+    .four-photo-grid {
         margin: 0 5px;
-   }
+    }
+
+    .three-photo-grid {
+        margin: 0 5px;
+    }
+
+    #bottom-section-grid {
+        margin: 0 5px;
+    }
+
     .instructions-container {
         margin-left: -5%;
         width: 100%;
-    }    
+    }
 
     .instruction-images-container {
         padding-right: 0;
@@ -787,19 +836,20 @@ footer {
     }
 
 
-  /* Styling for Thank You page max width 950px */
-  #thank-you-form {
-    width: 80vw;
-    left: 10%;
-    padding-top: 6%;
-}
+    /* Styling for Thank You page max width 950px */
+    #thank-you-form {
+        width: 80vw;
+        left: 10%;
+        padding-top: 6%;
+    }
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
-    
+
     .info-section {
         height: 140vmin;
     }
+
     .info-container {
         height: max(60vmin, 5vmax);
     }
@@ -807,9 +857,11 @@ footer {
     .info-container p {
         font-size: min(4.5vmin, 3vmax);
     }
+
     #info-section-middle {
         height: 158vmin;
     }
+
     #info-container-middle {
         height: 75vmin;
     }
@@ -824,25 +876,28 @@ footer {
         height: 130vmin;
     }
 
-/* Styling for Get Started page max screen 950px and landscape */
+    /* Styling for Get Started page max screen 950px and landscape */
     .four-photo-grid {
         margin: 0 5px;
-       }
-       .three-photo-grid {
+    }
+
+    .three-photo-grid {
         margin: 0 5px;
-       }
-       #bottom-section-grid {
-            margin: 0 5px;
-       }
-        .instructions-container {
-            margin-left: -5%;
-            width: 100%;
-        }    
-    
-        .instruction-images-container {
-            padding-right: 0;
-            margin: 0 auto;
-        }
+    }
+
+    #bottom-section-grid {
+        margin: 0 5px;
+    }
+
+    .instructions-container {
+        margin-left: -5%;
+        width: 100%;
+    }
+
+    .instruction-images-container {
+        padding-right: 0;
+        margin: 0 auto;
+    }
 }
 
 /* Styling for max screen width 750px */
@@ -900,32 +955,34 @@ footer {
     }
 
 
-/* Styling for get started page max screen width 750px */
+    /* Styling for get started page max screen width 750px */
 
-.intro-section {
-    height:1400px;
-   
-}    
-.intro-section h1 {
+    .intro-section {
+        height: 1400px;
+
+    }
+
+    .intro-section h2 {
         margin-top: 0px;
         line-height: 50px;
         font-size: 150%;
     }
-   .instructions-container{
-    margin-left: 0;
-    margin: 0 auto;
-    height:90%;
-    width:95%;
-   }
 
-    .instructions-container p {
-        font-size: min(100%,3.35vmin);
+    .instructions-container {
+        margin-left: 0;
+        margin: 0 auto;
+        height: 90%;
+        width: 95%;
     }
 
- 
+    .instructions-container p {
+        font-size: min(100%, 3.35vmin);
+    }
+
+
     .four-photo-grid {
-            margin: 0 5vmin;
-            grid-template-areas:
+        margin: 0 5vmin;
+        grid-template-areas:
             "a1"
             "b1"
             "a2"
@@ -934,90 +991,100 @@ footer {
             "b3"
             "a4"
             "b4";
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: 200px 110px;
-            grid-auto-rows: 200px 110px;
-            row-gap: 10px;
-        }
-        .three-photo-grid {
-            margin: 0 5vmin;
-            grid-template-areas:
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 200px 110px;
+        grid-auto-rows: 200px 110px;
+        row-gap: 10px;
+    }
+
+    .three-photo-grid {
+        margin: 0 5vmin;
+        grid-template-areas:
             "a1"
             "b1"
             "a2"
             "b2"
             "a3"
             "b3";
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: 200px 110px;
-            grid-auto-rows: 200px 110px;
-            row-gap: 10px;
-        }
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 200px 110px;
+        grid-auto-rows: 200px 110px;
+        row-gap: 10px;
+    }
 
-        #bottom-section-grid {
-            margin: 0 5vmin;
-            grid-template-areas:
+    #bottom-section-grid {
+        margin: 0 5vmin;
+        grid-template-areas:
             "a1"
             "b1"
             "a2"
             "b2"
             "a3"
             "b3";
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: 200px 110px;
-            grid-auto-rows: 200px 110px;
-            row-gap: 10px;
-        }
-        .tuition-sections{
-            height:1050px;
-        }
-        .tuition-sections h1 {
-            margin-top: 0px;
-            line-height: 50px;
-            font-size: 150%;
-        }
-        #hh-a1, #hh-a2, #hh-a3, #fs-a1, #fs-a2, #fs-a3 {
-           padding-right:3.5%;
-           padding-top:0;
-        }     
-        .bottom-section {
-            margin-bottom: 30px;
-        }
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 200px 110px;
+        grid-auto-rows: 200px 110px;
+        row-gap: 10px;
+    }
 
-        .instruction-images {
-            width:190px;
-        }
-        .demo-images {
-            width: 190px;
-        }
-        .step-numbers {
-            top: -1%;
-            left: -30%;
-          }
+    .tuition-sections {
+        height: 1050px;
+    }
 
-          /* Styling for Sign Up page max width 750px */
-          .signup-form {
-            left: 5%;
-            width: 90vw;
-        }
+    .tuition-sections h2 {
+        margin-top: 0px;
+        line-height: 50px;
+        font-size: 150%;
+    }
 
-        .sign-up-button {
-            width: 50%;
-            margin: 20px 25% 5% 25%;
-            font-size: 120%;
-        }
+    #hh-a1,
+    #hh-a2,
+    #hh-a3,
+    #fs-a1,
+    #fs-a2,
+    #fs-a3 {
+        padding-right: 3.5%;
+        padding-top: 0;
+    }
 
-        .signup-form h2 {
-            font-size: 130%;
-            margin-bottom: 5%;
-        }
+    .bottom-section {
+        margin-bottom: 30px;
+    }
 
-        /* Styling for Thank You page max width 750px */
-        #thank-you-form {
-            width: 90vw;
-            left: 5%;
-            padding-top: 5%;
-        }
+    .instruction-images {
+        width: 190px;
+    }
+
+    .demo-images {
+        width: 190px;
+    }
+
+    .step-numbers {
+        top: -1%;
+        left: -30%;
+    }
+
+    /* Styling for Sign Up page max width 750px */
+    .signup-form {
+        left: 5%;
+        width: 90vw;
+    }
+
+    .sign-up-button {
+        width: 50%;
+        margin: 20px 25% 5% 25%;
+        font-size: 120%;
+    }
+
+    .signup-form h2 {
+        font-size: 130%;
+        margin-bottom: 5%;
+    }
+
+    /* Styling for Thank You page max width 750px */
+    #thank-you-form {
+        width: 90vw;
+        left: 5%;
+        padding-top: 5%;
+    }
 }
-
-
