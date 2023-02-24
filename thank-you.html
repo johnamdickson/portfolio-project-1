@@ -11,6 +11,14 @@
     <link rel="icon" href="assets/images/logo-favicon.png" type="image/png">
     <title>Learn to Crochet</title>
     <script src="https://kit.fontawesome.com/f99ce6eeee.js" crossorigin="anonymous"></script>
+    <script>
+        window.onload = function() {
+        let myURL = window.location;
+        var searchParams = new URLSearchParams(myURL.search)
+        let first_name = (searchParams.get('first_name'))
+        document.getElementById('output').innerHTML = first_name
+        }
+    </script>
 </head>
 
 <body>
@@ -31,7 +39,7 @@
         </header>
         <section class="form-section">
             <form method="get" action="index.html" class="signup-form" id="thank-you-form" >
-                <h2>Thank you for signing up!</h2>
+                <h2>Thank you <span id="output"></span> for signing up!</h2>
                 <p>Please click the button below to return to the home page.</p> 
                 <input class="sign-up-button" type="submit" value="Go Home">
             </form>
