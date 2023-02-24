@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
     <title>Learn to Crochet</title>
     <script src="https://kit.fontawesome.com/f99ce6eeee.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div id="wrapper">
         <header id="sign-up-header">
@@ -24,33 +26,35 @@
                 <ul id="menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="get-started.html">Get Started</a></li>
-                    <li><a href="sign-up.html">Sign Up</a></li>
+                    <li><a href="sign-up.html" class="active">Sign Up</a></li>
                 </ul>
             </nav>
         </header>
-        <section class="thank-you-section">
-            <div>
-                <h1>Thank you for signing up! Please click the button below to return to the home page.</h1>
-                <button type="submit" aria-label="Press button to return to the home page." action="index.html">Go Home</button>
-            </div>
+        <section class="form-section">
+            <form method="get" action="index.html" class="signup-form" id="thank-you-form" >
+                <h2>Thank you for signing up! <br><br> Please click the button below to return to the home page.</h2>
+                <input class="sign-up-button" type="submit" value="Go Home">
+            </form>
         </section>
-        <footer>
-            <ul class="social-networks">
-                <li>
-                    <a href="https://www.etsy.com/ie/shop/LittleWoollySnuggles" target="_blank" rel="noopener"
-                        aria-label="Visit our Etsy Shop(opens in a new tab)"><i class="fa-brands fa-etsy"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/littlewoollysnuggles/?hl=en" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram Page(opens in a new tab)"><i
-                            class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li>
-                    <a href=" https://twitter.com/little_woolly" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page(opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-                </li>
-            </ul>
-        </footer>
+            <footer>
+                <ul class="social-networks">
+                    <li>
+                        <a href="https://www.etsy.com/ie/shop/LittleWoollySnuggles" target="_blank" rel="noopener"
+                            aria-label="Visit our Etsy Shop(opens in a new tab)"><i class="fa-brands fa-etsy"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/littlewoollysnuggles/?hl=en" target="_blank" rel="noopener"
+                            aria-label="Visit our Instagram Page(opens in a new tab)"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=" https://twitter.com/little_woolly" target="_blank" rel="noopener"
+                            aria-label="Visit our Twitter page(opens in a new tab)"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </footer>
     </div>
 </body>
+
 </html>

@@ -522,6 +522,15 @@ footer {
     font-size: 150%;
 }
 
+/* Styling for thank you page*/
+
+#thank-you-form {
+    height: 50%;
+    width: 60vw;
+    top: 25%;
+    left: 20%;
+}
+
 /* Styling for media screens */
 
 @media screen and (max-width:1200px) {
@@ -640,6 +649,12 @@ footer {
     .signup-form {
         left: 15%;
         width: 70vw;
+    }
+
+  /* Styling for Thank You page max width 1200px */
+    #thank-you-form {
+        width: 70vw;
+        left: 15%;
     }
 }
 
@@ -768,6 +783,14 @@ footer {
         font-size: 130%;
         margin-bottom: 2%;
     }
+
+
+  /* Styling for Thank You page max width 950px */
+  #thank-you-form {
+    width: 80vw;
+    left: 10%;
+    padding-top: 6%;
+}
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
@@ -819,6 +842,8 @@ footer {
             margin: 0 auto;
         }
 }
+
+/* Styling for max screen width 750px */
 
 @media screen and (max-width: 750px) {
     h1 {
@@ -985,6 +1010,12 @@ footer {
             margin-bottom: 5%;
         }
 
+        /* Styling for Thank You page max width 750px */
+        #thank-you-form {
+            width: 90vw;
+            left: 5%;
+            padding-top: 5%;
+        }
 }
 
 
