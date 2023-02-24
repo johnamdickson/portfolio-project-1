@@ -1,6 +1,11 @@
-# Learn to Crochet by Little Woolly Snuggles
+
+
+
+# <img src="assets/images/logo-favicon.png"  width="50" height="50"> Learn to Crochet by Little Woolly Snuggles
 
 Learn to Crochet is a website created for Little Woolly Snuggles, a handmade craft business that specialises in crochet and knit products. The site is targeted towards people that are interested in learning crochet by introducting them to the craft and showing them the basics. 
+
+This website is showcasing HTML and CSS design for Project Portfolio 1.
 
 ![Responsive Mockup Screenshot](/assets/README-files/am-i-responsive-screenshot.jpg)
 
@@ -102,23 +107,21 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The description of crochet was taken from Wikipedia.
+- The benefits of crochet were taken from two crocheting websites and a study referenced in the National Library of Medicine.
+- Stack Overflow, W3 Docs, MDN Web Docs and other online resources were a massive help for HTML or CSS code that enabled some of the functionality I was looking for. 
+- Slack was an enormous help in resolving common issues that others had faced before me. 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- I would finally like to thank my wife Sinéad whose crocheting talents inspired me to build this website for my first project portfolio.
+
+For a full list of references please review this [pdf.](/assets/README-files/reference-list.pdf)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
+- Many of the photos used extensively through the site were obtained from [Pexels](https://www.pexels.com/)
 - The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
 ## Other General Project Advice
 
