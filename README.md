@@ -35,33 +35,50 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
   - A zoom effect is utilised on the hero image using @keyframes animation to further accentuate the image to the user.
   - This section also includes a sign up circle which when pressed leads the user to the sign up page.
   - The sign up circle is also animated and appears after the hero image animation is completed.
+  - See GIF below which demonstrates both animations as they appear when the page loads.
 
-##### Hero Image
+
 ![Hero Image](/assets/README-files/hero-image-animation.gif)
 
 
-- __Club Ethos Section__
+- __What is Crochet? Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This section consists of an overview of crochet derived from Wikipedia and located in a styled div floated left.
+  - Floated right is a circular bordered close-up picture of persons hands as they crochet. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
+![What is Crochet Section](/assets/README-files/what-is-crochet-section.jpg)
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+- __Why Learn to Crochet? Section__
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  - This section highlights benefits to learning crochet in an unordered list along with font awesome icons to further style the text. 
+  - There is another circular bordered photo of a person holding items of that have been crafted by crocheting.
+  - The float properties of the image and paragraph container are opposite the corresponding elements for the What is Crochet section to create an offset effect and a visually stimulating transition downwards.
+  - The section has a blurred background image of yarn again to create contrast and a visual effect. This background attachment is fixed.
+  - The h2 heading font colour change and shadowing properties help it to stand out against the background image.
+
+
+![What is Crochet Section](/assets/README-files/why-learn-to-crochet.jpg)
+
+
+- __Why Little Woolly Snuggles? Section__
+
+  - This is the last section on the Home Page and contains a paragraph giving context to what Little Woolly Snuggles is.
+  - The circular image in this instance is the company logo along with company name with styled font.
+  - The layout of image and paragraph div is the same as What is Crochet? section and creates a further offset agains the Why Learn to Crochet section.
+
+![What is Crochet Section](/assets/README-files/why-little-woolly-snuggles.jpg)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the actual social media sites for Little Woolly Snuggles. The links will open up a new tab to allow easy navigation for the user. 
+  - The footer also contains a link to the company's Etsy shop.
+  - The footer is fixed to the bottom of the page and is accessible at any time whilst browsing. 
+  - The links use fontawesome icons with a colour consistent with the text colour used elsewhere in the website.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](/assets/README-files/footer.jpg)
 
-- __Gallery__
+<!-- - __Gallery__
 
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
@@ -76,7 +93,7 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future: -->
 
 ### Features Left to Implement
 
