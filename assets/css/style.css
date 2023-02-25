@@ -528,9 +528,23 @@ footer {
 }
 
 .signup-form {
+    display: grid;
+    width:90%;
+    align-items: center;
+    grid-template-columns: 20% 78%;
+    grid-template-rows: 100px 50px 50px 50px 75px;
+    column-gap: 2%;
+    row-gap: 20px;
+    grid-template-areas: 
+    "header header"
+    "firstnamelabel firstnametextinput"
+    "lastnamelabel lastnametextinput"
+    "emaillabel emailtextinput"
+    "signupbutton signupbutton"
+    ;
     border-radius: 5%;
     box-sizing: border-box;
-    padding: 3% 6%;
+    padding: 3% 4%;
     position: absolute;
     background-color: rgba(184, 211, 204, 0.95);
     top: 10%;
@@ -544,6 +558,7 @@ footer {
     text-align: center;
     margin-bottom: 2%;
     font-size: 170%;
+    grid-area: header;
 }
 
 .text-input {
@@ -553,9 +568,9 @@ footer {
     text-indent: 5px;
     width: 90%;
     height: 35px;
-    margin: 5px 20px 20px 20px;
     border: 1px solid #120E11;
     border-radius: 2px;
+    
 }
 
 .text-input:hover {
@@ -568,13 +583,14 @@ footer {
 
 .sign-up-button {
     width: 33%;
-    margin: 20px 33% 5% 33%;
+    margin:auto;
     border-radius: 5px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 120%;
     background-color: #f5a8e4;
     color: #120E11;
+    grid-area: signupbutton;
 }
 
 .sign-up-button:hover {
@@ -583,7 +599,32 @@ footer {
     color: #f5a8e4;
     font-size: 150%;
 }
+#fname-label {
+    grid-area: firstnamelabel;
+}
 
+#fname {
+    grid-area: firstnametextinput;
+    margin:auto;
+}
+
+#lname-label {
+    grid-area: lastnamelabel;
+}
+
+#lname {
+    grid-area: lastnametextinput;
+    margin:auto;
+}
+
+#email-label {
+    grid-area: emaillabel;
+}
+
+#email {
+    grid-area: emailtextinput;
+    margin:auto;
+}
 /* Styling for Thank You page*/
 
 #thank-you-form {
@@ -853,6 +894,7 @@ footer {
     .signup-form {
         left: 10%;
         width: 80vw;
+        height: auto;
     }
 
     .sign-up-button {
@@ -927,6 +969,21 @@ footer {
     .instruction-images-container {
         padding-right: 0;
         margin: 0 auto;
+    }
+
+    /* styling for Sign Up page max width 950 and landscape orientation */
+    #wrapper {
+        height: 200vh;
+    }
+
+    #wrapper footer {
+        position: fixed;
+    }
+
+    .signup-form {
+        left: 10%;
+        width: 80vw;
+        height: auto;
     }
 }
 
@@ -1098,6 +1155,8 @@ footer {
     .signup-form {
         left: 5%;
         width: 90vw;
+        height: auto;
+        padding-top: 10%;
     }
 
     .sign-up-button {
@@ -1109,6 +1168,14 @@ footer {
     .signup-form h2 {
         font-size: 130%;
         margin-bottom: 5%;
+    }
+
+    #fname-label, #sname-label{
+        font-size: 75%;
+    }
+
+    #email-label {
+        font-size: 63%;
     }
 
     /* Styling for Thank You page max width 750px */
