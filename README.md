@@ -29,11 +29,14 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 ![Nav Bar Normal](/assets/README-files/nav-bar-750px.jpg)
 
 
-- __The landing page image__
+- __The Home Page Hero Image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The home page hero image is a striking picture of a series of colour coordinated yarn spools arranged on a shelf. 
+  - A zoom effect is utilised on the hero image using @keyframes animation to further accentuate the image to the user.
+  - This section also includes a sign up circle which when pressed leads the user to the sign up page.
+  - The sign up circle is also animated and appears after the hero image animation is completed.
 
+##### Hero Image
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __Club Ethos Section__

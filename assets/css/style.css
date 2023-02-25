@@ -137,10 +137,7 @@ nav {
     position: absolute;
     border: 2px solid #313E47;
     opacity: 0;
-    animation-name: sign-up-circle-appear;
-    animation-duration: 2s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
+    animation: 2s ease-out 3s forwards sign-up-circle-appear;
 }
 
 @keyframes sign-up-circle-appear {
@@ -160,8 +157,6 @@ nav {
     cursor: pointer;
 
 }
-
-
 
 #sign-up-text {
     margin: 10px;
