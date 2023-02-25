@@ -12,6 +12,9 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 ## Features 
 
 ### Existing Features
+- __The Title Bar__
+  - The Little Woolly Snuggles logo appears in the title bar as a small icon to help increase user engagement with the website and company brand.
+  ![Title bar](/assets/README-files/icon-in-title-bar.jpg)
 
 - __Navigation Bar__
 
@@ -83,17 +86,22 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png) -->
 
 - __The Sign Up Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to subscribe to the Little Woolly Snuggles newsletter. Note this newsletter does not currently exist and is used as a means to demonstrate a form element.
+  - The page header and footer are the same for the other pages, again to ensure consistency across the site.
+  - The background image is the balls of yarn as used behind sections in previous pages. The difference in this page is that the blurred effect is absent which creates context to the previous pages and a continuous thread through all of them. 
+  - The sign up form contains required input text fields for first name, last name and e-mail along with a submit button. 
+  - Hover psuedo classes were adopted to responsively style the form elements as shown in the GIF below:
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+
+![Sign Up](/assets/README-files/form-responsive-elements.gif)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future: -->
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 

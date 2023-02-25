@@ -34,6 +34,7 @@ nav {
     font-weight: 200;
 }
 
+/* Contrast h2 for headings with blurred background behind. */
 .contrast-h2 {
     line-height: 90px;
     font-size: 200%;
@@ -86,11 +87,13 @@ nav {
     color: inherit;
 }
 
+/* Responsive styling for menu items */
 #menu a:hover {
     border-bottom: 1px solid #313e47;
     opacity: 0.6;
 }
 
+/* Shadow effect for hyperlink of current page. */
 .active {
     font-weight: 400;
     text-shadow: 0.5px 0.5px lightgray;
@@ -115,11 +118,12 @@ nav {
     animation-fill-mode: forwards;
 }
 
-
+/* animation for hero image */
 @keyframes hero-zoom {
     from {
         transform: scale(1)
     }
+
     to {
         transform: scale(1.1);
     }
@@ -138,12 +142,15 @@ nav {
     border: 2px solid #313E47;
     opacity: 0;
     animation: 2s ease-out 3s forwards sign-up-circle-appear;
+    /* animation shorthand for sign up circle. The forwards attribute ensures that the element retains properties assigned as part of animation.*/
 }
 
+/* Animation for sign-up-circle */
 @keyframes sign-up-circle-appear {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 0.9
     }
@@ -271,6 +278,7 @@ nav {
     font-size: 200%;
 }
 
+/* Style page footer section */
 footer {
     position: fixed;
     bottom: 0;
@@ -309,7 +317,7 @@ footer {
     position: relative;
 
 }
-
+/* Use backdrop-filter with a blur effect for specific section backgrounds */
 .blur {
     backdrop-filter: blur(4px);
     height: 100%;
