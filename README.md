@@ -79,11 +79,21 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
   - The page header and footer are the same for the other pages, again to ensure consistency across the site.
   - The background image is the balls of yarn as used behind sections in previous pages. The difference in this page is that the blurred effect is absent which creates context to the previous pages and a continuous thread through all of them. 
   - The sign up form contains required input text fields for first name, last name and e-mail along with a submit button. 
-  - Hover psuedo classes were adopted to responsively style the 
+  - Hover psuedo classes were adopted to responsively style the form elements in a manner consistent with the overall website theme.
+  A submit button which when pressed directs the user to a hidden page with a thank you message.
+
 
 ![Sign Up Page](/assets/README-files/signup-page.jpg)
-### Features Left to Implement
 
+
+- __The Thank You Page__
+
+  - This page can only be accessed through the website when the Sign Up form is filled in completely and submitted. Note that the navigation menu links are purposely not styled as active for this page.
+  - There is a form element with styling matching the Sign Up page form whereby the user is thanked for signing up.
+  - Another submit button is available at the bottom of the message to return home.
+  - To increase engagement with the thank you message, JS code was added to parse first name data from the thank you page URL and add to the thank you message. 
+
+### Features Left to Implement
 - Videos of the instructions was considered early on in the strategy plane. However, this was deemed as a trade off during the scoping exercise due to time contraints and the required objectives of the project. 
 
 ## Testing 
