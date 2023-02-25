@@ -102,9 +102,8 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 ![Nav Bar 950](/assets/README-files/nav-bar-750px.jpg)
 
 - __Home Page__
-  - The header 
-  - The content in the home page 
-  - The GIF below which demonstrates both hero imaged animations as they appear when the page loads.
+
+  - The GIF below which demonstrates both hero image animations as they appear when the page loads.
 
 
 ![Hero Image](/assets/README-files/hero-image-animation.gif)
