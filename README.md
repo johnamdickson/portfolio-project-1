@@ -22,15 +22,16 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
   - There are three hyperlinks on the right of the bar allowing for navigation between the available pages. The hyperlink on the active page has custom styling to distinguish it from the non-active pages.
   - This section is further responsive to 3 different media screen sizes: Normal (>1200px), max screen width 1200px and max screen width 750px.
 
-##### Nav Bar Normal Width
-![Nav Bar Normal](/assets/README-files/nav-bar-normal.jpg)
+  ![Nav Bar](/assets/README-files/nav-bar-normal.jpg)
 
-##### Nav Bar Max Width 1200px
-![Nav Bar Normal](/assets/README-files/nav-bar-1200px.jpg)
+- __The Footer__ 
 
-##### Nav Bar Max Width 750px
-![Nav Bar Normal](/assets/README-files/nav-bar-750px.jpg)
+  - The footer section includes links to the actual social media sites for Little Woolly Snuggles. The links will open up a new tab to allow easy navigation for the user. 
+  - The footer also contains a link to the company's Etsy shop.
+  - The footer is fixed to the bottom of the page and is accessible at any time whilst browsing. 
+  - The links use fontawesome icons with a colour consistent with the text colour used elsewhere in the website.
 
+![Footer](/assets/README-files/footer.jpg)
 
 - __The Home Page Hero Image__
 
@@ -38,11 +39,8 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
   - A zoom effect is utilised on the hero image using @keyframes animation to further accentuate the image to the user.
   - This section also includes a sign up circle which when pressed leads the user to the sign up page.
   - The sign up circle is also animated and appears after the hero image animation is completed.
-  - See GIF below which demonstrates both animations as they appear when the page loads.
-
-
-![Hero Image](/assets/README-files/hero-image-animation.gif)
-
+ 
+![Hero Image](/assets/README-files/hero-image.jpg)
 
 - __What is Crochet? Section__
 
@@ -72,42 +70,50 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 
 ![What is Crochet Section](/assets/README-files/why-little-woolly-snuggles.jpg)
 
-- __The Footer__ 
+- __The Get Started Page__
 
-  - The footer section includes links to the actual social media sites for Little Woolly Snuggles. The links will open up a new tab to allow easy navigation for the user. 
-  - The footer also contains a link to the company's Etsy shop.
-  - The footer is fixed to the bottom of the page and is accessible at any time whilst browsing. 
-  - The links use fontawesome icons with a colour consistent with the text colour used elsewhere in the website.
-
-![Footer](/assets/README-files/footer.jpg)
-
-<!-- - __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png) -->
 
 - __The Sign Up Page__
 
-  - This page will allow the user to subscribe to the Little Woolly Snuggles newsletter. Note this newsletter does not currently exist and is used as a means to demonstrate a form element.
+  - This page will allow the user to subscribe to the Little Woolly Snuggles newsletter. Note this newsletter does not currently exist and is used as a means to demonstrate a get form element.
   - The page header and footer are the same for the other pages, again to ensure consistency across the site.
   - The background image is the balls of yarn as used behind sections in previous pages. The difference in this page is that the blurred effect is absent which creates context to the previous pages and a continuous thread through all of them. 
   - The sign up form contains required input text fields for first name, last name and e-mail along with a submit button. 
-  - Hover psuedo classes were adopted to responsively style the form elements as shown in the GIF below:
+  - Hover psuedo classes were adopted to responsively style the 
 
-
-![Sign Up](/assets/README-files/form-responsive-elements.gif)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
+![Sign Up Page](/assets/README-files/signup-page.jpg)
 ### Features Left to Implement
 
-- Another feature idea
+- Videos of the instructions was considered early on in the strategy plane. However, this was deemed as a trade off during the scoping exercise due to time contraints and the required objectives of the project. 
 
 ## Testing 
+
+ - __Nav Bar__
+   - The Nav Bar responsiveness was checked across the three widths as described in the features section. Some minor styling adjustments were made to get the font size right and in the end behaviour was as expected.
+   - The h3 font was changed after consultation with the client to resemble the font in the company logo.
+
+##### Nav Bar Normal Width
+![Nav Bar Normal](/assets/README-files/nav-bar-normal.jpg)
+
+##### Nav Bar Max Width 1200px
+![Nav Bar 1200](/assets/README-files/nav-bar-1200px.jpg)
+
+##### Nav Bar Max Width 750px
+![Nav Bar 950](/assets/README-files/nav-bar-750px.jpg)
+
+- __Home Page__
+  - The header 
+  - The content in the home page 
+  - The GIF below which demonstrates both hero imaged animations as they appear when the page loads.
+
+
+![Hero Image](/assets/README-files/hero-image-animation.gif)
+
+- __Sign-Up Page__
+
+  - Responsive design on the form elements was tested as shown in the GIF below:
+
+![Sign Up Responsiveness](/assets/README-files/form-responsive-elements.gif)
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
