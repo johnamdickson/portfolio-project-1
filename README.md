@@ -88,10 +88,13 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 
 - __The Thank You Page__
 
-  - This page can only be accessed through the website when the Sign Up form is filled in completely and submitted. Note that the navigation menu links are purposely not styled as active for this page.
+  - This page can only be accessed through the website when the Sign Up form is filled in completely and submitted. 
+  - The navigation menu links are purposely not styled as active for this page to make it clear to the user that this is a supplementary page.
   - There is a form element with styling matching the Sign Up page form whereby the user is thanked for signing up.
   - Another submit button is available at the bottom of the message to return home.
   - To increase engagement with the thank you message, JS code was added to parse first name data from the thank you page URL and add to the thank you message. 
+
+  ![Thank You Page](/assets/README-files/thank-you-form.jpg)
 
 ### Features Left to Implement
 - Videos of the instructions was considered early on in the strategy plane. However, this was deemed as a trade off during the scoping exercise due to time contraints and the required objectives of the project. 
@@ -123,6 +126,15 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
   - Responsive design on the form elements was tested as shown in the GIF below:
 
 ![Sign Up Responsiveness](/assets/README-files/form-responsive-elements.gif)
+
+- __Thank You Page__
+
+  - Transition from Sign Up page to Thank You page tested by filling out form and then clicking submit.
+  - Confirmation that the first name was parsed from URL also checked succesfully. 
+  - THe active class styling was deselected in the nav menu as expected.
+  - See GIF below showing Sign Up transition to Thank You page and presence of first name in thank you message.
+
+  ![Transition to Thank You Page](/assets/README-files/transition-to-thank-you-page.gif)
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
