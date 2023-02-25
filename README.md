@@ -11,16 +11,23 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - On the LHS there is the company logo along with website title and a reference to Little Woolly Snuggles as an h3 in handwritten font to both distinguish it from the h1 and tie into the associated logo handwriting, which can be viewed in the last image on the home page.
+  - There are three hyperlinks on the right of the bar allowing for navigation between the available pages. The hyperlink on the active page has custom styling to distinguish it from the non-active pages.
+  - This section is further responsive to 3 different media screen sizes: Normal (>1200px), max screen width 1200px and max screen width 750px.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+##### Nav Bar Normal Width
+![Nav Bar Normal](/assets/README-files/nav-bar-normal.jpg)
+
+##### Nav Bar Max Width 1200px
+![Nav Bar Normal](/assets/README-files/nav-bar-1200px.jpg)
+
+##### Nav Bar Max Width 750px
+![Nav Bar Normal](/assets/README-files/nav-bar-750px.jpg)
+
 
 - __The landing page image__
 
@@ -121,7 +128,9 @@ For a full list of references please review this [pdf.](/assets/README-files/ref
 ### Media
 
 - Many of the photos used extensively through the site were obtained from [Pexels](https://www.pexels.com/)
-- The images used for the gallery page were taken from this other open source site
+- Many of the photos were taken at home with the assistance of my wife.
+
+
 
 ## Other General Project Advice
 
