@@ -37,7 +37,8 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
   - The sign up circle is also animated and appears after the hero image animation is completed.
 
 ##### Hero Image
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Hero Image](/assets/README-files/hero-image-animation.gif)
+
 
 - __Club Ethos Section__
 
