@@ -9,6 +9,17 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 
 ![Responsive Mockup Screenshot](/assets/README-files/am-i-responsive-screenshot.jpg)
 
+## Design
+### Colour Scheme
+- The colour scheme was selected  to provide a match with the dominant two colors in the logo. At first the colors were sampled using a dropper, with a more purple color for the header and footer and a darker green for the applicable body elements backgrounds. 
+- Feedback from the client led to a change in the colors towards pink for the header and footer and a pastel green for the main element backgrounds.
+- Name That Color website was utilised to name the two colors thereby allowing a more meaninful description with the client once the colors were agreed. Access website here: [Name That Color](https://chir.ag/projects/name-that-color/)
+#### Jet Stream
+![Jet Stream](/assets/README-files/jet-stream-color.jpg)
+#### Illusion
+![Illusion](/assets/README-files/illusion-color.jpg)
+
+
 ## Features 
 
 ### Existing Features
@@ -33,7 +44,7 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 
 ![Footer](/assets/README-files/footer.jpg)
 
-- __The Home Page Hero Image__
+- __The Home Page - Hero Image__
 
   - The home page hero image is a striking picture of a series of colour coordinated yarn spools arranged on a shelf. 
   - A zoom effect is utilised on the hero image using @keyframes animation to further accentuate the image to the user.
@@ -42,15 +53,15 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
  
 ![Hero Image](/assets/README-files/hero-image.jpg)
 
-- __What is Crochet? Section__
+- __The Home Page - What is Crochet? Section__
 
   - This section consists of an overview of crochet derived from Wikipedia and located in a styled div floated left.
-  - Floated right is a circular bordered close-up picture of persons hands as they crochet. 
+  - Floated right is a circular close-up picture of persons hands as they crochet, bordered in the theme colour. 
 
 
 ![What is Crochet Section](/assets/README-files/what-is-crochet-section.jpg)
 
-- __Why Learn to Crochet? Section__
+- __THe Home Page - Why Learn to Crochet? Section__
 
   - This section highlights benefits to learning crochet in an unordered list along with font awesome icons to further style the text. 
   - There is another circular bordered photo of a person holding items of that have been crafted by crocheting.
@@ -62,7 +73,7 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 ![What is Crochet Section](/assets/README-files/why-learn-to-crochet.jpg)
 
 
-- __Why Little Woolly Snuggles? Section__
+- __The Home Page - Why Little Woolly Snuggles? Section__
 
   - This is the last section on the Home Page and contains a paragraph giving context to what Little Woolly Snuggles is.
   - The circular image in this instance is the company logo along with company name with styled font.
@@ -70,8 +81,10 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 
 ![What is Crochet Section](/assets/README-files/why-little-woolly-snuggles.jpg)
 
-- __The Get Started Page__
+- __The Get Started Page - What You Will Need Section__
 
+  - This is the first section on the page and displays a horizontal series of 4 circular images all bordered in the pastel green theme colour defining pictorally the necessary requirements for crocheting.
+  - Beneath each image, is a rounded div containing paragraphs detailing the 4 requirements with a brief description. 
 
 - __The Sign Up Page__
 
@@ -131,8 +144,9 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 
   - Transition from Sign Up page to Thank You page tested by filling out form and then clicking submit.
   - Confirmation that the first name was parsed from URL also checked succesfully. 
-  - THe active class styling was deselected in the nav menu as expected.
-  - See GIF below showing Sign Up transition to Thank You page and presence of first name in thank you message.
+  - The active class styling was deselected in the nav menu as expected.
+ - The home button worked as expected, returning the user to the home page.
+  - See GIF below showing Sign Up transition to Thank You page, presence of first name in thank you message and return to home page.
 
   ![Transition to Thank You Page](/assets/README-files/transition-to-thank-you-page.gif)
 
