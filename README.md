@@ -11,13 +11,21 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 
 ## Design
 ### Colour Scheme
-- The colour scheme was selected  to provide a match with the dominant two colors in the logo. At first the colors were sampled using a dropper, with a more purple color for the header and footer and a darker green for the applicable body elements backgrounds. 
-- Feedback from the client led to a change in the colors towards pink for the header and footer and a pastel green for the main element backgrounds.
-- Name That Color website was utilised to name the two colors thereby allowing a more meaninful description with the client once the colors were agreed. Access website here: [Name That Color](https://chir.ag/projects/name-that-color/)
+- The colour scheme was selected  to provide a match with the dominant two colours in the logo. At first the colours were sampled using a dropper, with a more purple colour for the header and footer and a darker green for the applicable body elements backgrounds. 
+- Feedback from the client led to a revision of the colours towards pink for the header and footer and a pastel green for the main element backgrounds but still retaining a connection to logo dominant colours.
+- [Name That Color](https://chir.ag/projects/name-that-color/) website was utilised to name the two colours thereby allowing a more meaninful description with the client once the they were agreed.
 #### Jet Stream
 ![Jet Stream](/assets/README-files/jet-stream-color.jpg)
 #### Illusion
 ![Illusion](/assets/README-files/illusion-color.jpg)
+
+### Typography
+
+All fonts were sourced from Google Fonts:
+
+ - Prompt. A sans-serif font used for h1, h2 and nav elements.
+ - Dancing Script. A cursive font used for h3 elements.
+ - Maitree. A serif font used for body and input elements.
 
 
 ## Features 
@@ -55,8 +63,8 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 
 - __The Home Page - What is Crochet? Section__
 
-  - This section consists of an overview of crochet derived from Wikipedia and located in a styled div floated left.
-  - Floated right is a circular close-up picture of persons hands as they crochet, bordered in the theme colour. 
+  - This section consists of an overview of crochet derived from Wikipedia and located in a styled div floated left. The div background colour is the theme colour Jet Stream.
+  - Floated right is a circular close-up picture of persons hands as they crochet, bordered in the theme colour Jet Stream. 
 
 
 ![What is Crochet Section](/assets/README-files/what-is-crochet-section.jpg)
@@ -66,7 +74,7 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
   - This section highlights benefits to learning crochet in an unordered list along with font awesome icons to further style the text. 
   - There is another circular bordered photo of a person holding items of that have been crafted by crocheting.
   - The float properties of the image and paragraph container are opposite the corresponding elements for the What is Crochet section to create an offset effect and a visually stimulating transition downwards.
-  - The section has a blurred background image of yarn again to create contrast and a visual effect. This background attachment is fixed.
+  - The section has a blurred background image of yarn again to create contrast and a visual effect. This background attachment is fixed to create a perspective against the background as the user scrolls downwards.
   - The h2 heading font colour change and shadowing properties help it to stand out against the background image.
 
 
@@ -83,8 +91,9 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 
 - __The Get Started Page - What You Will Need Section__
 
-  - This is the first section on the page and displays a horizontal series of 4 circular images all bordered in the pastel green theme colour defining pictorally the necessary requirements for crocheting.
-  - Beneath each image, is a rounded div containing paragraphs detailing the 4 requirements with a brief description. 
+  - This is the first section on the page and displays a horizontal series of 4 circular images all bordered in the Jet Stream theme colour, defining pictorally the necessary requirements for crocheting.
+  - Beneath each image, is a rounded div containing paragraphs detailing the 4 requirements with a brief description.
+  - Each paragraph contains a span which applies bold styling to the first sentence so that the requirement stands out against the description.
 
 - __The Sign Up Page__
 
