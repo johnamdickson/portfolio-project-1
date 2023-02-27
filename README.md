@@ -33,7 +33,8 @@ All fonts were sourced from Google Fonts:
 
 ### Existing Features
 - __The Title Bar__
-  ![Title bar](/assets/README-files/icon-in-title-bar.jpg)
+<br>
+<img src="assets/README-files/icon-in-title-bar.jpg"  width="300" > 
   - The Little Woolly Snuggles logo appears in the title bar as a small icon to help increase user engagement with the website and company brand.
 <br><br>
 
@@ -161,7 +162,7 @@ All fonts were sourced from Google Fonts:
   - Transition from Sign Up page to Thank You page tested by filling out form and then clicking submit.
   - Confirmation that the first name was parsed from URL also checked succesfully. 
   - The active class styling was deselected in the nav menu as expected.
-  - The home button worked as expected, returning the user to the home page.
+  - The Go Home button worked as expected, returning the user to the home page.
   - See GIF below showing Sign Up transition to Thank You page, presence of first name in thank you message and return to home page.
     ![Transition to Thank You Page](/assets/README-files/transition-to-thank-you-page.gif)
 <br><br>
@@ -198,9 +199,9 @@ All fonts were sourced from Google Fonts:
    - Reverted from using vmin for styling font due to complications with the margins being affected by layout. Opted for standard non-dynamic settings instead. Vmin did work well for the info elements below 950px so was able to utilise it there.
    - Found bug whilst reviewing on the simulator of a white space at the RHS of the screen. Checked elements for overflow, only one showing was footer. Tried setting width to 100% but did not resolve. I deselected fixed position for footer but the white space then extended into it. Googled issue and found code which resolved the issue by having overflow hidden on the html and body elements. I then contacted tutor support to see if I should go further to understanding the issue. Tutor advised continuing to fault find with individual elements to see if I can find issue and go back to them if it is not apparent.
    -  Fault find above and located issue to the ul in the middle info container. Position was absolute and with a 5% margin it pushed the element bounds outwith the normal view. Resolved issue by reducing width of the container.
-   - Published page on Github to preview homepage on Am I Responsive. Observed truncation of Main Title leading to white space under header on mobile phone. Increasing width by one percent to 66% which resolved the issue.
-   - Observed sign in circle font overflow, small font and poor contrast when viewing on iPhone. Made adjustments and tested font using WebAIM contrast checker. 
-   - Observed on iPhone that font size in landscape mode too small relative to the element. Increasing vmin causes overflow in portrait mode. Add code to handle landscape orientation.
+   - Published page on Github to preview homepage on Am I Responsive. Observed truncation of Main Title leading to white space under header on mobile phone simulator. Increasing width by one percent to 66% which resolved the issue.
+   - Observed sign-up circle font overflow, small font and poor contrast when viewing on iPhone. Made adjustments to darken font and tested successfully using WebAIM contrast checker. 
+   - Observed on iPhone that font size in landscape mode was too small relative to the element. Increasing vmin causes overflow in portrait mode. Add code to handle landscape orientation.
    - Added code to handle info container heights respective to view port size using min and max functions. 
    <br><br>
 
@@ -210,7 +211,7 @@ All fonts were sourced from Google Fonts:
   <tr>
   <td width= 60%>
 
-  - I observed anomaly on physical device (iPhone) in portrait mode that was not evident in simulator on the Get Started page as shown in the screen grab.  Set section widths to 100%, added code to landscape attribute and created portrait attribute for 750px with no success. After spending a number of hours on this I reached out to tutor support. Oisin was a great help and noticed that the issue was repeating on Firefox. Located the error to .instruction-images class where I had used the % height of container. Once I changed the units to vmin everything worked as intended. Note, using width did not have the same effect.
+  - I observed anomaly on physical device (iPhone) in portrait mode that was not evident in Chrome Devtools simulator on the Get Started page as shown in the screen grab.  I set section widths to 100%, added code to landscape attribute and created portrait attribute for 750px with no success. After spending a number of hours on this I reached out to tutor support. Oisin was a great help and noticed that the issue I was seeing was repeating on Firefox, a browser that I had not used until that point. Located the error to .instruction-images class where I had used the % height of container. Once I changed the units to vmin everything worked as intended. Note, using width did not have the same effect.
   </td>
   <td> <img src="assets//README-files/get-started-page-bug.jpeg"   height="350" > </td>
   </tr>
@@ -223,14 +224,12 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://johnamdickson.github.io/Portfolio-Project-1/get-started.html
 
 
 ## Credits 
@@ -250,22 +249,3 @@ For a full list of references please review this [pdf.](/assets/README-files/ref
 
 - Many of the photos used extensively through the site were obtained from [Pexels](https://www.pexels.com/)
 - Many of the photos were taken at home with the assistance of my wife.
-
-
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
