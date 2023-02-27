@@ -9,7 +9,13 @@ This website is showcasing HTML and CSS design for Project Portfolio 1.
 
 ![Responsive Mockup Screenshot](/assets/README-files/am-i-responsive-screenshot.jpg)
 
-## Design
+
+## UX Design
+- The scope, strategy and structure phases of the project are summarised in this [pdf.](/assets/README-files/5%20Steps%20of%20UX%20Design%20Project%201.pdf)
+- The skeleton phase of the project is detailed in these [wireframes.](/assets/README-files/Project%20Portfolio%201%20Wireframe.pdf)
+
+## The Surface Plane
+
 ### Colour Scheme
 - The colour scheme was selected  to provide a match with the dominant two colours in the logo. At first the colours were sampled using a dropper, with a more purple colour for the header and footer and a darker green for the applicable body elements backgrounds. 
 - Feedback from the client led to a revision of the colours towards pink for the header and footer and a pastel green for the main element backgrounds but still retaining a connection to logo dominant colours.
@@ -29,9 +35,9 @@ All fonts were sourced from Google Fonts:
  - Maitree. A serif font used for body and input elements.
 <br><br>
 
-## Features 
+### Features 
 
-### Existing Features
+#### Existing Features
 - __The Title Bar__
 <br>
 <img src="assets/README-files/icon-in-title-bar.jpg"  width="300" > 
@@ -114,7 +120,7 @@ All fonts were sourced from Google Fonts:
 <br><br>
 
 
-### Features Left to Implement
+#### Features Left to Implement
 - Videos of the instructions was considered early on in the strategy plane. However, this was deemed as a trade off during the scoping exercise due to time contraints and the required objectives of the project. 
 
 ## Testing 
@@ -241,6 +247,7 @@ The live link can be found here - https://johnamdickson.github.io/Portfolio-Proj
 - Stack Overflow, W3 Docs, MDN Web Docs and other online resources were a massive help for HTML or CSS code that enabled some of the functionality I was looking for. 
 - Slack was an enormous help in resolving common issues that others had faced before me. 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Much inspiration was drawn form the Love Running walkthrough project.
 - I would finally like to thank my wife Sinéad whose crocheting talents inspired me to build this website for my first project portfolio.
 
 For a full list of references please review this [pdf.](/assets/README-files/reference-list.pdf)
@@ -248,4 +255,4 @@ For a full list of references please review this [pdf.](/assets/README-files/ref
 ### Media
 
 - Many of the photos used extensively through the site were obtained from [Pexels](https://www.pexels.com/)
-- Many of the photos were taken at home with the assistance of my wife.
+- The remaining photos were taken at home.
