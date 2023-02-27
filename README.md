@@ -1,10 +1,4 @@
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 # <img src="assets/images/logo-favicon.png"  width="50" height="50"> Learn to Crochet by Little Woolly Snuggles
 
 Learn to Crochet is a website created for Little Woolly Snuggles, a handmade craft business that specialises in crochet and knit products. The site is targeted towards people that are interested in learning crochet by introducting them to the craft and showing them the basics. 
@@ -200,7 +194,7 @@ All fonts were sourced from Google Fonts:
    ![Sign Up Page Lighthouse Results](/assets/README-files/signup-page-accessibility.png)
   - The theme colours were also checked against the font colour using [contrast checker](https://webaim.org/resources/contrastchecker/) and passed.
   <br><br>
-  <table  width = 100% height = 500px>
+  <table  width = 100% height = 500px cellspacing="0" cellpadding="0">
   <tr>
   <td><img src="assets/README-files/header-contrast-checker-results.jpg" height=100%></td>
   <td> <img src="assets/README-files/body-elements-contrast-checker-results.jpg" height=100%></td>
