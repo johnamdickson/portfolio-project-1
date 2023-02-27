@@ -1,5 +1,9 @@
 
-
+<style>
+td, th {
+   border: none!important;
+}
+</style>
 
 # <img src="assets/images/logo-favicon.png"  width="50" height="50"> Learn to Crochet by Little Woolly Snuggles
 
@@ -87,7 +91,7 @@ All fonts were sourced from Google Fonts:
 ![What is Crochet Section](/assets/README-files/why-little-woolly-snuggles.jpg)
   - This is the last section on the Home Page and contains a paragraph giving context to what Little Woolly Snuggles is.
   - The circular image in this instance is the company logo along with company name with styled font.
-  - The layout of image and paragraph div is the same as What is Crochet? section and creates a further offset agains the Why Learn to Crochet section.
+  - The layout of image and paragraph div is the same as What is Crochet? section and creates a further offset against the Why Learn to Crochet section.
 <br><br>
 
 - __The Get Started Page - What You Will Need Section__
@@ -150,7 +154,7 @@ All fonts were sourced from Google Fonts:
 
 - __Get Started Page__
 
-- For this page a grid layout was adopted for the 4 photo section and the two three photo sections. This decision was based on two factors:
+- For this page a grid layout was adopted for the 4 photo section and both the three photo sections. This decision was based on two factors:
   - The added complexity of transitioning a 2 row grid to 4 rows then on to a single column was deemed too difficult and time consuming for floats.
    - An opportunity to practice a different layout property within the bounds of my first project.
  - The responsive styling of the body elements for various screen sizes was tested. As per the home page, adjustments were made during the testing process to alter various font sizes to suit the diffrent media screens.
@@ -159,6 +163,10 @@ All fonts were sourced from Google Fonts:
 
 - __Sign-Up Page__
 
+  - Spacing of the header, form section, form and footer were enclosed in a flex box layout. As with the Get Started Page, this choice of layout was based on two factors:
+    - The page height was fixed to 100vhA so there was requirement to size the form section height relative to the header and footer fixed heights. This in turn gave a known container height to style the form to.
+    - An opportunity to practice another layout property.
+  - The responsiveness of the page was tested and after resolving a bug, worked as expected.
   - Responsive design on the form elements was tested as shown in the GIF below:
   ![Sign Up Responsiveness](/assets/README-files/form-responsive-elements.gif)
 <br><br>
@@ -192,7 +200,7 @@ All fonts were sourced from Google Fonts:
    ![Sign Up Page Lighthouse Results](/assets/README-files/signup-page-accessibility.png)
   - The theme colours were also checked against the font colour using [contrast checker](https://webaim.org/resources/contrastchecker/) and passed.
   <br><br>
-  <table  width = 100% height = 400px>
+  <table  width = 100% height = 500px>
   <tr>
   <td><img src="assets/README-files/header-contrast-checker-results.jpg" height=100%></td>
   <td> <img src="assets/README-files/body-elements-contrast-checker-results.jpg" height=100%></td>
