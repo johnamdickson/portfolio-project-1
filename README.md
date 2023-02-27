@@ -185,7 +185,7 @@ All fonts were sourced from Google Fonts:
    ![Sign Up Page Lighthouse Results](/assets/README-files/signup-page-accessibility.png)
   - The theme colours were also checked against the font colour using [contrast checker](https://webaim.org/resources/contrastchecker/) and passed.
   <br><br>
-  <table  width = 100% height = 300px>
+  <table  width = 100% height = 400px>
   <tr>
   <td><img src="assets/README-files/header-contrast-checker-results.jpg" height=100%></td>
   <td> <img src="assets/README-files/body-elements-contrast-checker-results.jpg" height=100%></td>
@@ -206,12 +206,16 @@ All fonts were sourced from Google Fonts:
 
 - __Get Started Page Issues__
     - Much of the resolutions made in the home page bug fixes translated over the the Get Started page however there was one exception which took a considerable amount of time to resolve. This process is evident from the number of commits that I made on the main thread, before forking to a dedicated thread.
-    - I observed anomaly on physical device (iPhone) in portrait mode that was not evident in simulator on the Get Started page as shown in the screen grab.  Set section widths to 100%, added code to landscape attribute and created portrait    attribute for 750px with no success. After spending a number of hours on this I reached out to tutor support. Oisin was a great help and noticed that the issue was repeating on Firefox. Located the error to .instruction-images class where I had used the % height of container. Once I changed the units to vmin everything worked as intended. Note, using width did not have the same effect.
+     <table  width = 100% height = 400px>
+  <tr>
+  <td width= 60%>
+
+  - I observed anomaly on physical device (iPhone) in portrait mode that was not evident in simulator on the Get Started page as shown in the screen grab.  Set section widths to 100%, added code to landscape attribute and created portrait attribute for 750px with no success. After spending a number of hours on this I reached out to tutor support. Oisin was a great help and noticed that the issue was repeating on Firefox. Located the error to .instruction-images class where I had used the % height of container. Once I changed the units to vmin everything worked as intended. Note, using width did not have the same effect.
+  </td>
+  <td> <img src="assets//README-files/get-started-page-bug.jpeg"   height="350" > </td>
+  </tr>
+  </table>
     
-    <img src="assets//README-files/get-started-page-bug.jpeg"   height="350"> 
-    <br><br>
- 
-  
 
 ### Unresolved Bugs
 
