@@ -138,7 +138,18 @@ All fonts were sourced from Google Fonts:
   - The images and info containers were positioned using the float properties and this worked adequately fot a simple two element section.
   - The GIF below demonstrates the Home Page responsiveness across varying screen sizes.
   ![Home Page Responsiveness](/assets/README-files/home-page-responsiveness-test.gif)
+
 <br><br>
+
+- __Get Started Page__
+
+- For this page a grid layout was adopted for the 4 photo section and the two three photo sections. This decision was based on two factors:
+  - The added complexity of transitioning a 2 row grid to 4 rows then on to a single column was deemed too difficult and time consuming for floats.
+   - An opportunity to practice a different layout property within the bounds of my first project.
+ - The responsive styling of the body elements for various screen sizes was tested. As per the home page, adjustments were made during the testing process to alter various font sizes to suit the diffrent media screens.
+- The instruction step number styling was also manipulated across the various screen renderings to achieve the correct alignment and look.
+
+
 - __Sign-Up Page__
 
   - Responsive design on the form elements was tested as shown in the GIF below:
@@ -164,11 +175,29 @@ All fonts were sourced from Google Fonts:
     - [Sign Up Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Fsign-up.html)
     - [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Fthank-you.html)
     
-    
-
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+- Accessibility
+  - The accessibility of each of the main pages was checked using the lighthouse tool in devtools with a score within the 90 - 100% bracket for all metrics.
+   ![Home Page Lighthouse Results](/assets/README-files/home-page-accessibility.jpg)
+   ![Get Started Page Lighthouse Results](/assets/README-files/get-started-accessibility.jpg)
+   ![Sign Up Page Lighthouse Results](/assets/README-files/signup-page-accessibility.png)
+  - The theme colours were also checked against the font colour using [contrast checker](https://webaim.org/resources/contrastchecker/) and passed.
+  <br><br>
+  <p float="left">
+  <img src="assets/README-files/header-contrast-checker-results.jpg" width="48%" height=250px />
+  <img src="assets/README-files/body-elements-contrast-checker-results.jpg" width="48%" height=250px/> 
+</p>
+
+   
+
+
+
+
+### Bugs
+- __Home Page Issues__
+   - The  
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
