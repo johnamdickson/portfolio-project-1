@@ -185,20 +185,35 @@ All fonts were sourced from Google Fonts:
    ![Sign Up Page Lighthouse Results](/assets/README-files/signup-page-accessibility.png)
   - The theme colours were also checked against the font colour using [contrast checker](https://webaim.org/resources/contrastchecker/) and passed.
   <br><br>
-  <p float="left">
-  <img src="assets/README-files/header-contrast-checker-results.jpg" width="48%" height=250px />
-  <img src="assets/README-files/body-elements-contrast-checker-results.jpg" width="48%" height=250px/> 
-</p>
-
-   
-
-
-
+  <table  width = 100% height = 300px>
+  <tr>
+  <td><img src="assets/README-files/header-contrast-checker-results.jpg" height=100%></td>
+  <td> <img src="assets/README-files/body-elements-contrast-checker-results.jpg" height=100%></td>
+  </tr>
+  </table>
+ 
 
 ### Bugs
 - __Home Page Issues__
-   - The  
-### Unfixed Bugs
+   - Reverted from using vmin for styling font due to complications with the margins being affected by layout. Opted for standard non-dynamic settings instead. Vmin did work well for the info elements below 950px so was able to utilise it there.
+   - Found bug whilst reviewing on the simulator of a white space at the RHS of the screen. Checked elements for overflow, only one showing was footer. Tried setting width to 100% but did not resolve. I deselected fixed position for footer but the white space then extended into it. Googled issue and found code which resolved the issue by having overflow hidden on the html and body elements. I then contacted tutor support to see if I should go further to understanding the issue. Tutor advised continuing to fault find with individual elements to see if I can find issue and go back to them if it is not apparent.
+   -  Fault find above and located issue to the ul in the middle info container. Position was absolute and with a 5% margin it pushed the element bounds outwith the normal view. Resolved issue by reducing width of the container.
+   - Published page on Github to preview homepage on Am I Responsive. Observed truncation of Main Title leading to white space under header on mobile phone. Increasing width by one percent to 66% which resolved the issue.
+   - Observed sign in circle font overflow, small font and poor contrast when viewing on iPhone. Made adjustments and tested font using WebAIM contrast checker. 
+   - Observed on iPhone that font size in landscape mode too small relative to the element. Increasing vmin causes overflow in portrait mode. Add code to handle landscape orientation.
+   - Added code to handle info container heights respective to view port size using min and max functions. 
+   <br><br>
+
+- __Get Started Page Issues__
+    - Much of the resolutions made in the home page bug fixes translated over the the Get Started page however there was one exception which took a considerable amount of time to resolve. This process is evident from the number of commits that I made on the main thread, before forking to a dedicated thread.
+    - I observed anomaly on physical device (iPhone) in portrait mode that was not evident in simulator on the Get Started page as shown in the screen grab.  Set section widths to 100%, added code to landscape attribute and created portrait    attribute for 750px with no success. After spending a number of hours on this I reached out to tutor support. Oisin was a great help and noticed that the issue was repeating on Firefox. Located the error to .instruction-images class where I had used the % height of container. Once I changed the units to vmin everything worked as intended. Note, using width did not have the same effect.
+    
+    <img src="assets//README-files/get-started-page-bug.jpeg"   height="350"> 
+    <br><br>
+ 
+  
+
+### Unresolved Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
