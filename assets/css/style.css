@@ -15,7 +15,7 @@ header {
 }
 
 body,
-input {
+input, button {
     font-family: 'Maitree', serif;
     font-weight: 200;
     color: #120e11;
@@ -152,7 +152,7 @@ nav {
     }
 
     to {
-        opacity: 0.9
+        opacity: 0.95
     }
 }
 
@@ -162,7 +162,6 @@ nav {
     height: 151px;
     border: 3px solid grey;
     cursor: pointer;
-
 }
 
 #sign-up-text {
@@ -170,6 +169,27 @@ nav {
     padding-top: 20px;
 }
 
+.top-button{
+    display: none;
+    position: fixed; 
+    bottom: 3.5vmin; 
+    right: 2vmin; 
+    z-index: 99; 
+    text-align: center;
+    width:75px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    background-color: #f5a8e4;
+    -webkit-text-stroke: 0.1px;
+    line-height:20px;
+  }
+  
+  .top-button:hover {
+    font-weight: 500;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
 /* Style home page sections */
 
 .info-section {
@@ -824,8 +844,8 @@ footer {
     }
 
     #sign-up-circle:hover {
-        width: 100px;
-        height: 100px;
+        width: 101px;
+        height: 101px;
     }
 
     #sign-up-text {
@@ -848,7 +868,7 @@ footer {
         float: none;
         margin: 0 auto;
         width: 95%;
-        height: 80vmin
+        height: 85vmin
     }
 
     .info-container p {

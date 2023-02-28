@@ -8,15 +8,19 @@
     <meta name="description" content="Learn to crochet with Little Woolly Snuggles.">
     <meta name="keywords" content="learn to crochet, crochet, little woolly snuggles, yarn, crafting">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="assets/images/logo-favicon.png" type="image/png"> <!-- code requried for Little Woolly Snuggles icon to appear next to title in title bar -->
+    <link rel="icon" href="assets/images/logo-favicon.png" type="image/png">
+    <!-- code requried for Little Woolly Snuggles icon to appear next to title in title bar -->
     <title>Learn to Crochet</title>
-    <script src="https://kit.fontawesome.com/f99ce6eeee.js" crossorigin="anonymous"></script> <!-- Script required to use fontawesome icons -->
+    <script src="https://kit.fontawesome.com/f99ce6eeee.js" crossorigin="anonymous"></script>
+    <!-- Script required to use fontawesome icons -->
 </head>
 
 <body>
     <header>
+        <a id="top"></a>
         <div id="logo-and-title">
-            <img src="assets/images/logo-transparent-background.png" alt="Little Woolly Snuggles logo of cartoon sheep." id="logo">
+            <img src="assets/images/logo-transparent-background.png" alt="Little Woolly Snuggles logo of cartoon sheep."
+                id="logo">
             <h1>Learn to Crochet</h1>
             <h3>with Little Woolly Snuggles</h3>
         </div>
@@ -34,14 +38,16 @@
             <p id="sign-up-text">Sign up for our newsletter and receive 5 free crochet patterns.</p>
         </div>
     </div>
+
     <section class="info-section">
         <h2>What is Crochet?</h2>
         <div class="info-container">
             <p>
                 Crochet is a process of creating textiles by using a crochet hook to interlock loops of yarn, thread, or
                 strands of other materials. The name is derived from the French term crochet, meaning 'hook'. Hooks can
-                be made from a variety of materials, such as metal, wood, bamboo, or plastic. The key difference between
-                crochet and knitting, beyond the implements used for their production, is that each stitch in crochet is
+                be made from a variety of materials, such as metal, wood, bamboo, or plastic. <br><br>
+                The key difference between crochet and knitting, beyond the implements used for their production, is
+                that each stitch in crochet is
                 completed before the next one is begun, while knitting keeps many stitches open at a time.
             </p>
         </div>
@@ -49,7 +55,8 @@
             alt="Hands of a person making an item of clothing from yarn using a crochet hook." class="info-images">
     </section>
     <section class="info-section" id="info-section-middle">
-        <div class="blur"> <!-- Blurred background is assigned to this parent div, meaning child divs remain clear in front. -->
+        <div class="blur">
+            <!-- Blurred background is assigned to this parent div, meaning child divs remain clear in front. -->
             <h2 class="contrast-h2">Why Learn to Crochet?</h2>
             <img src="assets/images/holding-crochet-toys.jpg" alt="A person holding two crocheted pumpkins and smiling."
                 id="info-image-middle">
@@ -65,7 +72,6 @@
             </div>
         </div>
     </section>
-
     <section id="info-section-bottom">
         <h2>Why Little Woolly Snuggles?</h2>
         <div class="info-container">
@@ -82,6 +88,26 @@
         <img src="assets/images/color-logo-and-writing.jpeg" alt="Little Woolly Snuggles logo in black and white."
             class="info-images">
     </section>
+    <button onclick="topFunction()" id="home-top-button" title="Go to top" class="top-button"><i class="fa-solid fa-chevron-up"></i><br>Top</button>
+    <script>
+        let mybutton = document.getElementById("home-top-button");
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+        function scrollFunction() {
+            if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
     <footer>
         <ul class="social-networks">
             <li>

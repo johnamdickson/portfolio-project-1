@@ -56,6 +56,8 @@ All fonts were sourced from Google Fonts:
   - The footer also contains a link to the company's Etsy shop.
   - The footer is fixed to the bottom of the page and is accessible at any time whilst browsing. 
   - The links use fontawesome icons with a colour consistent with the text colour used elsewhere in the website.
+  - As the header is not fixed, a button was added to take the user back to the top of the page. 
+  - The back to top button sits just proud of the footer and is only visible when the user scrolls down away from the header.
 <br><br>
 
 - __The Home Page - Hero Image__
@@ -183,6 +185,12 @@ All fonts were sourced from Google Fonts:
     ![Transition to Thank You Page](/assets/README-files/transition-to-thank-you-page.gif)
 <br><br>
 
+- __Footer__
+
+  - All links in the footer were confirmed to operate correctly.
+  - The return to top button was tested and confirmed to work on all of the three main pages.
+  ![Back to Top Button](/assets/README-files/back-to-top-button.gif)
+
 ### Validator Testing 
 
 - HTML
@@ -219,6 +227,7 @@ All fonts were sourced from Google Fonts:
    - Observed sign-up circle font overflow, small font and poor contrast when viewing on iPhone. Made adjustments to darken font and tested successfully using WebAIM contrast checker. 
    - Observed on iPhone that font size in landscape mode was too small relative to the element. Increasing vmin causes overflow in portrait mode. Add code to handle landscape orientation.
    - Added code to handle info container heights respective to view port size using min and max functions. 
+   - Feedback from Peer Code Review that there was some overflow of text from the information containers. Adjusted container size slightly to accomodate this. 
    <br><br>
 
 - __Get Started Page Issues__
@@ -250,14 +259,16 @@ The live link can be found [here.](https://johnamdickson.github.io/Portfolio-Pro
 - The description of crochet was taken from Wikipedia.
 - The benefits of crochet were taken from two crocheting websites and a study referenced in the National Library of Medicine.
 - Stack Overflow, W3 Docs, MDN Web Docs and other online resources were a massive help for HTML or CSS code that enabled some of the functionality I was looking for. 
-- Slack was an enormous help in resolving common issues that others had faced before me. 
+- Slack was an enormous help in resolving common issues that others had faced before me.
+- I want to thank Abby Humprheys in particular for her Peer Code Review and I credit the return to top button to her feedback.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Much inspiration was drawn form the Love Running walkthrough project.
+- Much inspiration was drawn from the Love Running walkthrough project. The structure of my website follows a similar trajectory and I referenced much of the html and styling code in my project.
 - I would finally like to thank my wife Sinéad whose crocheting talents inspired me to build this website for my first project portfolio.
 
 For a full list of references please review this [pdf.](/assets/README-files/reference-list.pdf)
 
 ### Media
 
-- Many of the photos used extensively through the site were obtained from [Pexels](https://www.pexels.com/)
+- Many of the photos used extensively through the site were obtained from [Pexels](https://www.pexels.com/) free stock photos site.
 - The remaining photos were taken at home.
+- Conversion of mp4s to GIFs using free service on the [Adobe](https://www.adobe.com/express/feature/video/convert/video-to-gif) website.
