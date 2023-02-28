@@ -91,8 +91,19 @@ All fonts were sourced from Google Fonts:
 - __The Get Started Page - What You Will Need Section__
 
   - This is the first section on the page and displays a horizontal series of 4 circular images all bordered in the Jet Stream theme colour, defining pictorally the necessary requirements for crocheting.
-  - Beneath each image, is a rounded div containing paragraphs detailing the 4 requirements with a brief description.
+  - Beneath each image, is a rounded corner div containing paragraphs detailing the 4 requirements with a brief description.
   - Each paragraph contains a span which applies bold styling to the first sentence so that the requirement stands out against the description.
+  - As in the home page, this section has a fixed, blurred image of yarn to unify the styling features between here and the home page.
+  <br><br>
+ - __The Get Started Page - Holding the Hook Section__ 
+    - This section displays 3 images and divs in the same format as the What You Will Need section.
+    - There is no background image on this section, creating a contrast as seen in the homepage in alternating sections.
+    - Adjacent to each image is a circular div containing step numbers.
+  <br><br>
+
+ - __The Get Started Page - Your First Stitch Section__ 
+    - As in the Holding the Hook section, this section consists of three images, three divs containing instructions and 3 divs containing step numbers.
+    - The blurred background image is present in this section.
 <br><br>
 
 - __The Sign Up Page__
@@ -120,6 +131,7 @@ All fonts were sourced from Google Fonts:
 
 #### Features Left to Implement
 - Videos of the instructions was considered early on in the strategy plane. However, this was deemed as a trade off during the scoping exercise due to time contraints and the required objectives of the project. 
+- More photos for the instructional sections in the Get Started page, possibly with a horizontal scroll bar.
 
 ## Testing 
 
