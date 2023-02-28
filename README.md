@@ -138,7 +138,7 @@ All fonts were sourced from Google Fonts:
 
   - The GIF below demonstrates both hero image animations as they appear when the page loads.
   ![Hero Image](/assets/README-files/hero-image-animation.gif)
-  - The responsive styling of the nav menu items was also verified with the Home li being highlighted.
+  - The responsive styling of the nav menu items was also verified with the Home `<li>` being highlighted.
   - The responsive styling of the body elements for various screen sizes was tested. Adjustments were made during the testing process to change the font size of the info-container paragraphs according to screen size using vmin as using absolute sizes either overflowed the container or were too small.
   - The images and info containers were positioned using the float properties and this worked adequately fot a simple two element section.
   - The GIF below demonstrates the Home Page responsiveness across varying screen sizes.
@@ -194,10 +194,10 @@ All fonts were sourced from Google Fonts:
    ![Sign Up Page Lighthouse Results](/assets/README-files/signup-page-accessibility.png)
   - The theme colours were also checked against the font colour using [contrast checker](https://webaim.org/resources/contrastchecker/) and passed.
   <br><br>
-  <table  width = 100% height = 500px cellspacing="0" cellpadding="0">
+  <table  width = 100% height = 300px cellspacing="0" cellpadding="0">
   <tr>
-  <td><img src="assets/README-files/header-contrast-checker-results.jpg" height=100%></td>
-  <td> <img src="assets/README-files/body-elements-contrast-checker-results.jpg" height=100%></td>
+  <td><img src="assets/README-files/header-contrast-checker-results.jpg" height=300px width=275px></td>
+  <td> <img src="assets/README-files/body-elements-contrast-checker-results.jpg" height=300px width=275px></td>
   </tr>
   </table>
  
@@ -215,7 +215,8 @@ All fonts were sourced from Google Fonts:
 
 - __Get Started Page Issues__
     - Much of the resolutions made in the home page bug fixes translated over the the Get Started page however there was one exception which took a considerable amount of time to resolve. This process is evident from the number of commits that I made on the main thread, before forking to a dedicated thread.
-     <table  width = 100% height = 400px>
+
+   <table  width = 100% height = 400px cellspacing= 0 cellpadding= 0>
   <tr>
   <td width= 60%>
 
