@@ -75,7 +75,7 @@ All fonts were sourced from Google Fonts:
 - __THe Home Page - Why Learn to Crochet? Section__
 ![What is Crochet Section](/assets/README-files/why-learn-to-crochet.jpg)
   - This section highlights benefits to learning crochet in an unordered list along with font awesome icons to further style the text. 
-  - There is another circular bordered photo of a person holding items of that have been crafted by crocheting.
+  - There is another circular bordered photo of a person holding items that have been crafted by crocheting.
   - The float properties of the image and paragraph container are opposite the corresponding elements for the What is Crochet section to create an offset effect and a visually stimulating transition downwards.
   - The section has a blurred background image of yarn again to create contrast and a visual effect. This background attachment is fixed to create a perspective against the background as the user scrolls downwards.
   - The h2 heading font colour change and shadowing properties help it to stand out against the background image.
@@ -107,9 +107,7 @@ All fonts were sourced from Google Fonts:
 <br><br>
 
 - __The Sign Up Page__
-
-![Sign Up Page](/assets/README-files/signup-page.jpg)
-
+![Sign Up Page](/assets/README-files/signup-page.jpg)    
   - This page will allow the user to subscribe to the Little Woolly Snuggles newsletter. Note this newsletter does not currently exist and is used as a means to demonstrate a get form element.
   - The page header and footer are the same for the other pages, again to ensure consistency across the site.
   - The background image is the balls of yarn as used behind sections in previous pages. The difference in this page is that the blurred effect is absent which creates context to the previous pages and a continuous thread through all of them. 
@@ -119,8 +117,7 @@ All fonts were sourced from Google Fonts:
 <br><br>
 
 - __The Thank You Page__
-
-  ![Thank You Page](/assets/README-files/thank-you-form.jpg)
+![Thank You Page](/assets/README-files/thank-you-form.jpg)
   - This page can only be accessed through the website when the Sign Up form is filled in completely and submitted. 
   - The navigation menu links are purposely not styled as active for this page to make it clear to the user that this is a supplementary page.
   - There is a form element with styling matching the Sign Up page form whereby the user is thanked for signing up.
@@ -136,7 +133,7 @@ All fonts were sourced from Google Fonts:
 ## Testing 
 
  - __Nav Bar__
-   - The Nav Bar responsiveness was checked across the three widths as described in the features section. Some minor styling adjustments were made to get the font size right and in the end behaviour was as expected.
+   - The Nav Bar responsiveness was checked across the three widths as described in the features section. Some minor styling adjustments were made to get the font size right and in the end the behaviour was as expected.
       - Nav Bar Normal Width
 ![Nav Bar Normal](/assets/README-files/nav-bar-normal.jpg)
       - Nav Bar Max Width 1200px
@@ -152,14 +149,13 @@ All fonts were sourced from Google Fonts:
   ![Hero Image](/assets/README-files/hero-image-animation.gif)
   - The responsive styling of the nav menu items was also verified with the Home `<li>` being highlighted.
   - The responsive styling of the body elements for various screen sizes was tested. Adjustments were made during the testing process to change the font size of the info-container paragraphs according to screen size using vmin as using absolute sizes either overflowed the container or were too small.
-  - The images and info containers were positioned using the float properties and this worked adequately fot a simple two element section.
+  - The images and info containers, positioned using the float properties, styled adequately for a simple two element section.
   - The GIF below demonstrates the Home Page responsiveness across varying screen sizes.
   ![Home Page Responsiveness](/assets/README-files/home-page-responsiveness-test.gif)
-
 <br><br>
 
 - __Get Started Page__
-
+ - The responsive styling of the nav menu items was verified with the Get Started `<li>` being highlighted.
 - For this page a grid layout was adopted for the 4 photo section and both the three photo sections. This decision was based on two factors:
   - The added complexity of transitioning a 2 row grid to 4 rows then on to a single column was deemed too difficult and time consuming for floats.
    - An opportunity to practice a different layout property within the bounds of my first project.
@@ -168,11 +164,11 @@ All fonts were sourced from Google Fonts:
 
 
 - __Sign-Up Page__
-
+  - The responsive styling of the nav menu items was verified with the Sign Up `<li>` being highlighted.
   - Spacing of the header, form section, form and footer were enclosed in a flex box layout. As with the Get Started Page, this choice of layout was based on two factors:
     - The page height was fixed to 100vhA so there was requirement to size the form section height relative to the header and footer fixed heights. This in turn gave a known container height to style the form to.
     - An opportunity to practice another layout property.
-  - The responsiveness of the page was tested and after resolving a bug, worked as expected.
+  - The responsiveness of the page was tested and worked as expected.
   - Responsive design on the form elements was tested as shown in the GIF below:
   ![Sign Up Responsiveness](/assets/README-files/form-responsive-elements.gif)
 <br><br>
@@ -190,14 +186,14 @@ All fonts were sourced from Google Fonts:
 ### Validator Testing 
 
 - HTML
-  - No errors were returned for each page when passing through the official W3C valifattor 
+  - No errors were returned for each page when passing through the official W3C validator:
     - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Findex.html)
     - [Get Started Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Fget-started.html)
     - [Sign Up Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Fsign-up.html)
     - [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Fthank-you.html)
     
 - CSS
-  - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing CSS code through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - Accessibility
   - The accessibility of each of the main pages was checked using the lighthouse tool in devtools with a score within the 90 - 100% bracket for all metrics.
@@ -235,7 +231,7 @@ All fonts were sourced from Google Fonts:
 
 ### Unresolved Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- At time of writing this README no bugs were found during testing that were not resolved.
 
 ## Deployment
 
