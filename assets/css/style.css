@@ -44,9 +44,11 @@ nav {
     text-shadow: 1px 1px black;
 }
 
-h3 {
+[role="doc-subtitle"] {
     font-family: 'Dancing Script', cursive;
     font-weight: 100;
+    font-size: 120%;
+    letter-spacing: 2px;
     color: #120e11;
 }
 
@@ -180,7 +182,6 @@ nav {
     border-radius: 10px;
     font-size: 0.9em;
     background-color: #f5a8e4;
-    -webkit-text-stroke: 0.1px;
     line-height:20px;
   }
   
@@ -703,13 +704,13 @@ footer {
         letter-spacing: 4px;
     }
 
-    h3 {
+    [role="doc-subtitle"]{
         font-size: 90%;
     }
 
     #menu li {
         font-size: 100%;
-        margin-right: 20px;
+        margin-right: 3vmin;
     }
 
     .info-container {
@@ -1058,17 +1059,17 @@ footer {
 
 @media screen and (max-width: 750px) {
     h1 {
-        font-size: 100%;
+        font-size: 5.5vmin;
         letter-spacing: 1px;
         margin-top: 10px;
     }
 
-    h3 {
-        font-size: 80%;
+    [role="doc-subtitle"] {
+        font-size: 65%;
     }
 
     #logo-and-title {
-        width: 66%;
+        width: 70%;
         margin-top: 13px;
         line-height: 25px;
     }
@@ -1089,8 +1090,8 @@ footer {
     }
 
     #menu li {
-        font-size: 0.85rem;
-        padding: 5px;
+        font-size: 0.75rem;
+        padding: 5px 0;
         display: block;
     }
 
