@@ -218,12 +218,15 @@ All fonts were sourced from Google Fonts:
   </table>
  
 
-### Bugs
+### Bugs and Issues
+- __General Issues__
+  - Researched using h3 below h1 as subtitle and discovered this was not best practice. Found information on assigning aria role of subtitle to h1 to make it a sub-heading. Updated code to reflect this and it now reads better as a result.
+   - Published page on Github to preview homepage on Am I Responsive. Observed truncation of Main Title leading to white space under header on mobile phone simulator. Increasing width by one percent to 66% which resolved the issue.
+    <br><br>
 - __Home Page Issues__
    - Reverted from using vmin for styling font due to complications with the margins being affected by layout. Opted for standard non-dynamic settings instead. Vmin did work well for the info elements below 950px so was able to utilise it there.
    - Found bug whilst reviewing on the simulator of a white space at the RHS of the screen. Checked elements for overflow, only one showing was footer. Tried setting width to 100% but did not resolve. I deselected fixed position for footer but the white space then extended into it. Googled issue and found code which resolved the issue by having overflow hidden on the html and body elements. I then contacted tutor support to see if I should go further to understanding the issue. Tutor advised continuing to fault find with individual elements to see if I can find issue and go back to them if it is not apparent.
    -  Fault find above and located issue to the ul in the middle info container. Position was absolute and with a 5% margin it pushed the element bounds outwith the normal view. Resolved issue by reducing width of the container.
-   - Published page on Github to preview homepage on Am I Responsive. Observed truncation of Main Title leading to white space under header on mobile phone simulator. Increasing width by one percent to 66% which resolved the issue.
    - Observed sign-up circle font overflow, small font and poor contrast when viewing on iPhone. Made adjustments to darken font and tested successfully using WebAIM contrast checker. 
    - Observed on iPhone that font size in landscape mode was too small relative to the element. Increasing vmin causes overflow in portrait mode. Add code to handle landscape orientation.
    - Added code to handle info container heights respective to view port size using min and max functions. 
