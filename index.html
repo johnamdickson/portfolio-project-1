@@ -32,6 +32,7 @@
             </ul>
         </nav>
     </header>
+    <div class="spacer"></div>
     <div id="hero-outer">
         <div id="hero-image"></div>
         <div id="sign-up-circle" onclick="window.location='sign-up.html';">
@@ -89,14 +90,15 @@
             class="info-images">
     </section>
     <button onclick="topFunction()" id="home-top-button" title="Go to top" class="top-button"><i class="fa-solid fa-chevron-up"></i><br>Top</button>
-    <script>
+   <!--JS code for back to top button -->
+   <script>
         let mybutton = document.getElementById("home-top-button");
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () {
             scrollFunction()
         };
         function scrollFunction() {
-            if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 mybutton.style.display = "block";
             } else {
                 mybutton.style.display = "none";

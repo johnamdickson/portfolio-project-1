@@ -8,14 +8,18 @@
 
 /* Generic Elements Styling */
 header {
+    position: fixed;
+    clear: both;
     background-color: #f5a8e4;
     height: 100px;
     width: 100%;
     color: #120e11;
+    z-index: 99;
 }
 
 body,
-input, button {
+input,
+button {
     font-family: 'Maitree', serif;
     font-weight: 200;
     color: #120e11;
@@ -87,6 +91,11 @@ nav {
 #menu a {
     text-decoration: none;
     color: inherit;
+}
+
+/* Drop elements below header by header height */
+.spacer {
+    height: 100px;
 }
 
 /* Responsive styling for menu items */
@@ -171,26 +180,27 @@ nav {
     padding-top: 20px;
 }
 
-.top-button{
+.top-button {
     display: none;
-    position: fixed; 
-    bottom: 3.5vmin; 
-    right: 2vmin; 
-    z-index: 99; 
+    position: fixed;
+    bottom: 3.5vmin;
+    right: 2vmin;
+    z-index: 99;
     text-align: center;
-    width:75px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
     font-size: 0.9em;
     background-color: #f5a8e4;
-    line-height:20px;
-  }
-  
-  .top-button:hover {
+    line-height: 20px;
+}
+
+.top-button:hover {
     font-weight: 500;
     cursor: pointer;
     color: rgba(0, 0, 0, 0.3);
-  }
-  
+}
+
 /* Style home page sections */
 
 .info-section {
@@ -198,6 +208,7 @@ nav {
     height: 450px;
     margin-top: 20px;
     text-align: center;
+    position: relative;
 }
 
 .info-section h2 {
@@ -301,9 +312,9 @@ nav {
 
 /* Style page footer section */
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
-    height: 7vmin;
+    height: 100px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -313,13 +324,18 @@ footer {
     overflow: hidden;
 }
 
+.social-networks {
+    width: 80%;
+    margin-left: 14%;
+}
+
 .social-networks>li {
     display: inline;
 }
 
 .social-networks i {
     font-size: 160%;
-    margin: 15px 3.5% 0 1.5%;
+    margin: 35px 14.5% 0 1.5%;
     color: #120e11;
 }
 
@@ -361,7 +377,6 @@ footer {
     background-image: url('../images/balls-of-yarn.jpg');
     background-size: cover;
     background-attachment: fixed;
-    margin-bottom: 50px;
 }
 
 /* Assign names to grid areas */
@@ -527,6 +542,7 @@ footer {
 
 /* Sign Up page styling*/
 
+
 #wrapper {
     display: flex;
     height: 100vh;
@@ -534,6 +550,10 @@ footer {
 }
 
 #wrapper footer {
+    position: inherit;
+}
+
+#sign-up-header {
     position: inherit;
 }
 
@@ -700,7 +720,7 @@ footer {
         letter-spacing: 4px;
     }
 
-    [role="doc-subtitle"]{
+    [role="doc-subtitle"] {
         font-size: 90%;
     }
 
@@ -913,10 +933,6 @@ footer {
         letter-spacing: 2px;
     }
 
-    footer {
-        height: 50px;
-    }
-
     /* Styling for get started page max screen width 950px */
     .four-photo-grid {
         margin: 0 5px;
@@ -974,7 +990,9 @@ footer {
 }
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
-
+    .top-button{
+        bottom:7vmin;
+    }
     .info-section {
         height: 140vmin;
     }
@@ -1033,15 +1051,12 @@ footer {
         height: 200vh;
     }
 
-    #wrapper footer {
-        position: fixed;
-    }
-
     #signup-form {
         left: 10%;
         width: 80vw;
         height: auto;
     }
+
     /* styling for Thank You page max width 950 and landscape orientation */
 
     #thank-you-form {
@@ -1055,7 +1070,7 @@ footer {
 
 @media screen and (max-width: 750px) {
     h1 {
-        font-size: 5.5vmin;
+        font-size: min(5.5vmin, 150%);
         letter-spacing: 1px;
         margin-top: 10px;
     }
@@ -1076,9 +1091,10 @@ footer {
     }
 
     nav {
-        position: inherit;
+        position: relative;
         float: right;
-        margin-top: 8px;
+        margin-top: -3px;
+        right: 10px;
     }
 
     #menu {
@@ -1095,16 +1111,16 @@ footer {
         height: 152vmin;
     }
 
-    footer {
-        height: 45px;
-    }
 
     .social-networks i {
         font-size: 140%;
-        margin: 15px 15px 0 15px;
+        margin: 30px 30px 0 15px;
         color: #3a3a3a;
     }
 
+    .top-button {
+        bottom: 8.5vmin;
+    }
 
     /* Styling for get started page max screen width 750px */
 
@@ -1198,10 +1214,6 @@ footer {
         padding-top: 0;
     }
 
-    .bottom-section {
-        margin-bottom: 30px;
-    }
-
     .instruction-images {
         width: 190px;
     }
@@ -1216,11 +1228,14 @@ footer {
     }
 
     /* Styling for Sign Up page max width 750px */
+    #wrapper footer {
+        height: 75px;
+    }
     #signup-form {
         left: 5%;
         width: 90vw;
         height: auto;
-        padding-top: 10%;
+        padding-top: 5%;
     }
 
     .sign-up-button {
@@ -1248,7 +1263,9 @@ footer {
         width: 90vw;
         left: 5%;
     }
+
     #thank-you-form h2 {
         font-size: 200%;
     }
+
 }

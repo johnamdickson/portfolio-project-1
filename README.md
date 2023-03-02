@@ -42,11 +42,12 @@ All fonts were sourced from Google Fonts:
   - The Little Woolly Snuggles logo appears in the title bar as a small icon to help increase user engagement with the website and company brand.
 <br><br>
 
-- __Navigation Bar__
-  ![Nav Bar](/assets/README-files/nav-bar-normal.jpg)
+- __The Header__
+  ![Header](/assets/README-files/nav-bar-normal.jpg)
   - On the LHS there is the company logo along with website title and a reference to Little Woolly Snuggles as an h3 in handwritten font to both distinguish it from the h1 and tie into the associated logo handwriting, which can be viewed in the last image on the home page.
   - There are three hyperlinks on the right of the bar allowing for navigation between the available pages. The hyperlink on the active page has custom styling to distinguish it from the non-active pages.
   - This section is further responsive to 3 different media screen sizes: Normal (>1200px), max screen width 1200px and max screen width 750px.
+  - The header was originally designed to scroll out of view however, after reviewing other students projects and searching for best practice examples on the internet I opted to make the header fixed and footer at bottom of the content.
 <br><br>
 
 
@@ -54,9 +55,9 @@ All fonts were sourced from Google Fonts:
 ![Footer](/assets/README-files/footer.jpg)
   - The footer section includes links to the actual social media sites for Little Woolly Snuggles. The links will open up a new tab to allow easy navigation for the user. 
   - The footer also contains a link to the company's Etsy shop.
-  - The footer is fixed to the bottom of the page and is accessible at any time whilst browsing. 
+  - At first, the footer was fixed to the bottom of the page to make it accessible at any time whilst browsing. This was changed as described above.
   - The links use fontawesome icons with a colour consistent with the text colour used elsewhere in the website.
-  - As the header is not fixed, a button was added to take the user back to the top of the page. 
+  - As the header was originally not fixed, a button was added to take the user back to the top of the page. This button was retained as it fitted in with the site design and retained some functionality in the scrollable pages.
   - The back to top button sits just proud of the footer and is only visible when the user scrolls down away from the header.
 <br><br>
 
@@ -243,7 +244,7 @@ All fonts were sourced from Google Fonts:
 
 ### Unresolved Bugs
 
-- At time of writing this README no bugs were found during testing that were not resolved.
+- In the sign up page the form overflows slightly onto the footer on older devices with smaller screens. The resolution to this was not worth the aesthetic trade off for more modern devices so was left as is.
 
 ## Deployment
 
