@@ -3,9 +3,27 @@
 
 Learn to Crochet is a website created for Little Woolly Snuggles, a handmade craft business that specialises in crochet and knit products. The site is targeted towards people that are interested in learning crochet by introducting them to the craft and showing them the basics. 
 
-This website is showcasing HTML and CSS design for Project Portfolio 1.
+This website is showcasing HTML and CSS design for Project Portfolio 1 and can be accessed by following this [link.](https://johnamdickson.github.io/Portfolio-Project-1/index.html)
 
 ![Responsive Mockup Screenshot](/assets/README-files/am-i-responsive-screenshot.jpg)
+
+## Contents
+- [UX Design](#ux-design)
+- [The Surface Plane](#the-surface-plane)
+  - [Colour Scheme](#colour-scheme)
+    -  [Jet Stream](#jet-stream)
+    - [Illusion](#illusion)
+  - [Typography](#typography)
+  - [Features](#features)
+  - [Existing Features](#existing-features)
+  - [Features Left to Implement](#features-left-to-implement)
+- [Testing](#testing)
+  - [Development Testing](#development-testing)
+  - [Validator Testing](#validator-testing)
+  - [Bugs / Issues](#bugs--issues)
+  - [Unresolved Bugs / Issues](#unresolved-bugs-or-issues)
+
+
 
 
 ## UX Design
@@ -134,6 +152,7 @@ All fonts were sourced from Google Fonts:
 - More photos for the instructional sections in the Get Started page, possibly with a horizontal scroll bar.
 
 ## Testing 
+### Development Testing
 
  - __Nav Bar__
    - The Nav Bar responsiveness was checked across the three widths as described in the features section. Some minor styling adjustments were made to get the font size right and in the end the behaviour was as expected.
@@ -219,7 +238,7 @@ All fonts were sourced from Google Fonts:
   </table>
  
 
-### Bugs and Issues
+### Bugs / Issues
 - __General Issues__
   - Researched using h3 below h1 as subtitle and discovered this was not best practice. Found information on assigning aria role of subtitle to h1 to make it a sub-heading. Updated code to reflect this and it now reads better as a result.
    - Published page on Github to preview homepage on Am I Responsive. Observed truncation of Main Title leading to white space under header on mobile phone simulator. Increasing width by one percent to 66% which resolved the issue.
@@ -242,7 +261,7 @@ All fonts were sourced from Google Fonts:
 
     
 
-### Unresolved Bugs
+### Unresolved Bugs or Issues
 
 - In the sign up page the form overflows slightly onto the footer on older devices with smaller screens. The resolution to this was not worth the aesthetic trade off for more modern devices so was left as is.
 
@@ -265,7 +284,7 @@ The live link can be found [here.](https://johnamdickson.github.io/Portfolio-Pro
 - Stack Overflow, W3 Docs, MDN Web Docs and other online resources were a massive help for HTML or CSS code that enabled some of the functionality I was looking for. 
 - Slack was an enormous help in resolving common issues that others had faced before me.
 - I want to thank Abby Humprheys in particular for her Peer Code Review and I credit the return to top button to her feedback.
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the Home Page and Footer were taken from [Font Awesome](https://fontawesome.com/)
 - Much inspiration was drawn from the Love Running walkthrough project. The structure of my website follows a similar trajectory and I referenced much of the html and styling code in my project.
 - I would finally like to thank my wife Sinéad whose crocheting talents inspired me to build this website for my first project portfolio.
 
