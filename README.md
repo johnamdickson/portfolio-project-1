@@ -320,4 +320,4 @@ For a full details of references please review this [pdf.](/assets/README-files/
 
 - Many of the photos used extensively through the site were obtained from [Pexels](https://www.pexels.com/) free stock photos site.
 - The remaining photos were taken at home.
-- Conversion of mp4s to GIFs using free service on the [Adobe](https://www.adobe.com/express/feature/video/convert/video-to-gif) website.
+- Conversion of mp4s to GIFs using free service on the [Adobe](https://www.adobe.com/express/feature/video/convert/video-to-gif) website and on the [ezgif.com](https://ezgif.com/video-to-gif) website.

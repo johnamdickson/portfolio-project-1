@@ -1002,7 +1002,7 @@ footer {
     }
 
     .info-container p {
-        font-size: min(4.5vmin, 3vmax);
+        font-size: min(4.5vmin, 2.75vmax);
     }
 
     #info-section-middle {
