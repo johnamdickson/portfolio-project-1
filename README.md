@@ -8,13 +8,17 @@ This website is showcasing HTML and CSS design for Project Portfolio 1 and can b
 ![Responsive Mockup Screenshot](/assets/README-files/am-i-responsive-screenshot.jpg)
 
 ## Contents
-- [UX Design](#ux-design)
-- [The Surface Plane](#the-surface-plane)
+- [UX](#ux)
+  - [Site Goals](#site-goals)
+  - [User Stories](#user-stories)
+  - [Wireframes](#wireframes)
+  - [Further Reading](#further-reading)
+- [Design](#design)
   - [Colour Scheme](#colour-scheme)
     -  [Jet Stream](#jet-stream)
     - [Illusion](#illusion)
   - [Typography](#typography)
-  - [Features](#features)
+- [Features](#features)
   - [Existing Features](#existing-features)
   - [Features Left to Implement](#features-left-to-implement)
 - [Testing](#testing)
@@ -22,16 +26,37 @@ This website is showcasing HTML and CSS design for Project Portfolio 1 and can b
   - [Validator Testing](#validator-testing)
   - [Bugs / Issues](#bugs--issues)
   - [Unresolved Bugs / Issues](#unresolved-bugs-or-issues)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
 
 
 
 
-## UX Design
-- The scope, strategy and structure phases of the project are summarised in this [pdf.](/assets/README-files/5%20Steps%20of%20UX%20Design%20Project%201.pdf)
-- The skeleton phase of the project is detailed in these [wireframes.](/assets/README-files/Project%20Portfolio%201%20Wireframe.pdf)
+## UX
+### Site Goals
+The goal of Learn to Crochet is to a resource which educates users about crochet and offers tips on how to get started along with an optional sign up page.
+### User Stories
+- As a user:
+  - I want to learn how to crochet.
+  - I want to understand what the site is about.
+  - I want to received free crochet patterns by signing up to the newsletter.
+  - I want to engage with Little Woolly Snuggles on social media.
+<br><br>
 
-## The Surface Plane
+- As the site administrator:
+  - I want users to identify the website as a crafting resource using softer colours and relevant images.
+  - I want to incentivise user sign up to the newsletter by offering free crochet patterns.
+  - I want users to become familiar with the Little Woolly Snuggles brand.
+  - I want users to follow social media links to further increase brand engagement.
+  - I want users to access the linked Etsy shop.
+### Wireframes
+The wirframes for the project can be found [here.](/assets/README-files/Project%20Portfolio%201%20Wireframe.pdf)
+### Further Reading
+- The various UX design phases are descirbed in more detail here [pdf.](/assets/README-files/5%20Steps%20of%20UX%20Design%20Project%201.pdf)
 
+## Design
 ### Colour Scheme
 - The colour scheme was selected  to provide a match with the dominant two colours in the logo. At first the colours were sampled using a dropper, with a more purple colour for the header and footer and a darker green for the applicable body elements backgrounds. 
 - Feedback from the client led to a revision of the colours towards pink for the header and footer and a pastel green for the main element backgrounds but still retaining a connection to logo dominant colours.
@@ -40,7 +65,6 @@ This website is showcasing HTML and CSS design for Project Portfolio 1 and can b
 ![Jet Stream](/assets/README-files/jet-stream-color.jpg)
 #### Illusion
 ![Illusion](/assets/README-files/illusion-color.jpg)
-<br><br>
 
 ### Typography
 
@@ -51,12 +75,13 @@ All fonts were sourced from Google Fonts:
  - Maitree. A serif font used for body and input elements.
 <br><br>
 
-### Features 
+## Features 
 
-#### Existing Features
+### Existing Features
 - __The Title Bar__
 <br>
 <img src="assets/README-files/icon-in-title-bar.jpg"  width="300" > 
+
   - The Little Woolly Snuggles logo appears in the title bar as a small icon to help increase user engagement with the website and company brand.
 <br><br>
 
@@ -147,9 +172,10 @@ All fonts were sourced from Google Fonts:
 <br><br>
 
 
-#### Features Left to Implement
+### Features Left to Implement
 - Videos of the instructions was considered early on in the strategy plane. However, this was deemed as a trade off during the scoping exercise due to time contraints and the required objectives of the project. 
 - More photos for the instructional sections in the Get Started page, possibly with a horizontal scroll bar.
+- A seperate nav menu option with drop down menu for learning various stitches and patterns.
 
 ## Testing 
 ### Development Testing
@@ -280,7 +306,7 @@ The live link can be found [here.](https://johnamdickson.github.io/Portfolio-Pro
 ### Content 
 
 - The description of crochet was taken from Wikipedia.
-- The benefits of crochet were taken from two crocheting websites and a study referenced in the National Library of Medicine.
+- The information in the <strong>Why Learn To Crochet?</strong> section were taken from two crocheting websites and a study referenced in the National Library of Medicine.
 - Stack Overflow, W3 Docs, MDN Web Docs and other online resources were a massive help for HTML or CSS code that enabled some of the functionality I was looking for. 
 - Slack was an enormous help in resolving common issues that others had faced before me.
 - I want to thank Abby Humprheys in particular for her Peer Code Review and I credit the return to top button to her feedback.
@@ -288,7 +314,7 @@ The live link can be found [here.](https://johnamdickson.github.io/Portfolio-Pro
 - Much inspiration was drawn from the Love Running walkthrough project. The structure of my website follows a similar trajectory and I referenced much of the html and styling code in my project.
 - I would finally like to thank my wife Sinéad whose crocheting talents inspired me to build this website for my first project portfolio.
 
-For a full list of references please review this [pdf.](/assets/README-files/reference-list.pdf)
+For a full details of references please review this [pdf.](/assets/README-files/reference-list.pdf)
 
 ### Media
 
