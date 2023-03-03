@@ -312,6 +312,7 @@ The live link can be found [here.](https://johnamdickson.github.io/Portfolio-Pro
 - I want to thank Abby Humprheys in particular for her Peer Code Review and I credit the return to top button to her feedback.
 - The icons in the Home Page and Footer were taken from [Font Awesome](https://fontawesome.com/)
 - Much inspiration was drawn from the Love Running walkthrough project. The structure of my website follows a similar trajectory and I referenced much of the html and styling code in my project.
+- My mentor Gurjot was a big help in offering support, helping me define the project and meet the requirements.
 - I would finally like to thank my wife Sinéad whose crocheting talents inspired me to build this website for my first project portfolio.
 
 For a full details of references please review this [pdf.](/assets/README-files/reference-list.pdf)
