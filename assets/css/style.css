@@ -363,7 +363,8 @@ footer {
 
 /* Use backdrop-filter with a blur effect for specific section backgrounds */
 .blur {
-    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
     height: 100%;
 }
 
