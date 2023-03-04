@@ -751,6 +751,8 @@ footer {
 
     .info-images {
         margin-right: 3%;
+        margin-top: 2%;
+        height: 68%;
     }
 
     #info-container-middle {
@@ -759,7 +761,9 @@ footer {
     }
 
     #info-image-middle {
-        margin-left: 3%;
+        margin-left: 2%;
+        margin-top: 2%;
+        height: 68%;
     }
 
     #info-container-middle li {
