@@ -60,6 +60,7 @@ The wirframes for the project can be found [here.](/assets/README-files/Project%
 ### Colour Scheme
 - The colour scheme was selected  to provide a match with the dominant two colours in the logo. At first the colours were sampled using a dropper, with a more purple colour for the header and footer and a darker green for the applicable body elements backgrounds. 
 - Feedback from the client led to a revision of the colours towards pink for the header and footer and a pastel green for the main element backgrounds but still retaining a connection to logo dominant colours.
+- The logo colours were utilised as the shadow colours for the header, footer and significant section elements throughout the site.
 - [Name That Color](https://chir.ag/projects/name-that-color/) website was utilised to name the two colours thereby allowing a more meaninful description with the client once the they were agreed.
 #### Jet Stream
 ![Jet Stream](/assets/README-files/jet-stream-color.jpg)
