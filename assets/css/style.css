@@ -357,7 +357,7 @@ footer {
     background-image: url('../images/balls-of-yarn.jpg');
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
+    position: relative;x
 
 }
 
@@ -1007,7 +1007,7 @@ footer {
 
 @media screen and (max-width: 950px) and (orientation: landscape) {
     .top-button{
-        bottom:7vmin;
+        bottom:min(7vmin,4%);
     }
     .info-section {
         height: 140vmin;
@@ -1136,7 +1136,7 @@ footer {
     }
 
     .top-button {
-        bottom: 8.5vmin;
+        bottom: 9.5vmin;
     }
 
     /* Styling for get started page max screen width 750px */
