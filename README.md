@@ -5,7 +5,7 @@ Learn to Crochet is a website created for Little Woolly Snuggles, a handmade cra
 
 This website is showcasing HTML and CSS design for Project Portfolio 1 and can be accessed by following this [link.](https://johnamdickson.github.io/Portfolio-Project-1/index.html)
 
-![Responsive Mockup Screenshot](/assets/README-files/am-i-responsive-screenshot.jpg)
+![Responsive Mockup Screenshot](/assets/README-files/am-i-responsive-screenshot.png)
 
 ## Contents
 - [UX](#ux)
@@ -150,7 +150,9 @@ All fonts were sourced from Google Fonts:
   <br><br>
 
  - __The Get Started Page - Your First Stitch Section__ 
+  ![Your First Stitch Section](/assets/README-files/your-first-stitch-section.jpg)
     - As in Getting the Hook Ready, this section consists of three images, three divs containing instructions and 3 divs containing step numbers.
+    - There is a short video at the bottom of the section with no audio which demonstrates the stitch that is described in the 3 steps.
     - The blurred background image is present in this section.
 <br><br>
 
@@ -176,6 +178,7 @@ All fonts were sourced from Google Fonts:
 
 ### Features Left to Implement
 - Videos of the instructions was considered early on in the strategy plane. However, this was deemed as a trade off during the scoping exercise due to time contraints and the required objectives of the project. 
+- Whilst undertaking the first stitch section however it was felt that a video was necessary in order to fully convey how to complete the stitch. The aspiration for future releases would be to have a video for each step and further stitches.
 - More photos for the instructional sections in the Get Started page, possibly with a horizontal scroll bar.
 - A seperate nav menu option with drop down menu for learning various stitches and patterns.
 
@@ -211,6 +214,7 @@ All fonts were sourced from Google Fonts:
    - An opportunity to practice a different layout property within the bounds of my first project.
  - The responsive styling of the body elements for various screen sizes was tested. As per the home page, adjustments were made during the testing process to alter various font sizes to suit the diffrent media screens.
 - The instruction step number styling was also manipulated across the various screen renderings to achieve the correct alignment and look.
+- The video was styled for the max screen widths previously mentioned and checked for functionality.
 
 
 - __Sign-Up Page__
