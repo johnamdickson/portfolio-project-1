@@ -129,27 +129,28 @@ All fonts were sourced from Google Fonts:
   <br><br>
 
 - __The Home Page - Why Little Woolly Snuggles? Section__
-![What is Crochet Section](/assets/README-files/why-little-woolly-snuggles.jpg)
+![Why Little Woolly Snuggles Section](/assets/README-files/why-little-woolly-snuggles.jpg)
   - This is the last section on the Home Page and contains a paragraph giving context to what Little Woolly Snuggles is.
   - The circular image in this instance is the company logo along with company name with styled font.
   - The layout of image and paragraph div is the same as What is Crochet? section and creates a further offset against the Why Learn to Crochet section.
 <br><br>
 
 - __The Get Started Page - What You Will Need Section__
-
+![What You Will Need Section](/assets/README-files/what-you-will-need-section.png)
   - This is the first section on the page and displays a horizontal series of 4 circular images all bordered in the Jet Stream theme colour, defining pictorally the necessary requirements for crocheting.
   - Beneath each image, is a rounded corner div containing paragraphs detailing the 4 requirements with a brief description.
   - Each paragraph contains a span which applies bold styling to the first sentence so that the requirement stands out against the description.
   - As in the home page, this section has a fixed, blurred image of yarn to unify the styling features between here and the home page.
   <br><br>
- - __The Get Started Page - Holding the Hook Section__ 
+ - __The Get Started Page - Getting the Hook Ready Section__ 
+ ![Getting the Hook Ready Section](/assets/README-files/getting-the-hook-ready-section.jpg)
     - This section displays 3 images and divs in the same format as the What You Will Need section.
     - There is no background image on this section, creating a contrast as seen in the homepage in alternating sections.
     - Adjacent to each image is a circular div containing step numbers.
   <br><br>
 
  - __The Get Started Page - Your First Stitch Section__ 
-    - As in the Holding the Hook section, this section consists of three images, three divs containing instructions and 3 divs containing step numbers.
+    - As in Getting the Hook Ready, this section consists of three images, three divs containing instructions and 3 divs containing step numbers.
     - The blurred background image is present in this section.
 <br><br>
 
