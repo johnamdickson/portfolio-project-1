@@ -384,7 +384,7 @@ footer {
     background-image: url('../images/balls-of-yarn.jpg');
     background-size: cover;
     background-attachment: fixed;
-    height: 1100px;
+    height: 1250px;
 }
 
 /* Assign names to grid areas */
@@ -554,7 +554,7 @@ footer {
 .instruction-video {
     aspect-ratio: 1 / 1;
     width: 70vw;
-    height: 400px;
+    height: 500px;
     object-fit: cover;
     border-radius: 15px;
     border: 10px solid #b8d3d0;
@@ -849,7 +849,7 @@ footer {
     }
 
     .bottom-section {
-        height: 1600px;
+        height: 1700px;
     }
 
     .instruction-video {
@@ -1156,7 +1156,7 @@ footer {
     }
 
     .top-button {
-        bottom: 9.5vmin;
+        bottom: min(9.5vmin, 4%);
     }
 
     /* Styling for get started page max screen width 750px */
