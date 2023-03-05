@@ -208,13 +208,13 @@ All fonts were sourced from Google Fonts:
 <br><br>
 
 - __Get Started Page__
- - The responsive styling of the nav menu items was verified with the Get Started `<li>` being highlighted.
-- For this page a grid layout was adopted for the 4 photo section and both the three photo sections. This decision was based on two factors:
-  - The added complexity of transitioning a 2 row grid to 4 rows then on to a single column was deemed too difficult and time consuming for floats.
-   - An opportunity to practice a different layout property within the bounds of my first project.
- - The responsive styling of the body elements for various screen sizes was tested. As per the home page, adjustments were made during the testing process to alter various font sizes to suit the diffrent media screens.
-- The instruction step number styling was also manipulated across the various screen renderings to achieve the correct alignment and look.
-- The video was styled for the max screen widths previously mentioned and checked for functionality.
+  - The responsive styling of the nav menu items was verified with the Get Started `<li>` being highlighted.
+  - For this page a grid layout was adopted for the 4 photo section and both the three photo sections. This decision was based on two factors:
+    - The added complexity of transitioning a 2 row grid to 4 rows then on to a single column was deemed too difficult and time consuming for floats.
+    - An opportunity to practice a different layout property within the bounds of my first project.
+  - The responsive styling of the body elements for various screen sizes was tested. As per the home page, adjustments were made during the testing process to alter various font sizes to suit the diffrent media screens.
+  - The instruction step number styling was also manipulated across the various screen renderings to achieve the correct alignment and look.
+  - The video was styled for the max screen widths previously mentioned and checked for functionality.
 
 
 - __Sign-Up Page__
