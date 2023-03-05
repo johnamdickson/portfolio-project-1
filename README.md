@@ -326,5 +326,5 @@ For a full details of references please review this [pdf.](/assets/README-files/
 ### Media
 
 - Many of the photos used extensively through the site were obtained from [Pexels](https://www.pexels.com/) free stock photos site.
-- The remaining photos were taken at home.
+- The remaining photos and video were taken by the client.
 - Conversion of mp4s to GIFs using free service on the [Adobe](https://www.adobe.com/express/feature/video/convert/video-to-gif) website and on the [ezgif.com](https://ezgif.com/video-to-gif) website.
