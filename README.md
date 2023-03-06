@@ -271,7 +271,7 @@ All fonts were sourced from Google Fonts:
   </tr>
   </table>
 
-  - Images alt text properties were checked using Chrome extension Alt Text Checker [alt text checker.](https://chrome.google.com/webstore/detail/alt-text-tester/koldhcllpbdfcdpfpbldbicbgddglodk)
+  - Images alt text properties were checked using Chrome extension [Alt Text Checker.](https://chrome.google.com/webstore/detail/alt-text-tester/koldhcllpbdfcdpfpbldbicbgddglodk)
   ![Alt Text Checker](/assets/README-files/alt-text-tester.png)
  
 
