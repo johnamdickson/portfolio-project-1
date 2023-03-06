@@ -11,6 +11,7 @@
 Generic Elements Styling 
 NOTE: all box-shadow used in CSS file taken from Stack Overflow solution.
 */
+
 header {
     position: fixed;
     clear: both;
@@ -47,6 +48,7 @@ nav {
 Contrast h2 for headings with blurred background behind. 
 Considered using a text outline stroke per Stack Overflow solution but opted for shadow instead as it worked better.
 */
+
 .contrast-h2 {
     line-height: 90px;
     font-size: 200%;
@@ -96,24 +98,26 @@ nav {
     list-style-type: none;
 }
 
-
 #menu a {
     text-decoration: none;
     color: inherit;
 }
 
 /* Drop elements below header by header height using solution from Stack Overflow */
+
 .spacer {
     height: 100px;
 }
 
 /* Responsive styling for menu items */
+
 #menu a:hover {
     border-bottom: 1px solid #313e47;
     opacity: 0.6;
 }
 
 /* Shadow effect for hyperlink of current page using W3 Schools tutorial */
+
 .active {
     font-weight: 400;
     text-shadow: 0.5px 0.5px lightgray;
@@ -139,6 +143,7 @@ nav {
 }
 
 /* animation for hero image */
+
 @keyframes hero-zoom {
     from {
         transform: scale(1)
@@ -191,7 +196,9 @@ nav {
     margin: 10px;
     padding-top: 20px;
 }
+
 /* Using z-index for top button taken from W3 Schools tutorial. */
+
 .top-button {
     display: none;
     position: fixed;
@@ -244,12 +251,11 @@ nav {
 .info-container p {
     position: absolute;
     margin: 0 5%;
-    /* Centering paragraph vertically in container using translateY referenced from freecodecamp.org */
     top: 50%;
     transform: translateY(-50%);
+    /* Centering paragraph vertically in container using translateY referenced from freecodecamp.org */
     font-size: 120%;
     text-align: justify;
-
 }
 
 .info-images {
@@ -329,6 +335,7 @@ nav {
 }
 
 /* Style page footer section */
+
 footer {
     position: relative;
     bottom: 0;
@@ -374,10 +381,10 @@ NOTE: all grid layouts as used in the remainder of the CSS file were developed u
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-
 }
 
 /* Use backdrop-filter with a blur effect for specific section backgrounds. Solution to this came from MDN Web Docs tutorial. */
+
 .blur {
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(5px);
@@ -404,6 +411,7 @@ NOTE: all grid layouts as used in the remainder of the CSS file were developed u
 }
 
 /* Assign names to grid areas */
+
 #wyn-a1 {
     grid-area: a1;
 }
@@ -512,7 +520,6 @@ NOTE: all grid layouts as used in the remainder of the CSS file were developed u
 .instruction-images-container {
     margin: 0 auto;
     position: relative;
-
 }
 
 .instruction-images {
@@ -584,7 +591,6 @@ Sign Up page styling
 Use of flex layout from MDN Web Docs tutorial.
 */
 
-
 #wrapper {
     display: flex;
     height: 100vh;
@@ -651,7 +657,6 @@ Use of flex layout from MDN Web Docs tutorial.
     height: 35px;
     border: 1px solid #120e11;
     border-radius: 2px;
-
 }
 
 .text-input:hover {
@@ -896,6 +901,7 @@ Use of flex layout from MDN Web Docs tutorial.
     }
 
     /* Styling for Thank You page max width 1200px */
+
     #thank-you-form {
         width: 70vw;
         left: 15%;
@@ -925,7 +931,8 @@ Use of flex layout from MDN Web Docs tutorial.
     #sign-up-text {
         padding-top: 10px;
     }
-/* Used min(value, value) attribute for font sizes to prevent overflow but prohibit text being too small for different media screen sizes. 
+
+    /* Used min(value, value) attribute for font sizes to prevent overflow but prohibit text being too small for different media screen sizes. 
 Solution found in Stack Overflow */
 
     .info-section {
@@ -993,6 +1000,7 @@ Solution found in Stack Overflow */
     }
 
     /* Styling for get started page max screen width 950px */
+
     .four-photo-grid {
         margin: 0 5px;
     }
@@ -1016,6 +1024,7 @@ Solution found in Stack Overflow */
     }
 
     /* Styling for Sign Up page max screen width 950px */
+
     #signup-form {
         left: 10%;
         width: 80vw;
@@ -1035,6 +1044,7 @@ Solution found in Stack Overflow */
 
 
     /* Styling for Thank You page max width 950px */
+
     #thank-you-form {
         width: 80vw;
         left: 10%;
@@ -1050,6 +1060,7 @@ Solution found in Stack Overflow */
 
 /* Landscape orientation added to counter styling effects causing overflow and dislocation of elements from desired positions. 
 Used MDN Web Docs tutorial for this */
+
 @media screen and (max-width: 950px) and (orientation: landscape) {
     .top-button {
         bottom: min(7vmin, 4%);
@@ -1086,6 +1097,7 @@ Used MDN Web Docs tutorial for this */
     }
 
     /* Styling for Get Started page max screen 950px and landscape */
+
     .four-photo-grid {
         margin: 0 5px;
     }
@@ -1109,6 +1121,7 @@ Used MDN Web Docs tutorial for this */
     }
 
     /* styling for Sign Up page max width 950 and landscape orientation */
+
     #wrapper {
         height: 200vh;
     }
@@ -1119,7 +1132,7 @@ Used MDN Web Docs tutorial for this */
         height: auto;
     }
 
-    /* styling for Thank You page max width 950 and landscape orientation */
+    /* Styling for Thank You page max width 950 and landscape orientation */
 
     #thank-you-form {
         width: 80vw;
@@ -1128,7 +1141,7 @@ Used MDN Web Docs tutorial for this */
     }
 }
 
-/* Styling for max screen width 750px */
+/* Styling for home page max screen width 750px */
 
 @media screen and (max-width: 750px) {
     h1 {
@@ -1189,7 +1202,6 @@ Used MDN Web Docs tutorial for this */
 
     .intro-section {
         height: 1400px;
-
     }
 
     .intro-section h2 {
@@ -1208,7 +1220,6 @@ Used MDN Web Docs tutorial for this */
     .instructions-container p {
         font-size: min(100%, 3.35vmin);
     }
-
 
     .four-photo-grid {
         margin: 0 5vmin;
@@ -1302,6 +1313,7 @@ Used MDN Web Docs tutorial for this */
     }
 
     /* Styling for Sign Up page max width 750px */
+
     #wrapper footer {
         height: 75px;
     }
@@ -1334,6 +1346,7 @@ Used MDN Web Docs tutorial for this */
     }
 
     /* Styling for Thank You page max width 750px */
+
     #thank-you-form {
         width: 90vw;
         left: 5%;
@@ -1342,5 +1355,4 @@ Used MDN Web Docs tutorial for this */
     #thank-you-form h2 {
         font-size: 200%;
     }
-
 }
