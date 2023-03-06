@@ -1,4 +1,27 @@
 
+<style>
+.top-link {
+  /* Style the button */
+  transition:       all .25s ease-in-out;
+  position:         fixed;
+  bottom:           0;
+  right:            0;
+  display:          inline-flex;
+  color:            #000000;
+
+  cursor:           pointer;
+  align-items:      center;
+  justify-content:  center;
+  margin:           0 2em 2em 0;
+  border-radius:    50%;
+  padding:          .25em;
+  width:            1em;
+  height:           1em;
+  background-color: #F8F8F8;
+}
+</style>
+<a class="top-link hide" href="#top">↑</a>
+<a name="top"></a>
 # <img src="assets/images/logo-favicon.png"  width="50" height="50"> Learn to Crochet by Little Woolly Snuggles
 
 Learn to Crochet is a website created for Little Woolly Snuggles, a handmade craft business that specialises in crochet and knit products. The site is targeted towards people that are interested in learning crochet by introducting them to the craft and showing them the basics. 
@@ -36,7 +59,7 @@ This website is showcasing HTML and CSS design for Project Portfolio 1 and can b
 
 ## UX
 ### Site Goals
-The goal of Learn to Crochet is to a resource which educates users about crochet and offers tips on how to get started along with an optional sign up page.
+The goal of Learn to Crochet is to create a resource which educates users about crochet and offers tips on how to get started along with an optional sign up page.
 ### User Stories
 - As a user:
   - I want to learn how to crochet.
