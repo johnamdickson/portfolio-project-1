@@ -93,7 +93,7 @@ All fonts were sourced from Google Fonts:
   - On the LHS there is the company logo along with website title and a reference to Little Woolly Snuggles as an h1 subtitle in handwritten font to both distinguish it from the main h1 title and tie into the associated logo handwriting, which can be viewed in the last image on the home page.
   - There are three hyperlinks on the right of the bar allowing for navigation between the available pages. The hyperlink on the active page has custom styling to distinguish it from the non-active pages.
   - This section is further responsive to 3 different media screen sizes: Normal (>1200px), max screen width 1200px and max screen width 750px.
-  - The header was originally designed to scroll out of view however, after reviewing other students projects and searching for best practice examples on the internet I opted to make the header fixed and footer at bottom of the content.
+  - The header was originally designed to scroll out of view however, after reviewing other students projects in the peer code review and searching for best practice examples on the internet I opted to make the header fixed and footer at bottom of the content.
 <br><br>
 
 
@@ -102,7 +102,7 @@ All fonts were sourced from Google Fonts:
   - The footer section includes links to the actual social media sites for Little Woolly Snuggles. The links will open up a new tab to allow easy navigation for the user. 
   - The footer also contains a link to the company's Etsy shop.
   - At first, the footer was fixed to the bottom of the page to make it accessible at any time whilst browsing. This was changed as described above.
-  - The links use fontawesome icons with a colour consistent with the text colour used elsewhere in the website.
+  - The links use fontawesome icons and a colour consistent with the font colour used elsewhere in the website.
   - As the header was originally not fixed, a button was added to take the user back to the top of the page. This button was retained as it fitted in with the site design and retained some functionality in the scrollable pages.
   - The back to top button background colour is also Illusion so it stands out in the main view and then blends in with the footer once the window has scrolled to the bottom. It is only visible when the user scrolls down away from the header.
 <br><br>
@@ -141,7 +141,7 @@ All fonts were sourced from Google Fonts:
 ![What You Will Need Section](/assets/README-files/what-you-will-need-section.png)
   - This is the first section on the page and displays a horizontal series of 4 circular images all bordered in the Jet Stream theme colour, defining pictorally the necessary requirements for crocheting.
   - Beneath each image, is a rounded corner div containing paragraphs detailing the 4 requirements with a brief description.
-  - Each paragraph contains a span which applies bold styling to the first sentence so that the requirement stands out against the description.
+  - Each paragraph utilises strong styling to the first sentence so that the requirement stands out against the description.
   - As in the home page, this section has a fixed, blurred image of yarn to unify the styling features between here and the home page.
   <br><br>
  - __The Get Started Page - Getting the Hook Ready Section__ 
@@ -288,12 +288,12 @@ All fonts were sourced from Google Fonts:
    <br><br>
 
 - __Get Started Page Issues__
-    - Much of the resolutions made in the home page bug fixes translated over the the Get Started page however there was one exception which took a considerable amount of time to resolve. This process is evident from the number of commits that I made on the main thread, before forking to a dedicated thread.
-    - I observed anomaly on physical device (iPhone) in portrait mode that was not evident in Chrome Devtools simulator on the Get Started page as shown in the screen grab.  I set section widths to 100%, added code to landscape attribute and created portrait attribute for 750px with no success. After spending a number of hours on this I reached out to tutor support. Oisin was a great help and noticed that the issue I was seeing was repeating on Firefox, a browser that I had not used until that point. Located the error to .instruction-images class where I had used the % height of container. Once I changed the units to vmin everything worked as intended. Note, using width did not have the same effect.
-    - Note that there was a forked branch created in Github for issue above called bug-fixes-rendering-physical-device. This was in response to having to deploy each iteration of the investigation to see it repeated on mobile device.
+    - Much of the resolutions made in the home page bug fixes translated over the the Get Started page however there was one exception which took a considerable amount of time to resolve. This process is evident from the number of commits that I made on the main thread, before forking to a dedicated thread bug-fixes-rendering-physical-device.
+    - I observed anomaly on physical device (iPhone) in portrait mode that was not evident in Chrome Devtools simulator on the Get Started page as shown in the screen grab.  I set section widths to 100%, added code to landscape attribute and created portrait attribute for 750px with no success. After spending a number of hours on this I reached out to tutor support. Oisin was a great help and noticed that the issue I was seeing was repeating on Firefox, a browser that I had not used until that point. Located the error to .instruction-images class where I had used the % hseight of container. Once I changed the units to vmin everything worked as intended. Note, using width did not have the same effect.
 
         <img src="assets//README-files/get-started-page-bug.jpeg"   height="450" > 
 
+    - The reason I forked to a separate branch was in response to having to deploy each iteration of the investigation to Github to see if it resolved issue on mobile device.
     
 
 ### Unresolved Bugs or Issues
@@ -304,7 +304,7 @@ All fonts were sourced from Google Fonts:
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - Under the repository name, click ⚙ Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
-  -In the "Code and automation" section of the sidebar, click  Pages
+  - In the "Code and automation" section of the sidebar, click  Pages
   - Under "Build and deployment", under "Branch", use the None or Branch dropdown menu and select a publishing source.
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
@@ -319,7 +319,7 @@ The live link can be found [here.](https://johnamdickson.github.io/Portfolio-Pro
 - The information in the <strong>Why Learn To Crochet?</strong> section were taken from two crocheting websites and a study referenced in the National Library of Medicine.
 - Stack Overflow, W3 Docs, MDN Web Docs and other online resources were a massive help for HTML or CSS code that enabled some of the functionality I was looking for. 
 - Slack was an enormous help in resolving common issues that others had faced before me.
-- I want to thank Abby Humprheys in particular for her Peer Code Review and I credit the return to top button to her feedback.
+- I want to thank Abby Humphreys in particular for her Peer Code Review and I credit the return to top button to her feedback.
 - The icons in the Home Page and Footer were taken from [Font Awesome](https://fontawesome.com/)
 - Much inspiration was drawn from the Love Running walkthrough project. The structure of my website follows a similar trajectory and I referenced much of the html and styling code in my project.
 - My mentor Gurjot was a big help in offering support, helping me define the project and meet the requirements.
