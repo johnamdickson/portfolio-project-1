@@ -1,3 +1,4 @@
+/* Link to Google Fonts used in this project. */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Maitree:wght@200;500&family=Prompt:wght@200;300;400;500;600&family=Rokkitt:wght@100&display=swap');
 
 * {
@@ -111,7 +112,7 @@ nav {
     text-shadow: 0.5px 0.5px lightgray;
 }
 
-/* style home page hero image */
+/* style home page hero image - utilising method learnt in Love Running walkthrough*/
 
 #hero-outer {
     height: 400px;
@@ -154,7 +155,7 @@ nav {
     border: 2px solid #313e47;
     opacity: 0;
     animation: 1s ease-out 3s forwards sign-up-circle-appear;
-    /* animation shorthand for sign up circle. The forwards attribute ensures that the element retains properties assigned as part of animation.*/
+    /* animation shorthand for sign up circle from MDN Webdocs. The forwards attribute ensures that the element retains properties assigned as part of animation.*/
 }
 
 /* Animation for sign-up-circle */

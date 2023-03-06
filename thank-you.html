@@ -8,15 +8,18 @@
     <meta name="description" content="Learn to crochet with Little Woolly Snuggles.">
     <meta name="keywords" content="learn to crochet, crochet, little woolly snuggles, yarn, crafting">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- code requried for Little Woolly Snuggles icon to appear next to title in title bar from W3 Webdocs -->
     <link rel="icon" href="assets/images/logo-favicon.png" type="image/png">
     <title>Learn to Crochet</title>
+    <!-- JavaScript required to use fontawesome icons -->
     <script src="https://kit.fontawesome.com/f99ce6eeee.js" crossorigin="anonymous"></script>
+    <!-- JS from Stack Overflow and Code the Web to parse first name from page URL -->
     <script>
-        window.onload = function() {
-        let myURL = window.location;
-        var searchParams = new URLSearchParams(myURL.search)
-        let first_name = (searchParams.get('first_name'))
-        document.getElementById('output').innerHTML = first_name
+        window.onload = function () {
+            let myURL = window.location;
+            var searchParams = new URLSearchParams(myURL.search)
+            let first_name = (searchParams.get('first_name'))
+            document.getElementById('output').innerHTML = first_name
         }
     </script>
 </head>
@@ -25,7 +28,8 @@
     <div id="wrapper">
         <header id="sign-up-header">
             <div id="logo-and-title">
-                <img src="assets/images/logo-transparent-background.png" alt="Little Woolly Snuggles logo of cartoon sheep." id="logo">
+                <img src="assets/images/logo-transparent-background.png"
+                    alt="Little Woolly Snuggles logo of cartoon sheep." id="logo">
                 <h1>Learn to Crochet</h1>
                 <h1 role="doc-subtitle">with Little Woolly Snuggles</h1>
             </div>
@@ -38,30 +42,29 @@
             </nav>
         </header>
         <section class="form-section">
-            <form method="get" action="index.html" id="thank-you-form" >
+            <form method="get" action="index.html" id="thank-you-form">
                 <h2>Thank you <span id="output"></span> for signing up!</h2>
-                <p>Please click the button below to return to the home page.</p> 
+                <p>Please click the button below to return to the home page.</p>
                 <input class="sign-up-button" type="submit" value="Go Home">
             </form>
         </section>
-            <footer>
-                <ul class="social-networks">
-                    <li>
-                        <a href="https://www.etsy.com/ie/shop/LittleWoollySnuggles" target="_blank" rel="noopener"
-                            aria-label="Visit our Etsy Shop(opens in a new tab)"><i class="fa-brands fa-etsy"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/littlewoollysnuggles/?hl=en" target="_blank" rel="noopener"
-                            aria-label="Visit our Instagram Page(opens in a new tab)"><i
-                                class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href=" https://twitter.com/little_woolly" target="_blank" rel="noopener"
-                            aria-label="Visit our Twitter page(opens in a new tab)"><i
-                                class="fa-brands fa-twitter"></i></a>
-                    </li>
-                </ul>
-            </footer>
+        <footer>
+            <ul class="social-networks">
+                <li>
+                    <a href="https://www.etsy.com/ie/shop/LittleWoollySnuggles" target="_blank" rel="noopener"
+                        aria-label="Visit our Etsy Shop(opens in a new tab)"><i class="fa-brands fa-etsy"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/littlewoollysnuggles/?hl=en" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram Page(opens in a new tab)"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href=" https://twitter.com/little_woolly" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page(opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+            </ul>
+        </footer>
     </div>
 </body>
 

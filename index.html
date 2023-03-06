@@ -8,15 +8,15 @@
     <meta name="description" content="Learn to crochet with Little Woolly Snuggles.">
     <meta name="keywords" content="learn to crochet, crochet, little woolly snuggles, yarn, crafting">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- code required for Little Woolly Snuggles icon to appear next to title in title bar from W3 Webdocs -->
     <link rel="icon" href="assets/images/logo-favicon.png" type="image/png">
-    <!-- code requried for Little Woolly Snuggles icon to appear next to title in title bar -->
     <title>Learn to Crochet</title>
+    <!-- JavaScript required to use fontawesome icons -->
     <script src="https://kit.fontawesome.com/f99ce6eeee.js" crossorigin="anonymous"></script>
-    <!-- Script required to use fontawesome icons -->
 </head>
 
 <body>
-    <header> 
+    <header>
         <a id="top"></a>
         <div id="logo-and-title">
             <img src="assets/images/logo-transparent-background.png" alt="Little Woolly Snuggles logo of cartoon sheep."
@@ -89,14 +89,16 @@
         <img src="assets/images/color-logo-and-writing.jpeg" alt="Little Woolly Snuggles logo in black and white."
             class="info-images">
     </section>
-    <button onclick="topFunction()" id="home-top-button" title="Go to top" class="top-button"><i class="fa-solid fa-chevron-up"></i><br>Top</button>
-   <!--JS code for back to top button -->
-   <script>
+    <button onclick="topFunction()" id="home-top-button" title="Go to top" class="top-button"><i
+            class="fa-solid fa-chevron-up"></i><br>Top</button>
+    <!--JS code for back to top button -->
+    <script>
         let mybutton = document.getElementById("home-top-button");
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () {
             scrollFunction()
         };
+
         function scrollFunction() {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 mybutton.style.display = "block";
