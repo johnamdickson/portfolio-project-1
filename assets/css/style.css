@@ -1288,7 +1288,7 @@ Used MDN Web Docs tutorial for this */
     #fs-a1,
     #fs-a2,
     #fs-a3 {
-        padding-right: 3.5%;
+        padding-right: 0.5%;
         padding-top: 0;
     }
 
@@ -1301,8 +1301,8 @@ Used MDN Web Docs tutorial for this */
     }
 
     .step-numbers {
-        top: -1%;
-        left: -30%;
+        top: -2%;
+        left: -28%;
     }
 
     .instruction-video {
@@ -1312,6 +1312,9 @@ Used MDN Web Docs tutorial for this */
         margin: 5vmin 0 0 1.5vw;
     }
 
+    #small-media-font-size {
+        font-size: 120%;
+    }
     /* Styling for Sign Up page max width 750px */
 
     #wrapper footer {
