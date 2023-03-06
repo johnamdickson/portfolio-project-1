@@ -7,7 +7,10 @@
     border: none;
 }
 
-/* Generic Elements Styling */
+/* 
+Generic Elements Styling 
+NOTE: all box-shadow used in CSS file taken from Stack Overflow solution.
+*/
 header {
     position: fixed;
     clear: both;
@@ -40,7 +43,10 @@ nav {
     font-weight: 200;
 }
 
-/* Contrast h2 for headings with blurred background behind. */
+/* 
+Contrast h2 for headings with blurred background behind. 
+Considered using a text outline stroke per Stack Overflow solution but opted for shadow instead as it worked better.
+*/
 .contrast-h2 {
     line-height: 90px;
     font-size: 200%;
@@ -50,6 +56,7 @@ nav {
     text-shadow: 1px 1px black;
 }
 
+/* Code below to make an h1 subtitle for header. Solution to this taken from css-tricks.com */
 [role="doc-subtitle"] {
     font-family: 'Dancing Script', cursive;
     font-weight: 100;
@@ -95,7 +102,7 @@ nav {
     color: inherit;
 }
 
-/* Drop elements below header by header height */
+/* Drop elements below header by header height using solution from Stack Overflow */
 .spacer {
     height: 100px;
 }
@@ -106,7 +113,7 @@ nav {
     opacity: 0.6;
 }
 
-/* Shadow effect for hyperlink of current page. */
+/* Shadow effect for hyperlink of current page using W3 Schools tutorial */
 .active {
     font-weight: 400;
     text-shadow: 0.5px 0.5px lightgray;
@@ -155,7 +162,10 @@ nav {
     border: 2px solid #313e47;
     opacity: 0;
     animation: 1s ease-out 3s forwards sign-up-circle-appear;
-    /* animation shorthand for sign up circle from MDN Webdocs. The forwards attribute ensures that the element retains properties assigned as part of animation.*/
+    /* 
+    "animation" shorthand for sign up circle from MDN Webdocs. 
+    The forwards attribute ensures that the element retains properties assigned as part of animation.
+    */
 }
 
 /* Animation for sign-up-circle */
@@ -181,7 +191,7 @@ nav {
     margin: 10px;
     padding-top: 20px;
 }
-
+/* Using z-index for top button taken from W3 Schools tutorial. */
 .top-button {
     display: none;
     position: fixed;
@@ -234,6 +244,7 @@ nav {
 .info-container p {
     position: absolute;
     margin: 0 5%;
+    /* Centering paragraph vertically in container using translateY referenced from freecodecamp.org */
     top: 50%;
     transform: translateY(-50%);
     font-size: 120%;
@@ -286,6 +297,7 @@ nav {
     width: 90%;
     margin: 0 5%;
     top: 50%;
+    /* Centering paragraph vertically in container using translateY referenced from freecodecamp.org */
     transform: translateY(-50%);
 }
 
@@ -350,7 +362,10 @@ footer {
     color: rgba(0, 0, 0, 0.3);
 }
 
-/* Styling for Get Started page. */
+/* 
+Styling for Get Started page. 
+NOTE: all grid layouts as used in the remainder of the CSS file were developed using MDN Web Docs tutorial.
+*/
 
 .intro-section {
     height: 600px;
@@ -362,7 +377,7 @@ footer {
 
 }
 
-/* Use backdrop-filter with a blur effect for specific section backgrounds */
+/* Use backdrop-filter with a blur effect for specific section backgrounds. Solution to this came from MDN Web Docs tutorial. */
 .blur {
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(5px);
@@ -529,6 +544,7 @@ footer {
     position: absolute;
     margin: 0 5%;
     top: 50%;
+    /* Centering paragraph vertically in container using translateY referenced from freecodecamp.org */
     transform: translateY(-50%);
     font-size: 100%;
     text-align: justify;
@@ -563,7 +579,10 @@ footer {
     margin: 5vmin 1vw 0 15vw;
 }
 
-/* Sign Up page styling*/
+/* 
+Sign Up page styling
+Use of flex layout from MDN Web Docs tutorial.
+*/
 
 
 #wrapper {
@@ -857,6 +876,7 @@ footer {
         width: 80vw;
         margin-left: 10vw;
     }
+
     .step-numbers {
         height: 65px;
         width: 65px;
@@ -905,6 +925,8 @@ footer {
     #sign-up-text {
         padding-top: 10px;
     }
+/* Used min(value, value) attribute for font sizes to prevent overflow but prohibit text being too small for different media screen sizes. 
+Solution found in Stack Overflow */
 
     .info-section {
         height: min(165vmin, 150vmax);
@@ -958,7 +980,7 @@ footer {
     #info-container-middle li {
         line-height: 7vmin;
     }
-   
+
     #info-section-bottom {
         height: 144vmin;
     }
@@ -1026,10 +1048,13 @@ footer {
 
 }
 
+/* Landscape orientation added to counter styling effects causing overflow and dislocation of elements from desired positions. 
+Used MDN Web Docs tutorial for this */
 @media screen and (max-width: 950px) and (orientation: landscape) {
-    .top-button{
-        bottom:min(7vmin,4%);
+    .top-button {
+        bottom: min(7vmin, 4%);
     }
+
     .info-section {
         height: 140vmin;
     }
@@ -1125,7 +1150,7 @@ footer {
     #logo {
         height: 50px;
         margin-top: 7.5px;
-        
+
     }
 
     nav {
@@ -1241,6 +1266,7 @@ footer {
         line-height: 50px;
         font-size: 150%;
     }
+
     .bottom-section {
         height: 1550px;
     }
@@ -1274,10 +1300,12 @@ footer {
         border-width: 1vw;
         margin: 5vmin 0 0 1.5vw;
     }
+
     /* Styling for Sign Up page max width 750px */
     #wrapper footer {
         height: 75px;
     }
+
     #signup-form {
         left: 5%;
         width: 90vw;
