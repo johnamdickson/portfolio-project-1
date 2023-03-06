@@ -1,26 +1,5 @@
 
-<style>
-.top-link {
-  /* Style the button */
-  transition:       all .25s ease-in-out;
-  position:         fixed;
-  bottom:           0;
-  right:            0;
-  display:          inline-flex;
-  color:            #000000;
 
-  cursor:           pointer;
-  align-items:      center;
-  justify-content:  center;
-  margin:           0 2em 2em 0;
-  border-radius:    50%;
-  padding:          .25em;
-  width:            1em;
-  height:           1em;
-  background-color: #F8F8F8;
-}
-</style>
-<a class="top-link hide" href="#top">↑</a>
 <a name="top"></a>
 # <img src="assets/images/logo-favicon.png"  width="50" height="50"> Learn to Crochet by Little Woolly Snuggles
 
@@ -351,3 +330,5 @@ For a full details of references please review this [pdf.](/assets/README-files/
 - Many of the photos used extensively through the site were obtained from [Pexels](https://www.pexels.com/) free stock photos site.
 - The remaining photos and video were taken by the client.
 - Conversion of mp4s to GIFs using free service on the [Adobe](https://www.adobe.com/express/feature/video/convert/video-to-gif) website and on the [ezgif.com](https://ezgif.com/video-to-gif) website.
+<br><br>
+<a href="#top">BACK TO TOP 🔼</a>
