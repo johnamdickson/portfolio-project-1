@@ -56,7 +56,7 @@ The goal of Learn to Crochet is to create a resource which educates users about 
 ### Wireframes
 The wirframes for the project can be found [here.](/assets/README-files/Project%20Portfolio%201%20Wireframe.pdf)
 ### Further Reading
-- The various UX design phases are descirbed in more detail here [pdf.](/assets/README-files/5%20Steps%20of%20UX%20Design%20Project%201.pdf)
+- The various UX design phases are descirbed in more detail [here.](/assets/README-files/5%20Steps%20of%20UX%20Design%20Project%201.pdf)
 
 ## Design
 ### Colour Scheme
@@ -74,7 +74,7 @@ The wirframes for the project can be found [here.](/assets/README-files/Project%
 All fonts were sourced from Google Fonts:
 
  - Prompt. A sans-serif font used for h1, h2 and nav elements.
- - Dancing Script. A cursive font used for h3 elements.
+ - Dancing Script. A cursive font used for h1 subtitle.
  - Maitree. A serif font used for body and input elements.
 <br><br>
 
@@ -90,7 +90,7 @@ All fonts were sourced from Google Fonts:
 
 - __The Header__
   ![Header](/assets/README-files/nav-bar-normal.jpg)
-  - On the LHS there is the company logo along with website title and a reference to Little Woolly Snuggles as an h3 in handwritten font to both distinguish it from the h1 and tie into the associated logo handwriting, which can be viewed in the last image on the home page.
+  - On the LHS there is the company logo along with website title and a reference to Little Woolly Snuggles as an h1 subtitle in handwritten font to both distinguish it from the main h1 title and tie into the associated logo handwriting, which can be viewed in the last image on the home page.
   - There are three hyperlinks on the right of the bar allowing for navigation between the available pages. The hyperlink on the active page has custom styling to distinguish it from the non-active pages.
   - This section is further responsive to 3 different media screen sizes: Normal (>1200px), max screen width 1200px and max screen width 750px.
   - The header was originally designed to scroll out of view however, after reviewing other students projects and searching for best practice examples on the internet I opted to make the header fixed and footer at bottom of the content.
@@ -104,7 +104,7 @@ All fonts were sourced from Google Fonts:
   - At first, the footer was fixed to the bottom of the page to make it accessible at any time whilst browsing. This was changed as described above.
   - The links use fontawesome icons with a colour consistent with the text colour used elsewhere in the website.
   - As the header was originally not fixed, a button was added to take the user back to the top of the page. This button was retained as it fitted in with the site design and retained some functionality in the scrollable pages.
-  - The back to top button sits just proud of the footer and is only visible when the user scrolls down away from the header.
+  - The back to top button background colour is also Illusion so it stands out in the main view and then blends in with the footer once the window has scrolled to the bottom. It is only visible when the user scrolls down away from the header.
 <br><br>
 
 - __The Home Page - Hero Image__
@@ -195,7 +195,7 @@ All fonts were sourced from Google Fonts:
 ![Nav Bar 1200](/assets/README-files/nav-bar-1200px.jpg)
       - Nav Bar Max Width 750px
 ![Nav Bar 950](/assets/README-files/nav-bar-750px.jpg)
-   - The h3 font was changed after consultation with the client to resemble the font in the company logo.
+   - The h1 subtitle font was changed after consultation with the client to resemble the font in the company logo.
 <br><br>
 
 - __Home Page__
@@ -290,8 +290,9 @@ All fonts were sourced from Google Fonts:
 - __Get Started Page Issues__
     - Much of the resolutions made in the home page bug fixes translated over the the Get Started page however there was one exception which took a considerable amount of time to resolve. This process is evident from the number of commits that I made on the main thread, before forking to a dedicated thread.
     - I observed anomaly on physical device (iPhone) in portrait mode that was not evident in Chrome Devtools simulator on the Get Started page as shown in the screen grab.  I set section widths to 100%, added code to landscape attribute and created portrait attribute for 750px with no success. After spending a number of hours on this I reached out to tutor support. Oisin was a great help and noticed that the issue I was seeing was repeating on Firefox, a browser that I had not used until that point. Located the error to .instruction-images class where I had used the % height of container. Once I changed the units to vmin everything worked as intended. Note, using width did not have the same effect.
+    - Note that there was a forked branch created in Github for issue above called bug-fixes-rendering-physical-device. This was in response to having to deploy each iteration of the investigation to see it repeated on mobile device.
 
-        <img src="assets//README-files/get-started-page-bug.jpeg"   height="350" > 
+        <img src="assets//README-files/get-started-page-bug.jpeg"   height="450" > 
 
     
 
@@ -302,8 +303,9 @@ All fonts were sourced from Google Fonts:
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
+  - Under the repository name, click ⚙ Settings. If you cannot see the "Settings" tab, select the  dropdown menu, then click Settings.
+  -In the "Code and automation" section of the sidebar, click  Pages
+  - Under "Build and deployment", under "Branch", use the None or Branch dropdown menu and select a publishing source.
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found [here.](https://johnamdickson.github.io/Portfolio-Project-1/index.html)
