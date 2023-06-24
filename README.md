@@ -5,7 +5,7 @@
 
 Learn to Crochet is a website created for Little Woolly Snuggles, a handmade craft business that specialises in crochet and knit products. The site is targeted towards people that are interested in learning crochet by introducting them to the craft and showing them the basics. 
 
-This website is showcasing HTML and CSS design for Project Portfolio 1 and can be accessed by following this [link.](https://johnamdickson.github.io/Portfolio-Project-1/index.html)
+This website is showcasing HTML and CSS design for Project Portfolio 1 and can be accessed by following this [link.](https://johnamdickson.github.io/portfolio-project-1/index.html)
 
 ![Responsive Mockup Screenshot](/assets/README-files/am-i-responsive-screenshot.png)
 
@@ -249,10 +249,10 @@ All fonts were sourced from Google Fonts:
 
 - HTML
   - No errors were returned for each page when passing through the official W3C validator:
-    - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Findex.html)
-    - [Get Started Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Fget-started.html)
-    - [Sign Up Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Fsign-up.html)
-    - [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Fthank-you.html)
+    - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2Fportfolio-project-1%2Findex.html)
+    - [Get Started Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2Fportfolio-project-1%2Fget-started.html)
+    - [Sign Up Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2Fportfolio-project-1%2Fsign-up.html)
+    - [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjohnamdickson.github.io%2Fportfolio-project-1%2Fthank-you.html)
     
 - CSS
   - No errors were found when passing CSS code through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjohnamdickson.github.io%2FPortfolio-Project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -311,7 +311,7 @@ All fonts were sourced from Google Fonts:
   - Under "Build and deployment", under "Branch", use the None or Branch dropdown menu and select a publishing source.
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found [here.](https://johnamdickson.github.io/Portfolio-Project-1/index.html)
+The live link can be found [here.](https://johnamdickson.github.io/portfolio-project-1/index.html)
 
 
 ## Credits 
